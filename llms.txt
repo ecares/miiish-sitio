@@ -37,4 +37,6 @@
 - Ubicación: Santiago, Región Metropolitana, Chile
 
 ## Noticias recientes
+- [Photoshop y Premiere pisan el acelerador, y Adobe MAX 2026 ya tiene fecha](https://miiish.com/noticias/adobe-max-2026-photoshop-premiere-mas-rapidos/) (2026-10-23, Diseño): Adobe anunció que Photoshop, Premiere y Substance 3D corren hasta el doble de rápido en los nuevos equipos con NVIDIA, y confirmó Adobe MAX para el 10 al 12 de noviembre, con keynotes gratis en línea.
 - [Google AI Mode supera los mil millones de usuarios: qué cambia para el SEO de tu pyme](https://miiish.com/noticias/google-ai-mode-seo-pymes-chile/) (2026-10-23, SEO): Cada vez más búsquedas terminan en una respuesta escrita por la IA de Google. Para una marca chilena, el objetivo pasa de solo rankear a ser una de las fuentes que esa respuesta cita.
+- [Meta va a cambiar tus anuncios el 28 de octubre (si no le dices que no)](https://miiish.com/noticias/meta-product-browsing-anuncios-28-octubre/) (2026-10-23, Paid media): Desde el 28 de octubre, Meta activará la 'navegación de productos' en los anuncios que ya tienes corriendo en Facebook e Instagram. Te contamos qué es, qué gana y qué pierdes, y cómo apagarlo.

@@ -25,7 +25,8 @@ Este repositorio es el sitio miiish.com. Cada ejecución del agente publica **un
 
 ## Cómo escribir
 
-- Español de Chile, neutro y cercano; tutea al lector. Nada de modismos forzados.
+- **Tono jovial y cercano**, como una amiga que sabe del tema y te lo cuenta en un café: tutea al lector, usa humor liviano, preguntas y frases cortas. Español de Chile con algún giro local suave ("harto", "de yapa", "ojo con esto"), sin abusar ni caer en garabatos. Divertido pero claro: el lector tiene que terminar sabiendo qué pasó y qué hacer.
+- Títulos con gancho y simpáticos, pero honestos (que la nota cumpla lo que promete).
 - Entre **600 y 900 palabras** en `cuerpo`.
 - Primer párrafo: la noticia en dos o tres frases (qué pasó, quién, cuándo).
 - Luego secciones con `## subtítulo`: qué cambió, **qué significa para una marca o pyme en Chile**, y qué recomendamos hacer.
