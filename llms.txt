@@ -16,9 +16,7 @@
 
 ## Equipo
 - Eduardo Cares: Full Stack Developer & Performance Marketing Lead
-- Tomás Riquelme: Diseñador UX/UI & Brand Designer
 - Matías Fuentes: Filmmaker & Editor de Video / Postproducción
-- Catalina Herrera: Project Manager & Ilustradora Digital
 - Camila Piña: 3D Artist, Illustrator & Art Director
 - Joaquín Holl: Digital Designer, Content Manager & Brand Designer
 
