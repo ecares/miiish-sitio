@@ -7,7 +7,24 @@
 <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
 <link rel="canonical" href="https://miiish.com/">
 <link rel="alternate" hreflang="es-CL" href="https://miiish.com/">
-<link rel="alternate" hreflang="x-default" href="https://miiish.com/">
+<link rel="alternate" hreflang="es" href="https://miiish.com/">
+<link rel="alternate" hreflang="en" href="https://miiish.com/en/">
+<link rel="alternate" hreflang="pt" href="https://miiish.com/pt/">
+<link rel="alternate" hreflang="x-default" href="https://miiish.com/en/">
+<script>
+/* Idioma: quien está fuera de Chile ve la versión en inglés (o portugués si su navegador está en portugués).
+   La elección manual se recuerda; los buscadores no se redirigen. */
+(function(){try{
+  var p=null;try{p=localStorage.getItem('miiish_lang')}catch(e){}
+  if(p==='es')return;
+  if(p==='en'||p==='pt'){location.replace('/'+p+'/'+location.hash);return}
+  if(/bot|crawl|spider|slurp|lighthouse|headless|preview|facebookexternalhit|whatsapp/i.test(navigator.userAgent))return;
+  var tz=(Intl.DateTimeFormat().resolvedOptions().timeZone||'');
+  if(/^(America\/Santiago|America\/Punta_Arenas|Pacific\/Easter|Chile\/)/.test(tz))return;
+  var l=((navigator.languages&&navigator.languages[0])||navigator.language||'').toLowerCase();
+  location.replace((l.indexOf('pt')===0?'/pt/':'/en/')+location.hash);
+}catch(e){}})();
+</script>
 <meta name="theme-color" content="#D7FF3A">
 <meta name="author" content="¡Miiish! Agencia creativa">
 <meta name="geo.region" content="CL-RM">
@@ -64,7 +81,16 @@
     {
      "@type": "Country",
      "name": "Chile"
+    },
+    {
+     "@type": "Place",
+     "name": "Latinoamérica"
     }
+   ],
+   "availableLanguage": [
+    "es",
+    "en",
+    "pt"
    ],
    "knowsAbout": [
     "marketing digital",
@@ -78,6 +104,8 @@
     "SEO",
     "producción de video",
     "motion graphics",
+    "modelado 3D",
+    "render 3D",
     "ilustración digital",
     "UX/UI",
     "desarrollo de software a medida"
@@ -167,6 +195,18 @@
       "@type": "Offer",
       "itemOffered": {
        "@type": "Service",
+       "name": "Modelado y render 3D",
+       "description": "Modelado de producto, render fotorrealista, packaging 3D, escenas y animación 3D.",
+       "provider": {
+        "@id": "https://miiish.com/#organizacion"
+       },
+       "areaServed": "CL"
+      }
+     },
+     {
+      "@type": "Offer",
+      "itemOffered": {
+       "@type": "Service",
        "name": "Sistemas a medida",
        "description": "Punto de venta, control de inventario, CRM, portales, integraciones y automatizaciones.",
        "provider": {
@@ -246,7 +286,7 @@
      "name": "¿Qué es ¡Miiish!?",
      "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Una agencia creativa y de marketing digital en Santiago de Chile. Hacemos branding, contenido para redes sociales, sitios web y e-commerce, sistemas a medida, video, animación y campañas en Meta Ads, Google Ads y TikTok Ads, todo con un mismo equipo."
+      "text": "Una agencia creativa y de marketing digital en Santiago de Chile. Hacemos branding, contenido para redes sociales, sitios web y e-commerce, sistemas a medida, video, animación, modelado y render 3D, y campañas en Meta Ads, Google Ads y TikTok Ads, todo con un mismo equipo."
      }
     },
     {
@@ -254,7 +294,7 @@
      "name": "¿Trabajan solo con empresas de Santiago?",
      "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Estamos en Santiago y trabajamos de forma remota con marcas y empresas de todo Chile. Las reuniones pueden ser presenciales o por videollamada."
+      "text": "No. Estamos en Santiago y trabajamos con marcas de todo Chile y también de otros países, de forma remota. Las reuniones pueden ser presenciales o por videollamada, en español, inglés o portugués."
      }
     },
     {
@@ -275,10 +315,34 @@
     },
     {
      "@type": "Question",
-     "name": "¿Cuánto demora un proyecto?",
+     "name": "¿Qué incluye un proyecto de branding?",
      "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Depende del alcance. Como referencia, una landing page toma de 2 a 3 semanas, una identidad de marca de 3 a 5 semanas y un e-commerce de 4 a 8 semanas."
+      "text": "Partimos por la estrategia: a quién le hablas, cómo te diferencias y qué personalidad tiene tu marca. Luego diseñamos el logo, la paleta de colores, las tipografías y las aplicaciones clave, y te entregamos un manual de marca con todos los archivos listos para usar."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "¿Pueden renovar mi marca sin empezar de cero?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Sí. Si tu marca ya tiene reconocimiento, hacemos un refresh: modernizamos el logo, ordenamos la paleta y la tipografía y actualizamos tus piezas sin perder lo que tus clientes ya conocen. Si el cambio de rumbo es mayor, proponemos un rebranding completo."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "¿Qué trabajos de 3D hacen?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Modelado y render 3D de productos, packaging, mobiliario y espacios, además de escenas y animaciones 3D para anuncios, redes y tiendas online. Sirve para mostrar un producto antes de fabricarlo, lanzar una preventa o tener imágenes perfectas sin sesión de fotos."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "¿Necesito el producto físico para hacer un render 3D?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No. Podemos modelarlo a partir de planos, medidas, bocetos o fotos de referencia. Te mostramos avances del modelo para ajustar formas, materiales y colores antes del render final."
      }
     },
     {
@@ -286,7 +350,7 @@
      "name": "¿Cómo empezamos?",
      "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Agenda una reunión de diagnóstico de 30 minutos. Revisamos tu marca, tus números y tus objetivos, y te enviamos una propuesta y cotización a medida."
+      "text": "Completa el formulario de contacto contándonos qué necesitas. Te respondemos en menos de un día hábil para agendar un diagnóstico de 30 minutos y luego te enviamos una propuesta y cotización a medida."
      }
     }
    ]
@@ -296,7 +360,7 @@
 </script>
 <!--
   MEDICIÓN Y SEM: pega aquí Google Tag Manager (GTM-XXXXXXX) y, desde GTM, configura:
-  · GA4 (G-XXXXXXXXXX) · Google Ads (AW-XXXXXXXXX) con conversión "cta_agendar_reunion" y "cta_whatsapp"
+  · GA4 (G-XXXXXXXXXX) · Google Ads (AW-XXXXXXXXX) con conversiones "formulario_enviado" (envío real) y "cta_contacto"
   · Meta Pixel (XXXXXXXXXXXXXXX) con evento Lead · TikTok Pixel opcional
   Los botones ya envían esos eventos a window.dataLayer.
 -->
@@ -567,7 +631,7 @@ a{color:inherit}
 @supports (animation-timeline: scroll()){
   @keyframes bar{from{transform:scaleX(0)}to{transform:scaleX(1)}}
   @keyframes heroout{to{transform:scale(.9);filter:blur(4px);opacity:.4}}
-  @keyframes dome{from{clip-path:circle(30vw at 50% 32vw)}to{clip-path:circle(170vw at 50% 32vw)}}
+  @keyframes dome{from{clip-path:circle(30vw at 50% 32vw)}to{clip-path:circle(max(170vw,160%) at 50% 32vw)}}
   @keyframes up{from{transform:translateY(80px);opacity:0}to{transform:none;opacity:1}}
   @keyframes ink{from{opacity:.12}to{opacity:1}}
   .bar{animation:bar linear both;animation-timeline:scroll(root)}
@@ -600,6 +664,78 @@ a{color:inherit}
   .sv-n{display:none}
   .sv-body{grid-template-columns:minmax(0,1fr);padding:0 22px 22px}
 }
+
+/* Idiomas */
+.lang{display:inline-flex;align-items:center;gap:2px;padding:3px;border-radius:999px;border:1px solid currentColor;font-family:"DM Mono",monospace;font-size:12px;letter-spacing:.06em}
+.lang a{display:inline-flex;align-items:center;justify-content:center;min-width:34px;min-height:30px;padding:0 8px;border-radius:999px;text-decoration:none;color:inherit;text-transform:uppercase}
+.lang a[aria-current="true"]{background:var(--negro);color:var(--lima)}
+.hdr.solid .lang a[aria-current="true"],.menu-open .lang a[aria-current="true"]{background:var(--lima);color:var(--negro)}
+.menu-open .hdr .lang{color:var(--blanco)}
+.lang-full{display:flex;flex-wrap:wrap;gap:8px}
+.lang-full a{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 16px;border-radius:999px;border:1px solid #3A3A3A;color:var(--blanco);text-decoration:none;font-size:15px}
+.lang-full a[aria-current="true"]{background:var(--lima);border-color:var(--lima);color:var(--negro);font-weight:700}
+.lang-full small{font-family:"DM Mono",monospace;font-size:11px;opacity:.7;text-transform:uppercase}
+
+/* Formulario de contacto */
+.cf{width:100%;max-width:980px;text-align:left;background:#141414;border:1px solid #2A2A2A;border-radius:36px;padding:clamp(22px,4vw,48px);display:flex;flex-direction:column;gap:30px;position:relative;overflow:hidden}
+.cf::before{content:"";position:absolute;width:420px;height:420px;right:-180px;top:-200px;border-radius:50%;background:var(--fucsia);opacity:.16;filter:blur(30px);pointer-events:none}
+.cf-step{display:flex;flex-direction:column;gap:14px;position:relative}
+.cf-k{display:flex;align-items:center;gap:12px;font-family:"DM Mono",monospace;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:#9A9A95}
+.cf-k b{display:inline-grid;place-items:center;width:26px;height:26px;border-radius:50%;background:var(--lima);color:var(--negro);font-size:12px}
+.cf-q{margin:0;font-family:"Unbounded",sans-serif;font-weight:600;font-size:clamp(19px,2.2vw,28px);line-height:1.2;letter-spacing:-.02em;color:var(--blanco)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;border:0;margin:0;padding:0}
+.chip{position:relative}
+.chip input{position:absolute;opacity:0;width:1px;height:1px}
+.chip span{display:inline-flex;align-items:center;gap:8px;min-height:46px;padding:0 18px;border-radius:999px;border:1px solid #3A3A3A;color:#E6E6E6;font-size:15px;font-weight:500;cursor:pointer;transition:background .25s,color .25s,border-color .25s,transform .25s}
+.chip span::before{content:"+";font-weight:700;color:var(--lima);transition:transform .3s}
+.chip:hover span{border-color:var(--blanco);transform:translateY(-2px)}
+.chip input:checked+span{background:var(--lima);border-color:var(--lima);color:var(--negro);font-weight:700}
+.chip input:checked+span::before{content:"✓";color:var(--negro)}
+.chip input:focus-visible+span{outline:3px solid var(--fucsia);outline-offset:2px}
+.chips-r .chip span::before{content:"○"}
+.chips-r .chip input:checked+span::before{content:"●"}
+.cf-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 26px}
+.fl{position:relative;display:block}
+.fl input,.fl textarea{width:100%;box-sizing:border-box;background:transparent;border:0;border-bottom:2px solid #3A3A3A;border-radius:0;color:var(--blanco);font:inherit;font-size:clamp(17px,1.5vw,20px);padding:26px 0 10px;outline:none;transition:border-color .3s}
+.fl textarea{min-height:120px;resize:vertical;line-height:1.5}
+.fl span{position:absolute;left:0;top:26px;color:#8A8A85;font-size:clamp(16px,1.4vw,19px);pointer-events:none;transform-origin:left top;transition:transform .3s cubic-bezier(.2,.8,.2,1),color .3s}
+.fl input:focus,.fl textarea:focus{border-color:var(--lima)}
+.fl input:focus+span,.fl input:not(:placeholder-shown)+span,.fl textarea:focus+span,.fl textarea:not(:placeholder-shown)+span{transform:translateY(-22px) scale(.72);color:var(--lima)}
+.fl-full{grid-column:1/-1}
+.cf-hp{position:absolute!important;left:-9999px!important;width:1px;height:1px;overflow:hidden}
+.cf-foot{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:18px;position:relative}
+.cf-legal{margin:0;font-size:13px;line-height:1.5;color:#8A8A85;max-width:44ch}
+.cf-send{min-height:64px;padding:0 34px;font-size:18px;font-weight:700;background:var(--lima);color:var(--negro);border-color:var(--lima)}
+.cf-send[disabled]{opacity:.6;pointer-events:none}
+.cf-err{margin:0;padding:12px 16px;border-radius:14px;background:#3A1010;color:#FFB4A8;font-size:15px}
+.cf-ok{display:flex;flex-direction:column;align-items:flex-start;gap:16px;padding:10px 0}
+.cf-ok .ub{font-weight:900;font-size:clamp(40px,7vw,96px);line-height:.9;letter-spacing:-.05em;text-transform:uppercase;color:var(--lima)}
+.cf-ok p{margin:0;font-size:19px;line-height:1.55;color:#D8D8D8;max-width:46ch}
+@media (max-width:700px){.cf-grid{grid-template-columns:minmax(0,1fr)}.cf{border-radius:28px}.chip span{min-height:42px;padding:0 14px;font-size:14px}.cf-send{width:100%}}
+
+/* Equipo en dos columnas en celular */
+@media (max-width:640px){
+  .tm-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:12px!important}
+  .tm-grid .tm{padding:8px 8px 16px;border-radius:20px;gap:12px}
+  .tm-grid .tm>div:last-child{padding:0 6px}
+  .tm-grid .tm h3{font-size:15px!important;line-height:1.2}
+  .tm-grid .tm p:first-of-type{font-size:12.5px}
+  .tm-grid .tm p+p{display:none}
+  .tm-grid .tm-chips{display:none}
+  .tm-grid .tm-ph{border-radius:16px;aspect-ratio:4/5}
+  .tm-grid .tm-tag{left:8px;bottom:8px;font-size:9px;padding:4px 8px}
+}
+
+/* 3D */
+.cube-sc{perspective:700px}
+.cube{position:relative;width:120px;height:120px;transform-style:preserve-3d;animation:cubeR 9s linear infinite}
+.cube i{position:absolute;inset:0;border:2px solid var(--negro);border-radius:14px;background:rgba(215,255,58,.85)}
+.cube i:nth-child(1){transform:translateZ(60px)}.cube i:nth-child(2){transform:rotateY(180deg) translateZ(60px);background:rgba(255,79,216,.85)}
+.cube i:nth-child(3){transform:rotateY(90deg) translateZ(60px);background:#FFFFFF}.cube i:nth-child(4){transform:rotateY(-90deg) translateZ(60px);background:rgba(255,79,216,.85)}
+.cube i:nth-child(5){transform:rotateX(90deg) translateZ(60px)}.cube i:nth-child(6){transform:rotateX(-90deg) translateZ(60px);background:#FFFFFF}
+@keyframes cubeR{to{transform:rotateX(360deg) rotateY(720deg)}}
+@media (prefers-reduced-motion:reduce){.cube{animation:none;transform:rotateX(-24deg) rotateY(38deg)}}
+
 @media (prefers-reduced-motion:reduce){
   *,*::before,*::after{animation:none!important;transition:none!important}
   .intro,.cur-ring,.cur-dot,.cur-xy{display:none!important}
@@ -624,6 +760,7 @@ a{color:inherit}
   <div class="wrap hdr-in">
     <a class="logo-e mk" href="#inicio" aria-label="¡Miiish! inicio" data-cursor="Inicio"><span class="lj">¡mii</span><span class="ls">ish!</span></a>
     <div class="hdr-r">
+      <nav class="lang hide-sm" aria-label="Idioma"><a href="/" hreflang="es-CL" lang="es-CL" aria-current="true" data-lang="es">ES</a><a href="/en/" hreflang="en" lang="en" data-lang="en">EN</a><a href="/pt/" hreflang="pt" lang="pt" data-lang="pt">PT</a></nav>
       <a class="btn hdr-cta hide-sm" href="#contacto" data-cursor="Vamos"><span class="roll"><span>Hablemos →</span><span aria-hidden="true">Hablemos →</span></span></a>
       <button class="burger" type="button" aria-label="Abrir o cerrar menú" aria-expanded="false" data-cursor="Menú"><span></span><span></span></button>
     </div>
@@ -645,10 +782,10 @@ a{color:inherit}
     </ol>
     <div class="menu-foot">
       <div class="menu-cta">
-        <a class="btn" href="#contacto" data-event="cta_agendar_reunion" data-cursor="Vamos" style="background:var(--lima);color:var(--negro);border-color:var(--lima)">Agenda una reunión</a>
-        <a class="btn" href="https://wa.me/56999753256?text=Hola%20Miiish%2C%20quiero%20cotizar%20un%20proyecto" target="_blank" rel="noopener" data-event="cta_whatsapp" data-cursor="Vamos" style="color:var(--blanco)">WhatsApp</a>
+        <a class="btn" href="#contacto" data-event="cta_contacto" data-cursor="Vamos" style="background:var(--lima);color:var(--negro);border-color:var(--lima)">Cuéntanos tu proyecto</a>
+        <div class="lang-full" role="group" aria-label="Idioma"><a href="/" hreflang="es-CL" lang="es-CL" aria-current="true" data-lang="es">Español <small>Chile</small></a><a href="/en/" hreflang="en" lang="en" data-lang="en">English</a><a href="/pt/" hreflang="pt" lang="pt" data-lang="pt">Português</a></div>
       </div>
-      <div class="menu-meta"><span>hola@miiish.com</span><span>+56 9 9975 3256</span><span>Instagram · LinkedIn · TikTok</span></div>
+      <div class="menu-meta"><span>hola@miiish.com</span><span>Instagram · LinkedIn · TikTok</span></div>
     </div>
   </div>
 </nav>
@@ -686,28 +823,28 @@ a{color:inherit}
       <p class="ub reveal" style="margin:0;font-weight:300;font-size:clamp(22px,3.7vw,56px);line-height:1.14;letter-spacing:-.025em;text-transform:uppercase;max-width:1120px">En <strong class="bk" style="color:var(--lima)">¡Miiish!</strong> juntamos <strong class="bk">arte</strong>, <strong class="bk">diseño</strong>, <strong class="bk">tecnología</strong> y <strong class="bk">publicidad</strong> para que tus clientes digan <strong class="bk" style="color:var(--lima)">¡miiish!</strong> y tus números también.</p>
       <div class="stagger" style="width:100%;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,150px),1fr));gap:14px;margin-top:40px;text-align:left">
         <div class="rise" style="border:1px solid #333;border-radius:24px;padding:24px"><div class="ub" style="font-weight:900;font-size:clamp(30px,8vw,56px);color:var(--lima);line-height:1">+15</div><div style="margin-top:8px;color:#CFCFCF">años haciendo marcas</div></div>
-        <div class="rise" style="border:1px solid #333;border-radius:24px;padding:24px"><div class="ub" style="font-weight:900;font-size:clamp(30px,8vw,56px);color:var(--lima);line-height:1">7</div><div style="margin-top:8px;color:#CFCFCF">áreas bajo un mismo techo</div></div>
+        <div class="rise" style="border:1px solid #333;border-radius:24px;padding:24px"><div class="ub" style="font-weight:900;font-size:clamp(30px,8vw,56px);color:var(--lima);line-height:1">8</div><div style="margin-top:8px;color:#CFCFCF">áreas bajo un mismo techo</div></div>
         <div class="rise" style="border:1px solid #333;border-radius:24px;padding:24px"><div class="ub" style="font-weight:900;font-size:clamp(30px,8vw,56px);color:var(--lima);line-height:1">4</div><div style="margin-top:8px;color:#CFCFCF">especialistas que te atienden directo</div></div>
         <div class="rise" style="border:1px solid #333;border-radius:24px;padding:24px"><div class="ub" style="font-weight:900;font-size:clamp(30px,8vw,56px);color:var(--fucsia);line-height:1">100%</div><div style="margin-top:8px;color:#CFCFCF">producido en casa, sin intermediarios</div></div>
       </div>
       <div style="margin-top:30px"><a class="sdown sdown-dark" href="#hacemos" data-cursor="Bajar"><span class="sd-c"><span class="sd-a"><svg viewBox="0 0 32 45" width="20" height="28" aria-hidden="true"><path d="M16 3v37M4 28l12 13 12-13" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></span><span class="sd-t">Mira lo<br>que hacemos</span></a></div>
     </div>
     <div class="vskew" aria-hidden="true" style="background:var(--fucsia);color:var(--negro);overflow:hidden;padding:16px 0">
-      <div class="mq ub" style="font-weight:800;font-size:28px;white-space:nowrap;text-transform:uppercase"><span style="padding-right:28px">Branding ✺ Contenido ✺ Web ✺ E-commerce ✺ Meta Ads ✺ Google Ads ✺ Video ✺ Motion ✺ Personajes ✺ Sistemas ✺ ¡Miiish! ✺ </span><span style="padding-right:28px">Branding ✺ Contenido ✺ Web ✺ E-commerce ✺ Meta Ads ✺ Google Ads ✺ Video ✺ Motion ✺ Personajes ✺ Sistemas ✺ ¡Miiish! ✺ </span></div>
+      <div class="mq ub" style="font-weight:800;font-size:28px;white-space:nowrap;text-transform:uppercase"><span style="padding-right:28px">Branding ✺ Contenido ✺ Web ✺ E-commerce ✺ Meta Ads ✺ Google Ads ✺ Video ✺ Motion ✺ Personajes ✺ 3D ✺ Sistemas ✺ ¡Miiish! ✺ </span><span style="padding-right:28px">Branding ✺ Contenido ✺ Web ✺ E-commerce ✺ Meta Ads ✺ Google Ads ✺ Video ✺ Motion ✺ Personajes ✺ 3D ✺ Sistemas ✺ ¡Miiish! ✺ </span></div>
     </div>
   </section>
 </div>
 
 <!-- Qué hacemos: acordeón -->
 <section id="hacemos" style="position:relative;z-index:3;background:var(--hueso);overflow:hidden">
-  <div class="big-band vskew" aria-hidden="true"><span class="ub">Marcas ✺ Webs ✺ Sistemas ✺ Video ✺ Personajes ✺ Ads ✺ ¡Miiish! ✺</span></div>
+  <div class="big-band vskew" aria-hidden="true"><span class="ub">Marcas ✺ Webs ✺ Sistemas ✺ Video ✺ Personajes ✺ 3D ✺ Ads ✺ ¡Miiish! ✺</span></div>
   <div class="wrap" style="padding-top:var(--pad-l);padding-bottom:var(--pad-l);display:flex;flex-direction:column;gap:40px">
     <div style="display:flex;flex-wrap:wrap;gap:20px;align-items:flex-end;justify-content:space-between">
       <div style="display:flex;flex-direction:column;gap:18px;align-items:flex-start">
         <span class="pill" style="background:var(--lima)">Nuestras áreas</span>
         <h2 class="ub" style="margin:0;font-size:clamp(30px,6vw,96px);line-height:.95;letter-spacing:-.045em;text-transform:uppercase"><span class="lt">Qué</span> <span class="bk">hacemos</span></h2>
       </div>
-      <p style="margin:0;font-size:17px;line-height:1.55;max-width:42ch">Siete áreas, un mismo objetivo: el ¡miiish! de tus clientes. Abre cada una; todo lo que se mueve aquí lo hicimos nosotros.</p>
+      <p style="margin:0;font-size:17px;line-height:1.55;max-width:42ch">Ocho áreas, un mismo objetivo: el ¡miiish! de tus clientes. Abre cada una; todo lo que se mueve aquí lo hicimos nosotros.</p>
     </div>
     <div style="display:flex;flex-direction:column;gap:12px">
 
@@ -790,7 +927,15 @@ a{color:inherit}
       </details>
 
       <details class="svc rise" name="svc">
-        <summary data-cursor="Abrir"><span class="sv-n">07</span><span class="sv-t">Sistemas a medida</span><span class="hide-sm" style="color:#9A9A9A;font-size:14px">Ventas · Inventario · Gestión</span><span class="sv-a" aria-hidden="true">↓</span></summary>
+        <summary data-cursor="Abrir"><span class="sv-n">07</span><span class="sv-t">Modelado y render 3D</span><span class="hide-sm" style="color:#9A9A9A;font-size:14px">Producto · Packaging · Escenas</span><span class="sv-a" aria-hidden="true">↓</span></summary>
+        <div class="sv-body">
+          <div style="display:flex;flex-direction:column;gap:18px"><p style="margin:0;font-size:18px;line-height:1.55;color:#E6E6E6">Modelamos tu producto en 3D para mostrarlo perfecto antes de fabricarlo: renders para tu tienda, packaging, escenas y animaciones para anuncios.</p><ul><li>Modelado de producto</li><li>Render fotorrealista</li><li>Packaging 3D</li><li>Escenas y espacios</li><li>Animación 3D</li></ul></div>
+          <div class="demo mp3 cube-sc" aria-hidden="true" style="background:var(--negro);display:flex;align-items:center;justify-content:center"><div class="cube"><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+        </div>
+      </details>
+
+      <details class="svc rise" name="svc">
+        <summary data-cursor="Abrir"><span class="sv-n">08</span><span class="sv-t">Sistemas a medida</span><span class="hide-sm" style="color:#9A9A9A;font-size:14px">Ventas · Inventario · Gestión</span><span class="sv-a" aria-hidden="true">↓</span></summary>
         <div class="sv-body">
           <div style="display:flex;flex-direction:column;gap:18px"><p style="margin:0;font-size:18px;line-height:1.55;color:#E6E6E6">Desarrollamos el sistema que tu negocio necesita: ventas, stock, clientes y reportes en un solo lugar, conectado a tu tienda y a tus canales.</p><ul><li>Punto de venta</li><li>Control de inventario</li><li>CRM y clientes</li><li>Portales y paneles</li><li>Integraciones y API</li><li>Automatizaciones</li></ul></div>
           <div class="demo mp3" aria-hidden="true" style="background:#FFFFFF;color:var(--negro);padding:18px;box-sizing:border-box;display:flex;flex-direction:column;gap:10px;font-size:13px;font-weight:600">
@@ -833,7 +978,7 @@ a{color:inherit}
       </div>
       <p style="margin:0;font-size:17px;line-height:1.6;max-width:42ch">Las personas detrás de cada ¡miiish! Hablas directo con quien hace el trabajo.</p>
     </div>
-    <div class="stagger" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,290px),1fr));gap:16px">
+    <div class="stagger tm-grid" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,290px),1fr));gap:16px">
       <article class="tm rise" data-cursor="¡Miiish!"><div class="tm-ph mp3" style="--c:var(--lima)"><img src="img/equipo-eduardo-cares.webp" alt="Eduardo Cares, Full Stack Developer y Performance Marketing Lead de ¡Miiish!" width="640" height="800" loading="lazy"></div><div style="position:relative;display:flex;flex-direction:column;gap:6px"><h3 class="ub" style="margin:0;font-size:20px;font-weight:800">Eduardo Cares</h3><p style="margin:0;color:var(--lima);font-weight:600;line-height:1.35">Full Stack Developer &amp; Performance Marketing Lead</p><p style="margin:4px 0 0;font-size:15px;line-height:1.5;color:#CFCFCF">Más de 15 años entre branding, desarrollo web y paid media. Construye e-commerce y sistemas a medida, y dirige campañas en Meta y Google Ads con foco en retorno.</p><div class="tm-chips"><span class="tm-chip">React · Node</span><span class="tm-chip">Python</span><span class="tm-chip">Meta Ads</span><span class="tm-chip">Google Ads</span><span class="tm-chip">GA4</span></div></div></article>
       <article class="tm rise" data-cursor="¡Miiish!"><div class="tm-ph mp3" style="--c:var(--fucsia)"><img src="img/equipo-tomas-riquelme.webp" alt="Foto referencial de Tomás Riquelme" width="640" height="800" loading="lazy"><span class="tm-tag">Foto referencial</span></div><div style="position:relative;display:flex;flex-direction:column;gap:6px"><h3 class="ub" style="margin:0;font-size:20px;font-weight:800">Tomás Riquelme</h3><p style="margin:0;color:var(--fucsia);font-weight:600;line-height:1.35">Diseñador UX/UI &amp; Brand Designer</p><p style="margin:4px 0 0;font-size:15px;line-height:1.5;color:#CFCFCF">8 años diseñando interfaces, sistemas de diseño e identidades. Investiga con usuarios, prototipa y lleva cada pantalla del boceto al detalle final.</p><div class="tm-chips"><span class="tm-chip">Figma</span><span class="tm-chip">Design Systems</span><span class="tm-chip">Prototipado</span><span class="tm-chip">Identidad visual</span></div></div></article>
       <article class="tm rise" data-cursor="¡Miiish!"><div class="tm-ph mp3" style="--c:#FFFFFF"><img src="img/equipo-matias-fuentes.webp" alt="Foto referencial de Matías Fuentes" width="640" height="800" loading="lazy"><span class="tm-tag">Foto referencial</span></div><div style="position:relative;display:flex;flex-direction:column;gap:6px"><h3 class="ub" style="margin:0;font-size:20px;font-weight:800">Matías Fuentes</h3><p style="margin:0;color:#FFFFFF;font-weight:600;line-height:1.35">Filmmaker &amp; Editor de Video / Postproducción</p><p style="margin:4px 0 0;font-size:15px;line-height:1.5;color:#CFCFCF">7 años en rodajes comerciales y contenido de marca. Dirección de fotografía, edición y corrección de color para reels, spots y piezas para anuncios.</p><div class="tm-chips"><span class="tm-chip">Dirección de fotografía</span><span class="tm-chip">Premiere</span><span class="tm-chip">DaVinci Resolve</span><span class="tm-chip">Reels</span></div></div></article>
@@ -871,9 +1016,9 @@ a{color:inherit}
       </div>
       <div class="news-grid">
 <!--NOTICIAS:INICIO-->
-        <a class="news-card rise" href="noticias/adobe-max-2026-photoshop-premiere-mas-rapidos/" data-cursor="Leer"><span class="news-cat">Diseño</span><span class="news-t">Photoshop y Premiere pisan el acelerador, y Adobe MAX 2026 ya tiene fecha</span><span class="news-d">23 oct 2026 · 3 min</span></a>
-        <a class="news-card rise" href="noticias/google-ai-mode-seo-pymes-chile/" data-cursor="Leer"><span class="news-cat">SEO</span><span class="news-t">Google AI Mode supera los mil millones de usuarios: qué cambia para el SEO de tu pyme</span><span class="news-d">23 oct 2026 · 3 min</span></a>
-        <a class="news-card rise" href="noticias/meta-product-browsing-anuncios-28-octubre/" data-cursor="Leer"><span class="news-cat">Paid media</span><span class="news-t">Meta va a cambiar tus anuncios el 28 de octubre (si no le dices que no)</span><span class="news-d">23 oct 2026 · 4 min</span></a>
+        <a class="news-card rise" href="/noticias/adobe-max-2026-photoshop-premiere-mas-rapidos/" hreflang="es" data-cursor="Leer"><span class="news-cat">Diseño</span><span class="news-t">Photoshop y Premiere pisan el acelerador, y Adobe MAX 2026 ya tiene fecha</span><span class="news-d">23 oct 2026 · 3 min</span></a>
+        <a class="news-card rise" href="/noticias/google-ai-mode-seo-pymes-chile/" hreflang="es" data-cursor="Leer"><span class="news-cat">SEO</span><span class="news-t">Google AI Mode supera los mil millones de usuarios: qué cambia para el SEO de tu pyme</span><span class="news-d">23 oct 2026 · 3 min</span></a>
+        <a class="news-card rise" href="/noticias/meta-product-browsing-anuncios-28-octubre/" hreflang="es" data-cursor="Leer"><span class="news-cat">Paid media</span><span class="news-t">Meta va a cambiar tus anuncios el 28 de octubre (si no le dices que no)</span><span class="news-d">23 oct 2026 · 4 min</span></a>
 <!--NOTICIAS:FIN-->
       </div>
     </div>
@@ -886,12 +1031,15 @@ a{color:inherit}
         <h2 id="faq-t" class="ub" style="margin:0;font-size:clamp(30px,5vw,80px);line-height:.95;letter-spacing:-.045em;text-transform:uppercase"><span class="lt">Lo que</span> <span class="bk">nos preguntan</span></h2>
       </div>
       <div style="display:flex;flex-direction:column;gap:10px">
-        <details class="faq-i rise" name="faq" open><summary data-cursor="Ver"><h3>¿Qué es ¡Miiish!?</h3><span class="faq-x" aria-hidden="true">+</span></summary><p>Una agencia creativa y de marketing digital en Santiago de Chile. Hacemos branding, contenido para redes sociales, sitios web y e-commerce, sistemas a medida, video, animación y campañas en Meta Ads, Google Ads y TikTok Ads, todo con un mismo equipo.</p></details>
-        <details class="faq-i rise" name="faq"><summary data-cursor="Ver"><h3>¿Trabajan solo con empresas de Santiago?</h3><span class="faq-x" aria-hidden="true">+</span></summary><p>Estamos en Santiago y trabajamos de forma remota con marcas y empresas de todo Chile. Las reuniones pueden ser presenciales o por videollamada.</p></details>
+        <details class="faq-i rise" name="faq" open><summary data-cursor="Ver"><h3>¿Qué es ¡Miiish!?</h3><span class="faq-x" aria-hidden="true">+</span></summary><p>Una agencia creativa y de marketing digital en Santiago de Chile. Hacemos branding, contenido para redes sociales, sitios web y e-commerce, sistemas a medida, video, animación, modelado y render 3D, y campañas en Meta Ads, Google Ads y TikTok Ads, todo con un mismo equipo.</p></details>
+        <details class="faq-i rise" name="faq"><summary data-cursor="Ver"><h3>¿Trabajan solo con empresas de Santiago?</h3><span class="faq-x" aria-hidden="true">+</span></summary><p>No. Estamos en Santiago y trabajamos con marcas de todo Chile y también de otros países, de forma remota. Las reuniones pueden ser presenciales o por videollamada, en español, inglés o portugués.</p></details>
         <details class="faq-i rise" name="faq"><summary data-cursor="Ver"><h3>¿Hacen campañas de Meta Ads y Google Ads?</h3><span class="faq-x" aria-hidden="true">+</span></summary><p>Sí. Definimos la estrategia, producimos las creatividades, configuramos la medición de conversiones, testeamos audiencias y anuncios, y te entregamos un informe de resultados cada mes.</p></details>
         <details class="faq-i rise" name="faq"><summary data-cursor="Ver"><h3>¿Desarrollan tiendas online y sistemas a medida?</h3><span class="faq-x" aria-hidden="true">+</span></summary><p>Sí. Creamos tiendas en Shopify, Jumpseller y WooCommerce, sitios en WordPress y sistemas a medida de ventas, inventario, CRM e integraciones con tus canales.</p></details>
-        <details class="faq-i rise" name="faq"><summary data-cursor="Ver"><h3>¿Cuánto demora un proyecto?</h3><span class="faq-x" aria-hidden="true">+</span></summary><p>Depende del alcance. Como referencia, una landing page toma de 2 a 3 semanas, una identidad de marca de 3 a 5 semanas y un e-commerce de 4 a 8 semanas.</p></details>
-        <details class="faq-i rise" name="faq"><summary data-cursor="Ver"><h3>¿Cómo empezamos?</h3><span class="faq-x" aria-hidden="true">+</span></summary><p>Agenda una reunión de diagnóstico de 30 minutos. Revisamos tu marca, tus números y tus objetivos, y te enviamos una propuesta y cotización a medida.</p></details>
+        <details class="faq-i rise" name="faq"><summary data-cursor="Ver"><h3>¿Qué incluye un proyecto de branding?</h3><span class="faq-x" aria-hidden="true">+</span></summary><p>Partimos por la estrategia: a quién le hablas, cómo te diferencias y qué personalidad tiene tu marca. Luego diseñamos el logo, la paleta de colores, las tipografías y las aplicaciones clave, y te entregamos un manual de marca con todos los archivos listos para usar.</p></details>
+        <details class="faq-i rise" name="faq"><summary data-cursor="Ver"><h3>¿Pueden renovar mi marca sin empezar de cero?</h3><span class="faq-x" aria-hidden="true">+</span></summary><p>Sí. Si tu marca ya tiene reconocimiento, hacemos un refresh: modernizamos el logo, ordenamos la paleta y la tipografía y actualizamos tus piezas sin perder lo que tus clientes ya conocen. Si el cambio de rumbo es mayor, proponemos un rebranding completo.</p></details>
+        <details class="faq-i rise" name="faq"><summary data-cursor="Ver"><h3>¿Qué trabajos de 3D hacen?</h3><span class="faq-x" aria-hidden="true">+</span></summary><p>Modelado y render 3D de productos, packaging, mobiliario y espacios, además de escenas y animaciones 3D para anuncios, redes y tiendas online. Sirve para mostrar un producto antes de fabricarlo, lanzar una preventa o tener imágenes perfectas sin sesión de fotos.</p></details>
+        <details class="faq-i rise" name="faq"><summary data-cursor="Ver"><h3>¿Necesito el producto físico para hacer un render 3D?</h3><span class="faq-x" aria-hidden="true">+</span></summary><p>No. Podemos modelarlo a partir de planos, medidas, bocetos o fotos de referencia. Te mostramos avances del modelo para ajustar formas, materiales y colores antes del render final.</p></details>
+        <details class="faq-i rise" name="faq"><summary data-cursor="Ver"><h3>¿Cómo empezamos?</h3><span class="faq-x" aria-hidden="true">+</span></summary><p>Completa el formulario de contacto contándonos qué necesitas. Te respondemos en menos de un día hábil para agendar un diagnóstico de 30 minutos y luego te enviamos una propuesta y cotización a medida.</p></details>
       </div>
     </div>
   </section>
@@ -900,18 +1048,62 @@ a{color:inherit}
     <div class="wrap" style="padding-top:var(--pad-xl);padding-bottom:var(--pad-l);display:flex;flex-direction:column;align-items:center;text-align:center;gap:30px">
       <p class="ub" style="margin:0;font-weight:300;font-size:clamp(20px,2.4vw,34px);text-transform:uppercase;letter-spacing:-.01em">¿Listo para tu primer <strong class="bk" style="color:var(--lima)">¡miiish!</strong>?</p>
       <a class="ht ub" href="#contacto" data-cursor="¡Dale!" style="font-weight:900;font-size:clamp(40px,11.5vw,190px);line-height:.9;letter-spacing:-.05em;text-transform:uppercase;text-decoration:underline;text-decoration-thickness:.06em;text-underline-offset:.08em"><span class="main">Hablemos</span><span class="alt" aria-hidden="true">¡Miiish!</span></a>
-      <p style="margin:0;font-size:19px;line-height:1.55;max-width:44ch;color:#D8D8D8">Cuéntanos qué vendes y qué quieres lograr. En 30 minutos te proponemos por dónde partir.</p>
-      <div style="display:flex;flex-wrap:wrap;gap:12px;justify-content:center">
-        <a class="btn" href="#contacto" data-event="cta_agendar_reunion" data-cursor="Vamos" style="background:var(--lima);color:var(--negro);border-color:var(--lima)"><span class="roll"><span>Agenda una reunión</span><span aria-hidden="true">Agenda una reunión</span></span></a>
-        <a class="btn" href="https://wa.me/56999753256?text=Hola%20Miiish%2C%20quiero%20cotizar%20un%20proyecto" target="_blank" rel="noopener" data-event="cta_whatsapp" data-cursor="Vamos" style="color:var(--blanco)"><span class="roll"><span>Escríbenos por WhatsApp</span><span aria-hidden="true">Escríbenos por WhatsApp</span></span></a>
+      <p style="margin:0;font-size:19px;line-height:1.55;max-width:44ch;color:#D8D8D8">Cuéntanos qué vendes y qué quieres lograr. Te respondemos en menos de un día hábil con una propuesta para partir.</p>
+      <form class="cf" id="cf" action="/contacto.php" method="post" novalidate data-ok="¡Miiish!" data-lang="es">
+        <div class="cf-step">
+          <span class="cf-k"><b>1</b>Lo que necesitas</span>
+          <p class="cf-q" id="cf-q1">¿En qué te podemos ayudar?</p>
+          <fieldset class="chips" aria-labelledby="cf-q1">
+            <label class="chip"><input type="checkbox" name="servicios[]" value="Branding"><span>Branding</span></label>
+            <label class="chip"><input type="checkbox" name="servicios[]" value="Redes sociales"><span>Redes sociales</span></label>
+            <label class="chip"><input type="checkbox" name="servicios[]" value="Web y e-commerce"><span>Web y e-commerce</span></label>
+            <label class="chip"><input type="checkbox" name="servicios[]" value="Paid media"><span>Campañas en Meta y Google</span></label>
+            <label class="chip"><input type="checkbox" name="servicios[]" value="Video"><span>Video</span></label>
+            <label class="chip"><input type="checkbox" name="servicios[]" value="Animación"><span>Animación y personajes</span></label>
+            <label class="chip"><input type="checkbox" name="servicios[]" value="3D"><span>Modelado y render 3D</span></label>
+            <label class="chip"><input type="checkbox" name="servicios[]" value="Sistemas a medida"><span>Sistemas a medida</span></label>
+          </fieldset>
+        </div>
+        <div class="cf-step">
+          <span class="cf-k"><b>2</b>Presupuesto aproximado</span>
+          <p class="cf-q" id="cf-q2">¿Cuánto tienes pensado invertir?</p>
+          <fieldset class="chips chips-r" aria-labelledby="cf-q2">
+            <label class="chip"><input type="radio" name="presupuesto" value="Menos de $1.000.000"><span>Menos de $1.000.000</span></label>
+            <label class="chip"><input type="radio" name="presupuesto" value="$1.000.000 a $3.000.000"><span>$1.000.000 a $3.000.000</span></label>
+            <label class="chip"><input type="radio" name="presupuesto" value="$3.000.000 a $6.000.000"><span>$3.000.000 a $6.000.000</span></label>
+            <label class="chip"><input type="radio" name="presupuesto" value="Más de $6.000.000"><span>Más de $6.000.000</span></label>
+            <label class="chip"><input type="radio" name="presupuesto" value="Aún no lo sé"><span>Aún no lo sé</span></label>
+          </fieldset>
+        </div>
+        <div class="cf-step">
+          <span class="cf-k"><b>3</b>Tus datos</span>
+          <div class="cf-grid">
+            <label class="fl"><input name="nombre" type="text" autocomplete="name" required maxlength="80" placeholder=" "><span>Tu nombre *</span></label>
+            <label class="fl"><input name="email" type="email" autocomplete="email" required maxlength="120" placeholder=" "><span>Correo *</span></label>
+            <label class="fl"><input name="empresa" type="text" autocomplete="organization" maxlength="100" placeholder=" "><span>Empresa o marca</span></label>
+            <label class="fl"><input name="telefono" type="tel" autocomplete="tel" maxlength="30" placeholder=" "><span>Teléfono (opcional)</span></label>
+            <label class="fl fl-full"><textarea name="mensaje" required maxlength="3000" placeholder=" "></textarea><span>Cuéntanos tu proyecto *</span></label>
+          </div>
+          <label class="cf-hp" aria-hidden="true">No completar<input type="text" name="web" tabindex="-1" autocomplete="off"></label>
+          <input type="hidden" name="t" value="0">
+        </div>
+        <p class="cf-err" role="alert" hidden></p>
+        <div class="cf-foot">
+          <p class="cf-legal">Usamos tus datos solo para responder tu mensaje. Nada de spam, prometido.</p>
+          <button class="btn cf-send" type="submit" data-event="cta_formulario" data-cursor="¡Dale!"><span class="roll"><span>Enviar mensaje →</span><span aria-hidden="true">Enviar mensaje →</span></span></button>
+        </div>
+      </form>
+      <div class="cf cf-done" id="cf-done" hidden tabindex="-1">
+        <div class="cf-ok"><span class="ub">¡Miiish!</span><p>Recibimos tu mensaje. Te escribimos a tu correo en menos de un día hábil.</p><a class="btn" href="#inicio" style="color:var(--blanco)">Volver al inicio</a></div>
       </div>
-      <p style="margin:0;font-size:15px;color:#BDBDBD">+56 9 9975 3256 · hola@miiish.com</p>
+      <p style="margin:0;font-size:15px;color:#BDBDBD">¿Prefieres escribirnos directo? <a href="mailto:hola@miiish.com" style="color:var(--lima)">hola@miiish.com</a></p>
     </div>
     <footer style="border-top:1px solid #2A2A2A">
       <div class="wrap" style="padding-top:56px;padding-bottom:40px;display:flex;flex-direction:column;align-items:center;text-align:center;gap:22px;font-size:14px;color:#BDBDBD">
         <span class="logo mk" style="font-size:clamp(64px,9vw,110px);color:var(--lima)"><span class="lj">¡mii</span><span class="ls">ish!</span><span class="ltag">agencia creativa</span></span>
         <span>Santiago, Chile · Hacemos cosas que dan ¡miiish!</span>
         <span>[Instagram] · [LinkedIn] · [TikTok]</span>
+        <span class="lang" style="color:#BDBDBD" role="group" aria-label="Idioma"><a href="/" hreflang="es-CL" lang="es-CL" aria-current="true" data-lang="es">ES</a><a href="/en/" hreflang="en" lang="en" data-lang="en">EN</a><a href="/pt/" hreflang="pt" lang="pt" data-lang="pt">PT</a></span>
         <a href="noticias/" style="color:#BDBDBD">Noticias</a>
         <a href="#preguntas" style="color:#BDBDBD">Preguntas frecuentes</a>
         <a class="totop" href="#inicio" data-cursor="Arriba" aria-label="Volver arriba"><span class="sd-a"><svg viewBox="0 0 32 45" width="20" height="28" aria-hidden="true"><path d="M16 3v37M4 28l12 13 12-13" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a>
@@ -976,6 +1168,40 @@ a{color:inherit}
     requestAnimationFrame(loop);
   }
   requestAnimationFrame(loop);
+
+  // Idioma elegido a mano: se recuerda para la próxima visita
+  document.addEventListener('click',function(e){
+    var l=e.target.closest&&e.target.closest('[data-lang]');
+    if(l){try{localStorage.setItem('miiish_lang',l.getAttribute('data-lang'))}catch(x){}}
+  },true);
+
+  // Formulario de contacto
+  var f=document.getElementById('cf'), done=document.getElementById('cf-done');
+  if(f){
+    var L=(document.documentElement.lang||'es').slice(0,2);
+    var M={es:{req:'Completa tu nombre, tu correo y cuéntanos tu proyecto.',mail:'Revisa tu correo, parece que tiene un error.',err:'No pudimos enviar tu mensaje. Inténtalo de nuevo o escríbenos a hola@miiish.com.',env:'Enviando…'},
+           en:{req:'Please add your name, email and a few words about your project.',mail:'Please check your email address.',err:'We could not send your message. Try again or write to hola@miiish.com.',env:'Sending…'},
+           pt:{req:'Preencha seu nome, e-mail e conte sobre o seu projeto.',mail:'Confira o seu e-mail, parece ter um erro.',err:'Não conseguimos enviar sua mensagem. Tente de novo ou escreva para hola@miiish.com.',env:'Enviando…'}}[L]||{};
+    var t0=Date.now(), box=f.querySelector('.cf-err'), btn=f.querySelector('.cf-send');
+    f.elements.t.value=String(t0);
+    function fallo(m){box.textContent=m;box.hidden=false}
+    f.addEventListener('submit',function(e){
+      e.preventDefault();box.hidden=true;
+      var n=f.elements.nombre.value.trim(), m=f.elements.email.value.trim(), x=f.elements.mensaje.value.trim();
+      if(!n||!m||!x)return fallo(M.req);
+      if(!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(m))return fallo(M.mail);
+      var fd=new FormData(f);fd.append('idioma',L);fd.append('origen',location.href);
+      btn.disabled=true;var txt=btn.innerHTML;btn.textContent=M.env;
+      fetch(f.action,{method:'POST',body:fd,headers:{'Accept':'application/json'}})
+        .then(function(r){return r.json().catch(function(){return{ok:false}})})
+        .then(function(j){
+          if(!j.ok)throw new Error(j.error||M.err);
+          window.dataLayer.push({event:'formulario_enviado'});if(window.fbq)fbq('track','Lead');
+          f.hidden=true;done.hidden=false;done.focus();scrollToId('contacto');
+        })
+        .catch(function(er){fallo(er&&er.message&&er.message!=='Failed to fetch'?er.message:M.err);btn.disabled=false;btn.innerHTML=txt});
+    });
+  }
   if(location.hash.length>1)setTimeout(function(){scrollToId(location.hash.slice(1))},300);
 })();
 

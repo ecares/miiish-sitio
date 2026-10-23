@@ -33,7 +33,7 @@ Este repositorio es el sitio miiish.com. Cada ejecución del agente publica **un
 - Escribe con tus propias palabras: no copies párrafos de las fuentes. Máximo una cita textual corta (menos de 15 palabras), entre comillas y atribuida.
 - No inventes cifras, fechas, nombres ni declaraciones. Si un dato no está en una fuente abierta, no va.
 - Si la cifra es de la propia empresa (Google, Meta), dilo.
-- Puedes cerrar con una recomendación que mencione cómo ¡Miiish! ayuda, en una sola frase y sin exagerar.
+- Puedes cerrar con una recomendación que mencione cómo ¡Miiish! ayuda, en una sola frase y sin exagerar. Si invitas a contactarnos, usa el formulario: [cuéntanos tu proyecto](/#contacto). No menciones WhatsApp.
 - Sin emojis. Sin títulos clickbait.
 
 ## Formato del archivo
@@ -57,5 +57,5 @@ Este repositorio es el sitio miiish.com. Cada ejecución del agente publica **un
 
 ## No tocar
 
-- `index.html`, `img/`, `assets/` y `.htaccess` (los genera o mantiene el equipo). `tools/build.py` actualiza solo el bloque de noticias de la portada.
+- `index.html`, `en/`, `pt/`, `contacto.php`, `equipo/`, `img/`, `assets/` y `.htaccess` (los genera o mantiene el equipo). `tools/build.py` actualiza solo el bloque de noticias de la portada.
 - No borres ni edites notas anteriores salvo para corregir un error de hecho; en ese caso agrega `"actualizado": "AAAA-MM-DD"`.

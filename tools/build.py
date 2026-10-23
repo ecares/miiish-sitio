@@ -14,7 +14,7 @@ import sys
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DOMINIO = 'https://miiish.com'
-WHATSAPP = 'https://wa.me/56999753256?text=Hola%20Miiish%2C%20le%C3%AD%20una%20noticia%20y%20quiero%20conversar'
+CONTACTO = '/#contacto'
 CATEGORIAS = {
     'Diseño': '#FF4FD8', 'Desarrollo web': '#D7FF3A', 'Marketing digital': '#FFFFFF', 'Paid media': '#D7FF3A',
     'SEO': '#D7FF3A', 'Inteligencia artificial': '#FF4FD8', 'Video y animación': '#FFFFFF', 'E-commerce': '#FF4FD8',
@@ -93,11 +93,11 @@ LOGO = '<a class="n-logo" href="/" aria-label="¡Miiish! inicio"><span class="lj
 
 
 def cabecera():
-    return f'''<header class="n-hdr"><div class="n-wrap n-hdr-in">{LOGO}<nav aria-label="Principal" class="n-nav"><a href="/">Inicio</a><a href="/#hacemos">Servicios</a><a href="/noticias/" aria-current="page">Noticias</a><a class="n-btn" href="{WHATSAPP}" target="_blank" rel="noopener" data-event="cta_whatsapp">Hablemos</a></nav></div></header>'''
+    return f'''<header class="n-hdr"><div class="n-wrap n-hdr-in">{LOGO}<nav aria-label="Principal" class="n-nav"><a href="/">Inicio</a><a href="/#hacemos">Servicios</a><a href="/noticias/" aria-current="page">Noticias</a><a class="n-btn" href="{CONTACTO}" data-event="cta_contacto">Hablemos</a></nav></div></header>'''
 
 
 def pie():
-    return f'''<footer class="n-foot"><div class="n-wrap n-foot-in"><a class="n-logo n-logo-big" href="/" aria-label="¡Miiish! inicio"><span class="lj">¡mii</span><span class="ls">ish!</span></a><p>Agencia creativa y de marketing digital · Santiago, Chile</p><p><a href="/">Inicio</a> · <a href="/noticias/">Noticias</a> · <a href="/#preguntas">Preguntas frecuentes</a> · <a href="{WHATSAPP}" target="_blank" rel="noopener">WhatsApp +56 9 9975 3256</a></p></div></footer>'''
+    return f'''<footer class="n-foot"><div class="n-wrap n-foot-in"><a class="n-logo n-logo-big" href="/" aria-label="¡Miiish! inicio"><span class="lj">¡mii</span><span class="ls">ish!</span></a><p>Agencia creativa y de marketing digital · Santiago, Chile</p><p><a href="/">Inicio</a> · <a href="/noticias/">Noticias</a> · <a href="/#preguntas">Preguntas frecuentes</a> · <a href="{CONTACTO}">Contacto</a> · <a href="mailto:hola@miiish.com">hola@miiish.com</a></p></div></footer>'''
 
 
 def pagina(titulo, descripcion, ruta, cuerpo, jsonld, tipo='website', imagen='/og-image.jpg', extra_head=''):
@@ -177,7 +177,7 @@ def articulo(p, otros):
     {faq_html}
     <section class="n-fuentes"><h2>Fuentes</h2><ul>{fuentes}</ul></section>
   </div>
-  <section class="n-cta"><div class="n-wrap n-cta-in"><p class="n-cta-t">¿Quieres aplicar esto en tu marca?</p><a class="n-btn n-btn-big" href="{WHATSAPP}" target="_blank" rel="noopener" data-event="cta_whatsapp">Hablemos por WhatsApp →</a></div></section>
+  <section class="n-cta"><div class="n-wrap n-cta-in"><p class="n-cta-t">¿Quieres aplicar esto en tu marca?</p><a class="n-btn n-btn-big" href="{CONTACTO}" data-event="cta_contacto">Cuéntanos tu proyecto →</a></div></section>
   {f'<section class="n-wrap n-rel"><h2>Sigue leyendo</h2><div class="n-grid">{relacionados}</div></section>' if relacionados else ''}
 </article>'''
     ld = {'@context': 'https://schema.org', '@graph': [
@@ -230,23 +230,25 @@ def rss(posts):
 
 def sitemap(posts):
     hoy = datetime.date.today().isoformat()
-    urls = [(DOMINIO + '/', hoy, '1.0'), (DOMINIO + '/noticias/', posts[0]['fecha'][:10] if posts else hoy, '0.8')]
+    urls = [(DOMINIO + '/', hoy, '1.0'), (DOMINIO + '/en/', hoy, '0.9'), (DOMINIO + '/pt/', hoy, '0.9'), (DOMINIO + '/noticias/', posts[0]['fecha'][:10] if posts else hoy, '0.8')]
     urls += [(f'{DOMINIO}/noticias/{p["slug"]}/', p.get('actualizado', p['fecha'])[:10], '0.7') for p in posts]
     filas = ''.join(f'  <url><loc>{u}</loc><lastmod>{m}</lastmod><priority>{pr}</priority></url>\n' for u, m, pr in urls)
     return f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n{filas}</urlset>\n'
 
 
 def portada(posts):
-    ruta = os.path.join(RAIZ, 'index.html')
-    if not os.path.exists(ruta):
-        return
-    s = open(ruta, encoding='utf-8').read()
-    tarjetas = ''.join(
-        f'\n        <a class="news-card rise" href="noticias/{p["slug"]}/" data-cursor="Leer"><span class="news-cat">{esc(p["categoria"])}</span>'
-        f'<span class="news-t">{esc(p["titulo"])}</span><span class="news-d">{fecha_corta(p["fecha"])} · {minutos(p)} min</span></a>' for p in posts[:3])
-    s2, n = re.subn(r'<!--NOTICIAS:INICIO-->.*?<!--NOTICIAS:FIN-->', lambda m: '<!--NOTICIAS:INICIO-->' + tarjetas + '\n<!--NOTICIAS:FIN-->', s, flags=re.S)
-    if n:
-        open(ruta, 'w', encoding='utf-8').write(s2)
+    # Portadas en español, inglés y portugués: las tarjetas apuntan a las notas (en español).
+    for archivo, cursor in (('index.html', 'Leer'), ('en/index.html', 'Read'), ('pt/index.html', 'Ler')):
+        ruta = os.path.join(RAIZ, archivo)
+        if not os.path.exists(ruta):
+            continue
+        s = open(ruta, encoding='utf-8').read()
+        tarjetas = ''.join(
+            f'\n        <a class="news-card rise" href="/noticias/{p["slug"]}/" hreflang="es" data-cursor="{cursor}"><span class="news-cat">{esc(p["categoria"])}</span>'
+            f'<span class="news-t">{esc(p["titulo"])}</span><span class="news-d">{fecha_corta(p["fecha"])} · {minutos(p)} min</span></a>' for p in posts[:3])
+        s2, n = re.subn(r'<!--NOTICIAS:INICIO-->.*?<!--NOTICIAS:FIN-->', lambda m: '<!--NOTICIAS:INICIO-->' + tarjetas + '\n<!--NOTICIAS:FIN-->', s, flags=re.S)
+        if n:
+            open(ruta, 'w', encoding='utf-8').write(s2)
 
 
 def validar(p, archivo):
