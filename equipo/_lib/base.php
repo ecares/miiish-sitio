@@ -32,7 +32,7 @@ function db(): PDO
     if (!is_dir($dir) || !is_writable($dir)) {
         throw new RuntimeException('No se puede escribir en la carpeta de datos.');
     }
-    $pdo = new PDO('sqlite:' . $dir . '/equipo.sqlite');
+    $pdo = new PDO('sqlite:' . $dir . '/equipo-v2.sqlite');
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     $pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
     $pdo->exec('PRAGMA foreign_keys = ON');
