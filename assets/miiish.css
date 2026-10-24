@@ -563,3 +563,6 @@ a{color:inherit}
 .gl-aviso button{font:700 14px "Instrument Sans",sans-serif;min-height:42px;padding:0 18px;border-radius:999px;border:0;background:var(--lima);color:var(--negro);cursor:pointer}
 .gl-aviso .gl-x{position:absolute;top:8px;right:10px;min-height:0;padding:4px 8px;background:none;color:#9A9A95;font-size:20px}
 @media (prefers-reduced-motion:reduce){.gl-aviso{transition:none}}
+
+/* Lo que está marcado como oculto (hidden) nunca se muestra, aunque su clase tenga display */
+[hidden]{display:none!important}
