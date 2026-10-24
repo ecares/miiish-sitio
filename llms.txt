@@ -16,8 +16,8 @@
 - **Sistemas a medida**: Punto de venta, control de inventario, CRM, portales, integraciones y automatizaciones.
 
 ## Equipo
-- Eduardo Cares: Full Stack Developer & Paid Media Manager
-- Joaquín Holl: Digital Designer, Content Manager & Brand Designer
+- Eduardo Cares: Founder & CEO · Full Stack Developer & Paid Media Manager
+- Joaquín Holl: Creative Director · Digital Designer, Content Manager & Brand Designer
 - Javiera Torres: Project Manager · Motion Graphics, 2D Animation & Character Design for Branding
 - Camila Piña: 3D Artist, Illustrator & Art Director
 - Diego Morales: Diseño 3D y Render · Estrategia de Diseño y UX · Merchandising y POP

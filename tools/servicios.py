@@ -30,8 +30,8 @@ FORMULARIO = {'branding': 'Branding', 'contenido': 'Redes sociales', 'web': 'Web
               'merch': 'Merchandising y POP'}
 
 EQUIPO = {
-    'eduardo': ('Eduardo Cares', 'equipo-eduardo-cares', {'es': 'Full Stack Developer & Paid Media Manager'}),
-    'joaquin': ('Joaquín Holl', 'equipo-joaquin-holl', {'es': 'Digital Designer, Content Manager & Brand Designer'}),
+    'eduardo': ('Eduardo Cares', 'equipo-eduardo-cares', {'es': 'Founder & CEO · Full Stack Developer & Paid Media Manager'}),
+    'joaquin': ('Joaquín Holl', 'equipo-joaquin-holl', {'es': 'Creative Director · Digital Designer, Content Manager & Brand Designer'}),
     'javiera': ('Javiera Torres', 'equipo-javiera', {'es': 'Project Manager · Motion Graphics, 2D Animation & Character Design for Branding'}),
     'camila': ('Camila Piña', 'equipo-camila-pina', {'es': '3D Artist, Illustrator & Art Director'}),
     'diego': ('Diego Morales', 'equipo-diego-morales', {'es': 'Diseño 3D y Render · Estrategia de Diseño y UX · Merchandising y POP',
