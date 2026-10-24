@@ -72,3 +72,8 @@ Este repositorio es el sitio miiish.com. Cada ejecución del agente publica **un
 - Para regenerarlas: `python3 tools/servicios.py`. También agrega en la portada el botón "Ver todo sobre…" de cada servicio. No edites a mano los `index.html` de esas carpetas.
 - Estilos en `assets/servicios.css` y script en `assets/servicios.js` (se editan a mano). `tools/build.py` ya incluye estas páginas en `sitemap.xml` y `llms.txt`.
 - Si una noticia trata de un tema de un servicio, puedes enlazar a su página de servicio en español.
+
+## Sección de rubros "A quién ayudamos" (desde el 24-oct-2026)
+- Está en la portada (3 idiomas), antes de Plataformas, entre `<!--RUBROS:INICIO-->` y `<!--RUBROS:FIN-->`.
+- Contenido en `_contenido/rubros.json`; se regenera con `python3 tools/rubros.py`. Estilos en `assets/rubros.css` y comportamiento en `assets/rubros.js`.
+- Si una noticia es sobre un rubro (por ejemplo, inmobiliarias), puedes enlazar a la portada con `/#rubros`.
