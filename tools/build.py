@@ -238,7 +238,7 @@ def sitemap(posts):
 
 def portada(posts):
     # Portadas en español, inglés y portugués: las tarjetas apuntan a las notas (en español).
-    for archivo, cursor in (('index.html', 'Leer'), ('en/index.html', 'Read'), ('pt/index.html', 'Ler')):
+    for archivo, cursor in (('index.html', 'Leer'), ('en/index.html', 'Read'), ('pt/index.html', 'Ler'), ('gracias/index.html', 'Leer'), ('en/gracias/index.html', 'Read'), ('pt/gracias/index.html', 'Ler')):
         ruta = os.path.join(RAIZ, archivo)
         if not os.path.exists(ruta):
             continue

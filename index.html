@@ -1186,7 +1186,7 @@ a{color:inherit}
         .then(function(j){
           if(!j.ok)throw new Error(j.error||M.err);
           window.dataLayer.push({event:'formulario_enviado'});if(window.fbq)fbq('track','Lead');
-          f.hidden=true;done.hidden=false;done.focus();scrollToId('contacto');
+          location.href=(L==='es'?'':'/'+L)+'/gracias/';
         })
         .catch(function(er){fallo(er&&er.message&&er.message!=='Failed to fetch'?er.message:M.err);btn.disabled=false;btn.innerHTML=txt});
     });

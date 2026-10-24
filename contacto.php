@@ -247,4 +247,8 @@ enviar($email, $C['asunto'], $textoCliente, $htmlCliente, [
     'Auto-Submitted: auto-replied',
 ]);
 
+if (!$json) {
+    header('Location: ' . ($idioma === 'es' ? '' : '/' . $idioma) . '/gracias/', true, 303);
+    exit;
+}
 salir(true, $T['ok'], $json);

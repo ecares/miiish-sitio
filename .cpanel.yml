@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEST=/home/miiishco/public_html
-    - /bin/cp -Rf index.html favicon.svg og-image.jpg robots.txt sitemap.xml llms.txt rss.xml .htaccess img assets noticias equipo en pt contacto.php $DEST/
+    - /bin/cp -Rf index.html favicon.svg og-image.jpg robots.txt sitemap.xml llms.txt rss.xml .htaccess img assets noticias equipo en pt gracias contacto.php $DEST/
