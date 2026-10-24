@@ -91,7 +91,8 @@
   // Glosario: términos subrayados que se explican al hacer clic
   var pop=null;
   function cerrarGl(){if(pop){pop.remove();pop=null}document.querySelectorAll('.gl[aria-expanded="true"]').forEach(function(b){b.setAttribute('aria-expanded','false')})}
-  document.querySelectorAll('.gl').forEach(function(b){b.setAttribute('aria-expanded','false')});
+  var glL=(document.documentElement.lang||'es').slice(0,2), glC={es:'¿Qué es?',en:"What's this?",pt:'O que é?'}[glL]||'¿Qué es?';
+  document.querySelectorAll('.gl').forEach(function(b){b.setAttribute('aria-expanded','false');b.setAttribute('data-cursor',glC)});
   document.addEventListener('click',function(e){
     var b=e.target.closest&&e.target.closest('.gl');
     if(!b){if(pop&&!(e.target.closest&&e.target.closest('.gl-pop')))cerrarGl();return}
