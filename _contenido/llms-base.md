@@ -15,7 +15,7 @@
 - **Sistemas a medida**: Punto de venta, control de inventario, CRM, portales, integraciones y automatizaciones.
 
 ## Equipo
-- Eduardo Cares: Full Stack Developer & Performance Marketing Lead
+- Eduardo Cares: Full Stack Developer & Paid Media
 - Matías Fuentes: Filmmaker & Editor de Video / Postproducción
 - Camila Piña: 3D Artist, Illustrator & Art Director
 - Joaquín Holl: Digital Designer, Content Manager & Brand Designer
