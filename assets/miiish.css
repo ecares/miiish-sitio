@@ -303,7 +303,7 @@ a{color:inherit}
 /* Logo: ¡mii (Jost Black) sobre ish! (Instrument Serif cursiva) */
 .mk{display:inline-flex;flex-direction:column;align-items:flex-start;line-height:.8;font-family:"Jost","Futura",sans-serif}
 .mk .lj{font-family:"Jost","Futura","Century Gothic",sans-serif;font-weight:900;letter-spacing:-.05em;white-space:nowrap}
-.mk .ls{font-family:"Instrument Serif",Georgia,serif;font-style:italic;font-weight:400;font-size:1.26em;line-height:.72;letter-spacing:-.02em;margin-left:.04em;white-space:nowrap}
+.mk .ls{font-family:"Instrument Serif",Georgia,serif;font-style:italic;font-weight:400;font-size:1.26em;line-height:.72;letter-spacing:-.02em;margin-left:.17em;white-space:nowrap}
 .mk .ltag{font-family:"DM Mono","Courier New",monospace;font-weight:500;font-size:max(.13em,10px);letter-spacing:.06em;text-transform:uppercase;line-height:1;margin-top:.5em}
 .hdr-r{display:flex;align-items:center;gap:10px}
 .hdr-cta{min-height:48px;padding:0 22px;font-size:15px;background:var(--negro);color:var(--lima);border-color:var(--negro)}

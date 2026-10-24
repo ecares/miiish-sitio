@@ -18,7 +18,7 @@ a:focus-visible,button:focus-visible,summary:focus-visible,.gl:focus-visible{out
 /* Logo */
 .s-logo{display:inline-flex;flex-direction:column;align-items:flex-start;line-height:.8;text-decoration:none;font-size:34px;color:var(--negro)}
 .s-logo .lj{font-family:"Jost","Futura",sans-serif;font-weight:900;letter-spacing:-.05em}
-.s-logo .ls{font-family:"Instrument Serif",Georgia,serif;font-style:italic;font-size:1.26em;line-height:.72;letter-spacing:-.02em;margin-left:.04em}
+.s-logo .ls{font-family:"Instrument Serif",Georgia,serif;font-style:italic;font-size:1.26em;line-height:.72;letter-spacing:-.02em;margin-left:.17em}
 .s-logo-big{font-size:72px;color:var(--lima)}
 
 /* Cabecera */

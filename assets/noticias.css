@@ -9,7 +9,7 @@ img{max-width:100%}
 /* Logo */
 .n-logo{display:inline-flex;flex-direction:column;align-items:flex-start;line-height:.8;text-decoration:none;font-size:34px;color:var(--negro)}
 .n-logo .lj{font-family:"Jost","Futura",sans-serif;font-weight:900;letter-spacing:-.05em}
-.n-logo .ls{font-family:"Instrument Serif",Georgia,serif;font-style:italic;font-size:1.26em;line-height:.72;letter-spacing:-.02em;margin-left:.04em}
+.n-logo .ls{font-family:"Instrument Serif",Georgia,serif;font-style:italic;font-size:1.26em;line-height:.72;letter-spacing:-.02em;margin-left:.17em}
 .n-logo-big{font-size:72px;color:var(--lima)}
 
 /* Cabecera */

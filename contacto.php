@@ -110,7 +110,7 @@ $fecha = (new DateTime('now', new DateTimeZone('America/Santiago')))->format('d-
 ], JSON_UNESCAPED_UNICODE) . "\n", FILE_APPEND | LOCK_EX);
 
 // ---------- Plantillas de correo (HTML con estilos en línea + texto plano) ----------
-const LOGO = 'https://miiish.com/img/email-logo.png';
+const LOGO = 'https://miiish.com/img/email-logo.png?v=2';
 function e(string $s): string { return htmlspecialchars($s, ENT_QUOTES, 'UTF-8'); }
 function cabecera_mime(string $nombre): string { return '=?UTF-8?B?' . base64_encode($nombre) . '?='; }
 

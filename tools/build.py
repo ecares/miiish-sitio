@@ -100,6 +100,16 @@ def pie():
     return f'''<footer class="n-foot"><div class="n-wrap n-foot-in"><a class="n-logo n-logo-big" href="/" aria-label="¡Miiish! inicio"><span class="lj">¡mii</span><span class="ls">ish!</span></a><p>Agencia creativa y de marketing digital · Santiago, Chile</p><p><a href="/">Inicio</a> · <a href="/noticias/">Noticias</a> · <a href="/#preguntas">Preguntas frecuentes</a> · <a href="{CONTACTO}">Contacto</a> · <a href="mailto:hola@miiish.com">hola@miiish.com</a></p></div></footer>'''
 
 
+def css_noticias():
+    """Enlace a la hoja de noticias con huella del contenido, para que el navegador baje la versión nueva."""
+    import hashlib
+    ruta = os.path.join(RAIZ, 'assets', 'noticias.css')
+    try:
+        return '/assets/noticias.css?v=' + hashlib.sha1(open(ruta, 'rb').read()).hexdigest()[:10]
+    except OSError:
+        return '/assets/noticias.css'
+
+
 def pagina(titulo, descripcion, ruta, cuerpo, jsonld, tipo='website', imagen='/og-image.jpg', extra_head=''):
     url = DOMINIO + ruta
     return f'''<!doctype html>
@@ -124,7 +134,7 @@ def pagina(titulo, descripcion, ruta, cuerpo, jsonld, tipo='website', imagen='/o
 <meta name="twitter:card" content="summary_large_image">
 {extra_head}<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@300;600;800;900&amp;family=Instrument+Sans:wght@400;500;600&amp;family=Jost:wght@900&amp;family=Instrument+Serif:ital@1&amp;family=DM+Mono:wght@500&amp;display=swap">
-<link rel="stylesheet" href="/assets/noticias.css">
+<link rel="stylesheet" href="{css_noticias()}">
 <script type="application/ld+json">
 {json.dumps(jsonld, ensure_ascii=False, indent=1)}
 </script>
