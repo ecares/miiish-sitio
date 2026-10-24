@@ -60,3 +60,8 @@ Este repositorio es el sitio miiish.com. Cada ejecución del agente publica **un
 
 - `index.html`, `en/`, `pt/`, `contacto.php`, `equipo/`, `img/`, `assets/` y `.htaccess` (los genera o mantiene el equipo). `tools/build.py` actualiza solo el bloque de noticias de la portada.
 - No borres ni edites notas anteriores salvo para corregir un error de hecho; en ese caso agrega `"actualizado": "AAAA-MM-DD"`.
+
+## Estilos y scripts (desde el 24-oct-2026)
+- Todo el CSS del sitio vive en archivos aparte dentro de `assets/`: `miiish.css` (landing en los 3 idiomas), `noticias.css` (noticias) y `gracias.css` (páginas de gracias). El JS está en `assets/miiish.js` y `assets/glosario.js`.
+- No agregues `<style>` ni atributos `style="..."` en las páginas. Si una noticia necesita un estilo nuevo, agrégalo a `assets/noticias.css`.
+- `miiish.css`, `miiish.js` y `glosario.js` se generan desde el diseño: no los edites a mano. Los enlaces llevan `?v=` con una huella del contenido, así el navegador baja la versión nueva apenas cambia.
