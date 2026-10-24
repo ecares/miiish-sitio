@@ -1,0 +1,155 @@
+{
+ "id": "contenido",
+ "orden": 2,
+ "color": "#FF4FD8",
+ "equipo": ["joaquin", "javiera", "matias"],
+ "herramientas": ["Figma", "Canva", "CapCut", "Meta Business Suite", "Notion"],
+ "relacionados": ["publicidad", "video", "branding"],
+ "es": {
+  "slug": "contenido-y-redes-sociales",
+  "nombre": "Contenido y redes sociales",
+  "seo_titulo": "Manejo de redes sociales en Chile: Instagram, TikTok y Facebook | ¡Miiish!",
+  "seo_desc": "Planificamos, diseñamos y publicamos el contenido de tus redes sociales y respondemos a tu comunidad. Instagram, TikTok, Facebook y LinkedIn para pymes y marcas en Chile.",
+  "h1": "Redes sociales que se ven bien y trabajan para tu negocio",
+  "bajada": "Planificamos qué publicar, lo diseñamos, lo publicamos y conversamos con tus seguidores, para que tú te dediques a tu negocio.",
+  "que_es": [
+   "Hoy mucha gente conoce una marca primero por Instagram o TikTok, antes que por su página web o su local. Si tus redes están abandonadas o se ven improvisadas, ese cliente se va a otra cuenta.",
+   "Manejar redes no es solo subir fotos: es decidir qué contar cada semana, mantener un estilo reconocible, responder a tiempo y revisar qué funciona. Ojo: tener muchos seguidores o \"me gusta\" no significa vender más. Por eso medimos lo que importa: mensajes, consultas y visitas a tu tienda."
+  ],
+  "senales": [
+   "Publicas cuando te acuerdas y después pasan semanas sin nada.",
+   "No sabes qué subir y terminas repitiendo lo mismo.",
+   "Te escriben por mensaje directo y nadie alcanza a responder.",
+   "Tus publicaciones no se parecen entre sí ni a tu marca."
+  ],
+  "ayuda": [
+   {"t": "Un plan para el mes", "d": "Armamos una {{parrilla|parrilla de contenidos}}: un calendario con qué se publica cada día, en qué red y con qué objetivo."},
+   {"t": "Diseño de cada pieza", "d": "Diseñamos posts, carruseles y stories con tu estilo, para que tu cuenta se vea ordenada y reconocible."},
+   {"t": "Videos cortos", "d": "Grabamos y editamos reels y TikToks pensados para captar la atención en los primeros segundos."},
+   {"t": "Conversar con tu comunidad", "d": "Hacemos {{community|community management}}: respondemos comentarios y mensajes con el tono de tu marca y te avisamos de las consultas de venta."},
+   {"t": "Revisar qué funciona", "d": "Cada mes te mostramos en simple qué publicaciones trajeron más consultas y ajustamos el plan."}
+  ],
+  "pasos": [
+   {"t": "Conocemos tu marca", "d": "Revisamos tus redes actuales, tu competencia y qué quieres lograr con ellas."},
+   {"t": "Planificamos el mes", "d": "Te enviamos el calendario y los textos para que los apruebes antes de diseñar."},
+   {"t": "Producimos y publicamos", "d": "Diseñamos, grabamos y programamos las publicaciones en las fechas acordadas."},
+   {"t": "Medimos y mejoramos", "d": "Revisamos los resultados contigo y usamos lo aprendido para el mes siguiente."}
+  ],
+  "recibes": [
+   "Calendario mensual de publicaciones",
+   "Diseño de posts, carruseles y stories",
+   "Edición de reels y TikToks",
+   "Respuesta a comentarios y mensajes",
+   "Informe mensual fácil de entender"
+  ],
+  "ejemplos": [
+   {"t": "Un restaurante", "d": "Quiere mostrar sus platos, anunciar promociones y recibir reservas por mensaje."},
+   {"t": "Una tienda de ropa", "d": "Necesita mostrar productos nuevos cada semana y llevar gente a su tienda online."},
+   {"t": "Una empresa de servicios", "d": "Quiere verse confiable en LinkedIn e Instagram y explicar lo que hace."}
+  ],
+  "faq": [
+   {"q": "¿En qué redes trabajan?", "a": "Principalmente Instagram, Facebook, TikTok y LinkedIn. Te recomendamos dónde estar según quiénes son tus clientes; no hace falta estar en todas."},
+   {"q": "¿Tengo que aprobar cada publicación?", "a": "Sí. Antes de publicar te enviamos el calendario y los diseños para que los revises y pidas cambios."},
+   {"q": "¿Con esto voy a vender más?", "a": "Las redes ordenadas ayudan a que confíen en ti y te escriban. Si quieres llegar a gente nueva más rápido, lo ideal es sumar {{paid-media|publicidad digital}}."},
+   {"q": "¿Necesito tener fotos propias?", "a": "Ayuda mucho. Si no tienes, podemos hacer una sesión de fotos o grabar videos de tus productos y tu equipo."}
+  ]
+ },
+ "en": {
+  "slug": "content-and-social-media",
+  "nombre": "Content & social media",
+  "seo_titulo": "Social media management in Chile: Instagram, TikTok and Facebook | ¡Miiish!",
+  "seo_desc": "We plan, design and publish your social media content and reply to your community. Instagram, TikTok, Facebook and LinkedIn for small businesses and brands.",
+  "h1": "Social media that looks good and works for your business",
+  "bajada": "We plan what to post, design it, publish it and talk with your followers, so you can focus on running your business.",
+  "que_es": [
+   "Today many people discover a brand on Instagram or TikTok before they see its website or shop. If your accounts look abandoned or improvised, that customer moves on to another one.",
+   "Managing social media is not just posting photos: it means deciding what to say each week, keeping a recognizable style, replying on time and checking what works. Keep in mind: lots of followers or likes do not mean more sales. That is why we measure what matters: messages, inquiries and visits to your store."
+  ],
+  "senales": [
+   "You post when you remember, and then weeks go by with nothing.",
+   "You don't know what to post and end up repeating the same thing.",
+   "People send you direct messages and nobody has time to answer.",
+   "Your posts don't look like each other or like your brand."
+  ],
+  "ayuda": [
+   {"t": "A plan for the month", "d": "We build a {{parrilla|content calendar}}: what gets posted each day, on which network and why."},
+   {"t": "Design for every piece", "d": "We design posts, carousels and stories in your style, so your account looks tidy and recognizable."},
+   {"t": "Short videos", "d": "We shoot and edit reels and TikToks designed to catch attention in the first seconds."},
+   {"t": "Talking with your community", "d": "We do {{community|community management}}: we reply to comments and messages in your brand's voice and flag sales inquiries to you."},
+   {"t": "Checking what works", "d": "Every month we show you, in plain terms, which posts brought the most inquiries, and we adjust the plan."}
+  ],
+  "pasos": [
+   {"t": "We get to know your brand", "d": "We review your current accounts, your competitors and what you want to achieve."},
+   {"t": "We plan the month", "d": "We send you the calendar and captions to approve before designing."},
+   {"t": "We produce and publish", "d": "We design, shoot and schedule the posts on the agreed dates."},
+   {"t": "We measure and improve", "d": "We review the results with you and use what we learn for the next month."}
+  ],
+  "recibes": [
+   "Monthly posting calendar",
+   "Design of posts, carousels and stories",
+   "Reels and TikTok editing",
+   "Replies to comments and messages",
+   "Easy-to-read monthly report"
+  ],
+  "ejemplos": [
+   {"t": "A restaurant", "d": "Wants to show its dishes, announce promotions and take bookings by message."},
+   {"t": "A clothing store", "d": "Needs to show new products every week and send people to its online store."},
+   {"t": "A service company", "d": "Wants to look trustworthy on LinkedIn and Instagram and explain what it does."}
+  ],
+  "faq": [
+   {"q": "Which networks do you work with?", "a": "Mainly Instagram, Facebook, TikTok and LinkedIn. We recommend where to be based on who your customers are; you don't need to be everywhere."},
+   {"q": "Do I approve every post?", "a": "Yes. Before publishing we send you the calendar and designs so you can review them and ask for changes."},
+   {"q": "Will this make me sell more?", "a": "Well-kept accounts help people trust you and reach out. If you want to reach new people faster, the best move is to add {{paid-media|digital advertising}}."},
+   {"q": "Do I need my own photos?", "a": "It helps a lot. If you don't have them, we can do a photo shoot or film your products and your team."}
+  ]
+ },
+ "pt": {
+  "slug": "conteudo-e-redes-sociais",
+  "nombre": "Conteúdo e redes sociais",
+  "seo_titulo": "Gestão de redes sociais: Instagram, TikTok e Facebook | ¡Miiish!",
+  "seo_desc": "Planejamos, criamos e publicamos o conteúdo das suas redes sociais e respondemos à sua comunidade. Instagram, TikTok, Facebook e LinkedIn para pequenas empresas e marcas.",
+  "h1": "Redes sociais bonitas que trabalham pelo seu negócio",
+  "bajada": "Planejamos o que publicar, criamos, publicamos e conversamos com seus seguidores, para você se dedicar ao seu negócio.",
+  "que_es": [
+   "Hoje muita gente conhece uma marca primeiro pelo Instagram ou TikTok, antes do site ou da loja. Se suas redes parecem abandonadas ou improvisadas, esse cliente vai para outra conta.",
+   "Cuidar das redes não é só postar fotos: é decidir o que contar a cada semana, manter um estilo reconhecível, responder a tempo e ver o que funciona. Atenção: ter muitos seguidores ou curtidas não significa vender mais. Por isso medimos o que importa: mensagens, consultas e visitas à sua loja."
+  ],
+  "senales": [
+   "Você posta quando lembra e depois passam semanas sem nada.",
+   "Você não sabe o que postar e acaba repetindo a mesma coisa.",
+   "As pessoas mandam mensagens e ninguém consegue responder.",
+   "Seus posts não se parecem entre si nem com a sua marca."
+  ],
+  "ayuda": [
+   {"t": "Um plano para o mês", "d": "Montamos um {{parrilla|calendário de conteúdo}}: o que é publicado cada dia, em qual rede e com qual objetivo."},
+   {"t": "Design de cada peça", "d": "Criamos posts, carrosséis e stories no seu estilo, para sua conta ficar organizada e reconhecível."},
+   {"t": "Vídeos curtos", "d": "Gravamos e editamos reels e TikToks pensados para prender a atenção nos primeiros segundos."},
+   {"t": "Conversar com sua comunidade", "d": "Fazemos {{community|community management}}: respondemos comentários e mensagens com o tom da sua marca e avisamos você das consultas de venda."},
+   {"t": "Ver o que funciona", "d": "Todo mês mostramos de forma simples quais posts trouxeram mais consultas e ajustamos o plano."}
+  ],
+  "pasos": [
+   {"t": "Conhecemos sua marca", "d": "Analisamos suas redes atuais, sua concorrência e o que você quer alcançar."},
+   {"t": "Planejamos o mês", "d": "Enviamos o calendário e os textos para você aprovar antes de criarmos."},
+   {"t": "Produzimos e publicamos", "d": "Criamos, gravamos e agendamos as publicações nas datas combinadas."},
+   {"t": "Medimos e melhoramos", "d": "Revisamos os resultados com você e usamos o aprendizado no mês seguinte."}
+  ],
+  "recibes": [
+   "Calendário mensal de publicações",
+   "Design de posts, carrosséis e stories",
+   "Edição de reels e TikToks",
+   "Resposta a comentários e mensagens",
+   "Relatório mensal fácil de entender"
+  ],
+  "ejemplos": [
+   {"t": "Um restaurante", "d": "Quer mostrar seus pratos, anunciar promoções e receber reservas por mensagem."},
+   {"t": "Uma loja de roupas", "d": "Precisa mostrar produtos novos toda semana e levar pessoas à loja online."},
+   {"t": "Uma empresa de serviços", "d": "Quer transmitir confiança no LinkedIn e no Instagram e explicar o que faz."}
+  ],
+  "faq": [
+   {"q": "Em quais redes vocês trabalham?", "a": "Principalmente Instagram, Facebook, TikTok e LinkedIn. Recomendamos onde estar de acordo com quem são seus clientes; não é preciso estar em todas."},
+   {"q": "Preciso aprovar cada publicação?", "a": "Sim. Antes de publicar enviamos o calendário e os designs para você revisar e pedir alterações."},
+   {"q": "Com isso vou vender mais?", "a": "Redes organizadas ajudam as pessoas a confiar em você e a entrar em contato. Se você quer alcançar gente nova mais rápido, o ideal é somar {{paid-media|publicidade digital}}."},
+   {"q": "Preciso ter fotos próprias?", "a": "Ajuda muito. Se você não tiver, podemos fazer uma sessão de fotos ou gravar vídeos dos seus produtos e da sua equipe."}
+  ]
+ }
+}

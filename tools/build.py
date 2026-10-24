@@ -232,6 +232,12 @@ def sitemap(posts):
     hoy = datetime.date.today().isoformat()
     urls = [(DOMINIO + '/', hoy, '1.0'), (DOMINIO + '/en/', hoy, '0.9'), (DOMINIO + '/pt/', hoy, '0.9'), (DOMINIO + '/noticias/', posts[0]['fecha'][:10] if posts else hoy, '0.8')]
     urls += [(f'{DOMINIO}/noticias/{p["slug"]}/', p.get('actualizado', p['fecha'])[:10], '0.7') for p in posts]
+    try:  # páginas de servicios (tools/servicios.py)
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+        import servicios
+        urls += [(DOMINIO + u, hoy, pr) for u, pr in servicios.urls()]
+    except Exception as e:
+        print('Aviso: no se agregaron los servicios al sitemap:', e)
     filas = ''.join(f'  <url><loc>{u}</loc><lastmod>{m}</lastmod><priority>{pr}</priority></url>\n' for u, m, pr in urls)
     return f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n{filas}</urlset>\n'
 
@@ -289,6 +295,14 @@ def main():
     base_llms = os.path.join(RAIZ, '_contenido', 'llms-base.md')
     base = open(base_llms, encoding='utf-8').read().rstrip() if os.path.exists(base_llms) else '# ¡Miiish!'
     lista = '\n'.join(f'- [{p["titulo"]}]({DOMINIO}/noticias/{p["slug"]}/) ({p["fecha"][:10]}, {p["categoria"]}): {p["bajada"]}' for p in posts[:40])
+    try:
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+        import servicios
+        base += '\n\n## Páginas de servicios\n' + '\n'.join(
+            f'- [{x["es"]["nombre"]}]({DOMINIO}{servicios.ruta(x, "es")}): {x["es"]["seo_desc"]} (EN: {DOMINIO}{servicios.ruta(x, "en")} · PT: {DOMINIO}{servicios.ruta(x, "pt")})'
+            for x in servicios.cargar())
+    except Exception as e:
+        print('Aviso: no se agregaron los servicios a llms.txt:', e)
     open(os.path.join(RAIZ, 'llms.txt'), 'w', encoding='utf-8').write(base + '\n\n## Noticias recientes\n' + lista + '\n')
     portada(posts)
     print(f'OK: {len(posts)} noticias generadas')

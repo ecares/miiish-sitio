@@ -1,0 +1,155 @@
+{
+ "id": "web",
+ "orden": 3,
+ "color": "#D7FF3A",
+ "equipo": ["eduardo", "joaquin", "diego"],
+ "herramientas": ["Shopify", "Jumpseller", "WooCommerce", "WordPress", "Mercado Pago", "Google Analytics", "Search Console"],
+ "relacionados": ["publicidad", "sistemas", "branding"],
+ "es": {
+  "slug": "paginas-web-y-tiendas-online",
+  "nombre": "Páginas web y tiendas online",
+  "seo_titulo": "Diseño de páginas web y tiendas online en Chile | ¡Miiish!",
+  "seo_desc": "Hacemos páginas web y tiendas online rápidas, que se ven bien en el celular, aparecen en Google y permiten pagar en línea. Shopify, Jumpseller, WooCommerce y WordPress.",
+  "h1": "Tu negocio abierto las 24 horas, en internet",
+  "bajada": "Creamos la página web de tu empresa o tu tienda online: rápida, fácil de usar en el celular, preparada para aparecer en Google y para cobrar en línea.",
+  "que_es": [
+   "Tu página web es el único lugar de internet que es completamente tuyo. Las redes sociales cambian sus reglas, pero tu web siempre está ahí para explicar quién eres, mostrar lo que vendes y recibir pedidos o consultas a cualquier hora.",
+   "Una tienda online, o {{ecommerce|e-commerce}}, va un paso más allá: tus clientes eligen el producto, pagan con tarjeta o transferencia y tú solo preparas el despacho. Y para saber si está funcionando, la dejamos midiendo visitas y ventas desde el primer día."
+  ],
+  "senales": [
+   "Tu página es antigua, lenta o se ve mal en el celular.",
+   "Vendes por Instagram o WhatsApp y pierdes tiempo respondiendo precios y datos de pago.",
+   "Cuando buscan tu negocio en Google no apareces, o aparece tu competencia.",
+   "No sabes cuántas personas visitan tu web ni de dónde vienen."
+  ],
+  "ayuda": [
+   {"t": "Páginas para campañas", "d": "Creamos landing pages: páginas de una sola sección pensadas para que quien llega desde un anuncio te escriba o compre."},
+   {"t": "Sitio web de tu empresa", "d": "Diseñamos y programamos tu sitio en WordPress o a medida, {{responsive|responsive}} y fácil de actualizar."},
+   {"t": "Tiendas online", "d": "Armamos tu tienda en Shopify, Jumpseller o WooCommerce, con medios de pago chilenos, despacho y control de stock."},
+   {"t": "Aparecer en Google", "d": "Dejamos la página preparada con {{seo|SEO}} técnico: velocidad, textos y estructura para que Google la entienda y la muestre."},
+   {"t": "Medir lo que pasa", "d": "Instalamos {{analitica|analítica web}} y medición de {{conversion|conversiones}}, para saber cuántas visitas se convierten en consultas o ventas."}
+  ],
+  "pasos": [
+   {"t": "Definimos qué necesitas", "d": "Conversamos sobre tus productos o servicios, tus clientes y lo que la página tiene que lograr."},
+   {"t": "Diseñamos las pantallas", "d": "Te mostramos cómo se verá en computador y celular antes de programar, para ajustar lo necesario."},
+   {"t": "Programamos y probamos", "d": "Construimos la página, cargamos el contenido y probamos pagos, formularios y velocidad."},
+   {"t": "Publicamos y te enseñamos", "d": "La dejamos en línea, te mostramos cómo actualizarla y seguimos disponibles para mejoras."}
+  ],
+  "recibes": [
+   "Página web o tienda online publicada en tu dominio",
+   "Diseño adaptado a celular, tablet y computador",
+   "Pagos en línea y formularios de contacto funcionando",
+   "Configuración básica de SEO y Google Search Console",
+   "Medición con Google Analytics y Google Tag Manager"
+  ],
+  "ejemplos": [
+   {"t": "Una tienda de decoración", "d": "Vendía solo por mensajes y ahora quiere que el cliente compre y pague solo."},
+   {"t": "Una consulta o estudio profesional", "d": "Necesita un sitio claro que explique sus servicios y reciba agendamientos."},
+   {"t": "Una marca que hace publicidad", "d": "Quiere una página especial para cada campaña y saber cuántas ventas trae cada anuncio."}
+  ],
+  "faq": [
+   {"q": "¿Qué plataforma me conviene?", "a": "Depende de lo que vendas y de cuánto quieras crecer. Shopify y Jumpseller son muy simples de administrar; WooCommerce y WordPress dan más libertad. Te recomendamos la mejor opción después de conocer tu negocio."},
+   {"q": "¿Voy a poder actualizarla yo?", "a": "Sí. Te dejamos un panel para cambiar textos, fotos, precios y productos, y te enseñamos a usarlo."},
+   {"q": "¿Puedo cobrar con tarjetas chilenas?", "a": "Sí. Conectamos medios de pago como Mercado Pago, Webpay o Flow, según la plataforma."},
+   {"q": "¿Cuánto tarda en aparecer en Google?", "a": "Google demora un tiempo en revisar una página nueva. Nosotros la dejamos bien preparada y conectada a Search Console para acelerar ese proceso."}
+  ]
+ },
+ "en": {
+  "slug": "websites-and-online-stores",
+  "nombre": "Websites & online stores",
+  "seo_titulo": "Website and online store design in Chile | ¡Miiish!",
+  "seo_desc": "We build fast websites and online stores that look good on phones, show up on Google and take online payments. Shopify, Jumpseller, WooCommerce and WordPress.",
+  "h1": "Your business open 24 hours a day, online",
+  "bajada": "We create your company website or online store: fast, easy to use on a phone, ready to show up on Google and to take payments online.",
+  "que_es": [
+   "Your website is the only place on the internet that is completely yours. Social networks change their rules, but your site is always there to explain who you are, show what you sell and take orders or inquiries at any time.",
+   "An online store, or {{ecommerce|e-commerce}}, goes one step further: customers choose the product, pay by card or transfer and you just prepare the shipment. And to know if it is working, we set it up to measure visits and sales from day one."
+  ],
+  "senales": [
+   "Your website is old, slow or looks bad on a phone.",
+   "You sell through Instagram or WhatsApp and waste time answering prices and payment details.",
+   "When people search for your business on Google you don't show up, or your competitor does.",
+   "You don't know how many people visit your site or where they come from."
+  ],
+  "ayuda": [
+   {"t": "Campaign pages", "d": "We create landing pages: single-section pages designed so people arriving from an ad contact you or buy."},
+   {"t": "Your company website", "d": "We design and build your site in WordPress or custom code, {{responsive|responsive}} and easy to update."},
+   {"t": "Online stores", "d": "We set up your store on Shopify, Jumpseller or WooCommerce, with local payment methods, shipping and stock control."},
+   {"t": "Showing up on Google", "d": "We prepare the site with technical {{seo|SEO}}: speed, text and structure so Google understands it and shows it."},
+   {"t": "Measuring what happens", "d": "We install {{analitica|web analytics}} and {{conversion|conversion}} tracking, so you know how many visits turn into inquiries or sales."}
+  ],
+  "pasos": [
+   {"t": "We define what you need", "d": "We talk about your products or services, your customers and what the site has to achieve."},
+   {"t": "We design the screens", "d": "We show you how it will look on desktop and mobile before building it, so we can adjust what's needed."},
+   {"t": "We build and test", "d": "We build the site, load the content and test payments, forms and speed."},
+   {"t": "We launch and train you", "d": "We put it online, show you how to update it and stay available for improvements."}
+  ],
+  "recibes": [
+   "Website or online store live on your domain",
+   "Design adapted to phone, tablet and desktop",
+   "Online payments and contact forms working",
+   "Basic SEO setup and Google Search Console",
+   "Tracking with Google Analytics and Google Tag Manager"
+  ],
+  "ejemplos": [
+   {"t": "A home decor shop", "d": "Used to sell only through messages and now wants customers to buy and pay on their own."},
+   {"t": "A professional practice", "d": "Needs a clear site that explains its services and takes bookings."},
+   {"t": "A brand running ads", "d": "Wants a dedicated page for each campaign and to know how many sales each ad brings."}
+  ],
+  "faq": [
+   {"q": "Which platform is right for me?", "a": "It depends on what you sell and how much you want to grow. Shopify and Jumpseller are very easy to manage; WooCommerce and WordPress give more freedom. We recommend the best option once we know your business."},
+   {"q": "Will I be able to update it myself?", "a": "Yes. We give you a dashboard to change text, photos, prices and products, and we show you how to use it."},
+   {"q": "Can I take local card payments?", "a": "Yes. We connect payment providers such as Mercado Pago, Webpay or Flow, depending on the platform."},
+   {"q": "How long until it shows up on Google?", "a": "Google takes some time to review a new site. We prepare it properly and connect it to Search Console to speed up that process."}
+  ]
+ },
+ "pt": {
+  "slug": "sites-e-lojas-online",
+  "nombre": "Sites e lojas online",
+  "seo_titulo": "Criação de sites e lojas online | ¡Miiish!",
+  "seo_desc": "Criamos sites e lojas online rápidos, bonitos no celular, preparados para aparecer no Google e receber pagamentos online. Shopify, Jumpseller, WooCommerce e WordPress.",
+  "h1": "Seu negócio aberto 24 horas, na internet",
+  "bajada": "Criamos o site da sua empresa ou sua loja online: rápido, fácil de usar no celular, preparado para aparecer no Google e para receber pagamentos online.",
+  "que_es": [
+   "Seu site é o único lugar da internet que é totalmente seu. As redes sociais mudam as regras, mas seu site está sempre lá para explicar quem você é, mostrar o que vende e receber pedidos ou consultas a qualquer hora.",
+   "Uma loja online, ou {{ecommerce|e-commerce}}, vai um passo além: o cliente escolhe o produto, paga com cartão ou transferência e você só prepara o envio. E para saber se está funcionando, deixamos tudo medindo visitas e vendas desde o primeiro dia."
+  ],
+  "senales": [
+   "Seu site é antigo, lento ou fica ruim no celular.",
+   "Você vende pelo Instagram ou WhatsApp e perde tempo respondendo preços e dados de pagamento.",
+   "Quando procuram seu negócio no Google você não aparece, ou aparece a concorrência.",
+   "Você não sabe quantas pessoas visitam seu site nem de onde vêm."
+  ],
+  "ayuda": [
+   {"t": "Páginas para campanhas", "d": "Criamos landing pages: páginas de uma só seção pensadas para que quem chega de um anúncio entre em contato ou compre."},
+   {"t": "Site da sua empresa", "d": "Criamos e programamos seu site em WordPress ou sob medida, {{responsive|responsivo}} e fácil de atualizar."},
+   {"t": "Lojas online", "d": "Montamos sua loja em Shopify, Jumpseller ou WooCommerce, com meios de pagamento locais, envio e controle de estoque."},
+   {"t": "Aparecer no Google", "d": "Deixamos o site preparado com {{seo|SEO}} técnico: velocidade, textos e estrutura para o Google entender e mostrar sua página."},
+   {"t": "Medir o que acontece", "d": "Instalamos {{analitica|analytics}} e medição de {{conversion|conversões}}, para saber quantas visitas viram consultas ou vendas."}
+  ],
+  "pasos": [
+   {"t": "Definimos o que você precisa", "d": "Conversamos sobre seus produtos ou serviços, seus clientes e o que o site precisa alcançar."},
+   {"t": "Criamos as telas", "d": "Mostramos como vai ficar no computador e no celular antes de programar, para ajustar o necessário."},
+   {"t": "Programamos e testamos", "d": "Construímos o site, colocamos o conteúdo e testamos pagamentos, formulários e velocidade."},
+   {"t": "Publicamos e ensinamos", "d": "Colocamos no ar, mostramos como atualizar e continuamos disponíveis para melhorias."}
+  ],
+  "recibes": [
+   "Site ou loja online publicado no seu domínio",
+   "Design adaptado a celular, tablet e computador",
+   "Pagamentos online e formulários de contato funcionando",
+   "Configuração básica de SEO e Google Search Console",
+   "Medição com Google Analytics e Google Tag Manager"
+  ],
+  "ejemplos": [
+   {"t": "Uma loja de decoração", "d": "Vendia só por mensagens e agora quer que o cliente compre e pague sozinho."},
+   {"t": "Um consultório ou escritório", "d": "Precisa de um site claro que explique seus serviços e receba agendamentos."},
+   {"t": "Uma marca que anuncia", "d": "Quer uma página para cada campanha e saber quantas vendas cada anúncio traz."}
+  ],
+  "faq": [
+   {"q": "Qual plataforma é melhor para mim?", "a": "Depende do que você vende e de quanto quer crescer. Shopify e Jumpseller são muito simples de administrar; WooCommerce e WordPress dão mais liberdade. Recomendamos a melhor opção depois de conhecer seu negócio."},
+   {"q": "Vou conseguir atualizar sozinho?", "a": "Sim. Deixamos um painel para mudar textos, fotos, preços e produtos, e ensinamos você a usá-lo."},
+   {"q": "Posso receber pagamentos com cartão?", "a": "Sim. Conectamos meios de pagamento como Mercado Pago e outros disponíveis no seu país, conforme a plataforma."},
+   {"q": "Quanto tempo leva para aparecer no Google?", "a": "O Google leva um tempo para analisar um site novo. Nós deixamos tudo bem preparado e conectado ao Search Console para acelerar esse processo."}
+  ]
+ }
+}

@@ -1,0 +1,155 @@
+{
+ "id": "video",
+ "orden": 5,
+ "color": "#FF4FD8",
+ "equipo": ["matias", "javiera", "joaquin"],
+ "herramientas": ["Premiere Pro", "DaVinci Resolve", "After Effects", "CapCut"],
+ "relacionados": ["animacion", "contenido", "publicidad"],
+ "es": {
+  "slug": "video",
+  "nombre": "Video",
+  "seo_titulo": "Producción de video para marcas en Chile: reels, spots y corporativos | ¡Miiish!",
+  "seo_desc": "Producimos videos para tu marca de principio a fin: idea, guion, grabación, edición, color y sonido. Reels, TikToks, videos para anuncios, de producto y corporativos.",
+  "h1": "Videos que hacen que la gente se detenga a mirar",
+  "bajada": "Nos encargamos de todo: la idea, el guion, la grabación, la edición, el color y el sonido. Reels, TikToks, videos para anuncios, de producto y de tu empresa.",
+  "que_es": [
+   "El video es el formato que más se ve en redes sociales y el que mejor explica un producto en pocos segundos. Un buen video muestra cómo se usa lo que vendes, quién está detrás y por qué vale la pena.",
+   "Producir un video no es solo apretar \"grabar\": hay que pensar qué contar, cómo contarlo en los primeros tres segundos, grabar con buena luz y sonido, y editar para que se vea profesional en un celular. Eso es lo que hacemos."
+  ],
+  "senales": [
+   "Sabes que necesitas videos, pero no sabes por dónde empezar.",
+   "Grabas con el celular y el resultado no se ve como el de las marcas que admiras.",
+   "Tus anuncios con imagen fija ya no funcionan tan bien.",
+   "Necesitas un video que explique tu empresa para clientes o inversionistas."
+  ],
+  "ayuda": [
+   {"t": "La idea y el guion", "d": "Pensamos qué contar y cómo, y lo dibujamos en un {{storyboard|storyboard}} para que veas el video antes de grabarlo."},
+   {"t": "La grabación", "d": "Grabamos en tu local, en exteriores o en estudio, con cámaras, luces y sonido profesionales, y con {{foto|dirección de fotografía}}."},
+   {"t": "La edición", "d": "Editamos con ritmo, agregamos música, textos y subtítulos, y adaptamos el video a cada red: vertical, cuadrado u horizontal."},
+   {"t": "El color y el sonido", "d": "Hacemos {{color|color grading}} para que todo se vea con el estilo de tu marca, y limpiamos y mezclamos el audio."},
+   {"t": "Versiones para anuncios", "d": "Preparamos cortes de distintas duraciones para usarlos en {{paid-media|publicidad digital}} y comparar cuál funciona mejor."}
+  ],
+  "pasos": [
+   {"t": "Definimos la idea", "d": "Conversamos sobre qué quieres lograr con el video, dónde se va a ver y a quién le habla."},
+   {"t": "Preparamos la grabación", "d": "Escribimos el guion, armamos el storyboard y coordinamos lugar, personas y fecha."},
+   {"t": "Grabamos", "d": "Vamos con el equipo necesario y grabamos todo lo planificado, más tomas extra para redes."},
+   {"t": "Editamos y entregamos", "d": "Editamos, te mostramos una primera versión, hacemos los ajustes y te entregamos los archivos finales."}
+  ],
+  "recibes": [
+   "Guion y storyboard",
+   "Grabación con equipo profesional",
+   "Edición, música, textos y subtítulos",
+   "Corrección de color y sonido",
+   "Versiones listas para Instagram, TikTok, YouTube y anuncios"
+  ],
+  "ejemplos": [
+   {"t": "Una marca de cosmética", "d": "Necesita reels mostrando cómo se usan sus productos para redes y anuncios."},
+   {"t": "Una constructora o inmobiliaria", "d": "Quiere un video corporativo que muestre sus proyectos y su equipo."},
+   {"t": "Un restaurante", "d": "Busca videos cortos de sus platos y su ambiente para TikTok e Instagram."}
+  ],
+  "faq": [
+   {"q": "¿Graban fuera de Santiago?", "a": "Sí. Podemos coordinar grabaciones en otras ciudades; lo conversamos según el proyecto."},
+   {"q": "¿Necesito actores o modelos?", "a": "Depende de la idea. Muchas veces funciona mejor mostrar a tu propio equipo; si se necesitan actores, te ayudamos a conseguirlos."},
+   {"q": "¿Puedo pedir cambios en la edición?", "a": "Sí. Te mostramos una primera versión y hacemos los ajustes que acordemos antes de entregar."},
+   {"q": "¿Me entregan el video para cada red social?", "a": "Sí. Te entregamos versiones en formato vertical, cuadrado y horizontal según dónde lo vayas a publicar."}
+  ]
+ },
+ "en": {
+  "slug": "video",
+  "nombre": "Video",
+  "seo_titulo": "Video production for brands: reels, ads and corporate videos | ¡Miiish!",
+  "seo_desc": "We produce videos for your brand from start to finish: idea, script, shooting, editing, color and sound. Reels, TikToks, ad videos, product and corporate videos.",
+  "h1": "Videos that make people stop and watch",
+  "bajada": "We take care of everything: the idea, script, shoot, editing, color and sound. Reels, TikToks, ad videos, product videos and company videos.",
+  "que_es": [
+   "Video is the most watched format on social media and the one that best explains a product in a few seconds. A good video shows how what you sell is used, who is behind it and why it is worth it.",
+   "Producing a video is not just hitting \"record\": you need to think about what to say, how to say it in the first three seconds, shoot with good light and sound, and edit so it looks professional on a phone. That is what we do."
+  ],
+  "senales": [
+   "You know you need videos, but don't know where to start.",
+   "You film with your phone and it doesn't look like the brands you admire.",
+   "Your still-image ads are not working as well anymore.",
+   "You need a video that explains your company to customers or investors."
+  ],
+  "ayuda": [
+   {"t": "The idea and the script", "d": "We figure out what to say and how, and draw it as a {{storyboard|storyboard}} so you can see the video before we shoot it."},
+   {"t": "The shoot", "d": "We film at your shop, outdoors or in a studio, with professional cameras, lighting and sound, and with {{foto|cinematography}}."},
+   {"t": "The edit", "d": "We edit with rhythm, add music, text and subtitles, and adapt the video to each network: vertical, square or horizontal."},
+   {"t": "Color and sound", "d": "We do {{color|color grading}} so everything looks like your brand, and we clean up and mix the audio."},
+   {"t": "Ad versions", "d": "We prepare cuts of different lengths to use in {{paid-media|digital advertising}} and compare which one works best."}
+  ],
+  "pasos": [
+   {"t": "We define the idea", "d": "We talk about what you want the video to achieve, where it will be seen and who it is for."},
+   {"t": "We prepare the shoot", "d": "We write the script, build the storyboard and coordinate location, people and date."},
+   {"t": "We shoot", "d": "We bring the gear needed and film everything planned, plus extra shots for social media."},
+   {"t": "We edit and deliver", "d": "We edit, show you a first version, make the adjustments and deliver the final files."}
+  ],
+  "recibes": [
+   "Script and storyboard",
+   "Shoot with professional equipment",
+   "Editing, music, text and subtitles",
+   "Color and sound correction",
+   "Versions ready for Instagram, TikTok, YouTube and ads"
+  ],
+  "ejemplos": [
+   {"t": "A cosmetics brand", "d": "Needs reels showing how its products are used, for social media and ads."},
+   {"t": "A construction or real estate company", "d": "Wants a corporate video showing its projects and its team."},
+   {"t": "A restaurant", "d": "Wants short videos of its dishes and atmosphere for TikTok and Instagram."}
+  ],
+  "faq": [
+   {"q": "Do you shoot outside Santiago?", "a": "Yes. We can arrange shoots in other cities; we discuss it depending on the project."},
+   {"q": "Do I need actors or models?", "a": "It depends on the idea. Often it works better to show your own team; if actors are needed, we help you find them."},
+   {"q": "Can I ask for changes to the edit?", "a": "Yes. We show you a first version and make the agreed adjustments before delivery."},
+   {"q": "Do I get the video for each social network?", "a": "Yes. We deliver vertical, square and horizontal versions depending on where you will publish it."}
+  ]
+ },
+ "pt": {
+  "slug": "video",
+  "nombre": "Vídeo",
+  "seo_titulo": "Produção de vídeo para marcas: reels, comerciais e institucionais | ¡Miiish!",
+  "seo_desc": "Produzimos vídeos para sua marca do início ao fim: ideia, roteiro, gravação, edição, cor e som. Reels, TikToks, vídeos para anúncios, de produto e institucionais.",
+  "h1": "Vídeos que fazem as pessoas pararem para assistir",
+  "bajada": "Cuidamos de tudo: a ideia, o roteiro, a gravação, a edição, a cor e o som. Reels, TikToks, vídeos para anúncios, de produto e da sua empresa.",
+  "que_es": [
+   "O vídeo é o formato mais visto nas redes sociais e o que melhor explica um produto em poucos segundos. Um bom vídeo mostra como se usa o que você vende, quem está por trás e por que vale a pena.",
+   "Produzir um vídeo não é só apertar \"gravar\": é preciso pensar o que contar, como contar nos três primeiros segundos, gravar com boa luz e som e editar para ficar profissional no celular. É isso que fazemos."
+  ],
+  "senales": [
+   "Você sabe que precisa de vídeos, mas não sabe por onde começar.",
+   "Você grava com o celular e o resultado não parece o das marcas que admira.",
+   "Seus anúncios com imagem estática já não funcionam tão bem.",
+   "Você precisa de um vídeo que explique sua empresa para clientes ou investidores."
+  ],
+  "ayuda": [
+   {"t": "A ideia e o roteiro", "d": "Pensamos o que contar e como, e desenhamos em um {{storyboard|storyboard}} para você ver o vídeo antes da gravação."},
+   {"t": "A gravação", "d": "Gravamos na sua loja, em externas ou em estúdio, com câmeras, luz e som profissionais, e com {{foto|direção de fotografia}}."},
+   {"t": "A edição", "d": "Editamos com ritmo, colocamos música, textos e legendas, e adaptamos o vídeo para cada rede: vertical, quadrado ou horizontal."},
+   {"t": "A cor e o som", "d": "Fazemos {{color|color grading}} para tudo ficar no estilo da sua marca, e limpamos e mixamos o áudio."},
+   {"t": "Versões para anúncios", "d": "Preparamos cortes de durações diferentes para usar em {{paid-media|publicidade digital}} e comparar qual funciona melhor."}
+  ],
+  "pasos": [
+   {"t": "Definimos a ideia", "d": "Conversamos sobre o que você quer alcançar com o vídeo, onde ele vai ser visto e para quem fala."},
+   {"t": "Preparamos a gravação", "d": "Escrevemos o roteiro, montamos o storyboard e coordenamos local, pessoas e data."},
+   {"t": "Gravamos", "d": "Levamos o equipamento necessário e gravamos tudo o que foi planejado, mais tomadas extras para as redes."},
+   {"t": "Editamos e entregamos", "d": "Editamos, mostramos uma primeira versão, fazemos os ajustes e entregamos os arquivos finais."}
+  ],
+  "recibes": [
+   "Roteiro e storyboard",
+   "Gravação com equipamento profissional",
+   "Edição, música, textos e legendas",
+   "Correção de cor e som",
+   "Versões prontas para Instagram, TikTok, YouTube e anúncios"
+  ],
+  "ejemplos": [
+   {"t": "Uma marca de cosméticos", "d": "Precisa de reels mostrando como usar seus produtos, para redes e anúncios."},
+   {"t": "Uma construtora ou imobiliária", "d": "Quer um vídeo institucional que mostre seus projetos e sua equipe."},
+   {"t": "Um restaurante", "d": "Busca vídeos curtos dos pratos e do ambiente para TikTok e Instagram."}
+  ],
+  "faq": [
+   {"q": "Vocês gravam fora de Santiago?", "a": "Sim. Podemos organizar gravações em outras cidades; conversamos conforme o projeto."},
+   {"q": "Preciso de atores ou modelos?", "a": "Depende da ideia. Muitas vezes funciona melhor mostrar sua própria equipe; se forem necessários atores, ajudamos a encontrá-los."},
+   {"q": "Posso pedir alterações na edição?", "a": "Sim. Mostramos uma primeira versão e fazemos os ajustes combinados antes da entrega."},
+   {"q": "Vocês entregam o vídeo para cada rede social?", "a": "Sim. Entregamos versões vertical, quadrada e horizontal conforme onde você vai publicar."}
+  ]
+ }
+}

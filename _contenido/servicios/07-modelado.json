@@ -1,0 +1,155 @@
+{
+ "id": "modelado",
+ "orden": 7,
+ "color": "#D7FF3A",
+ "equipo": ["diego", "camila"],
+ "herramientas": ["Blender", "Cinema 4D", "Unreal Engine", "Photoshop"],
+ "relacionados": ["merch", "animacion", "web"],
+ "es": {
+  "slug": "modelado-y-render-3d",
+  "nombre": "Modelado y render 3D",
+  "seo_titulo": "Modelado 3D y render de productos en Chile | ¡Miiish!",
+  "seo_desc": "Creamos tu producto, envase o espacio en 3D y hacemos imágenes y animaciones realistas sin sesión de fotos. Ideal para preventas, tiendas online, catálogos y anuncios.",
+  "h1": "Muestra tu producto antes de fabricarlo",
+  "bajada": "Creamos tu producto, envase, mueble o espacio en 3D y hacemos imágenes y animaciones tan reales que parecen fotos, sin necesidad de una sesión fotográfica.",
+  "que_es": [
+   "El 3D es como construir tu producto dentro del computador. Una vez que existe en digital, podemos mostrarlo desde cualquier ángulo, en cualquier color, en cualquier escenario y con la luz perfecta.",
+   "Esto sirve para vender algo que todavía no está fabricado, probar variantes de un envase antes de imprimirlo, mostrar cómo quedará un espacio o tener imágenes de catálogo sin depender de fotos. Y si después cambias un detalle, no hay que volver a fotografiar todo."
+  ],
+  "senales": [
+   "Quieres lanzar una preventa, pero el producto todavía no existe.",
+   "Las fotos de tu producto no se ven tan bien como quisieras o son caras de repetir.",
+   "Necesitas mostrar muchas variantes de colores o modelos.",
+   "Tienes que presentar un stand, local o espacio que aún no está construido."
+  ],
+  "ayuda": [
+   {"t": "Tu producto en 3D", "d": "Hacemos {{modelado|modelado 3D}} de tu producto a partir de planos, fotos o una idea."},
+   {"t": "Materiales realistas", "d": "Con {{texturizado|texturizado}} le damos a cada superficie su aspecto real: metal, vidrio, tela, madera o plástico."},
+   {"t": "Imágenes como fotos", "d": "Hacemos {{render|render}} fotorrealista de tu producto en fondo blanco o en ambientes, listo para tu tienda online y tus anuncios."},
+   {"t": "Envases en 3D", "d": "Probamos tu {{packaging|packaging}} en 3D para ver cómo se verá en la góndola antes de imprimirlo."},
+   {"t": "Animaciones 3D", "d": "Animamos tu producto girando, armándose o mostrando sus partes, para redes, anuncios y presentaciones."}
+  ],
+  "pasos": [
+   {"t": "Reunimos la información", "d": "Nos envías planos, medidas, fotos, muestras o referencias de lo que quieres mostrar."},
+   {"t": "Modelamos", "d": "Construimos el modelo en 3D y te enviamos vistas simples para confirmar formas y proporciones."},
+   {"t": "Ambientamos y renderizamos", "d": "Aplicamos materiales, luz y escenario, y generamos las imágenes o la animación."},
+   {"t": "Ajustamos y entregamos", "d": "Hacemos los cambios acordados y te entregamos los archivos en alta calidad."}
+  ],
+  "recibes": [
+   "Modelo 3D de tu producto, envase o espacio",
+   "Imágenes realistas en alta resolución",
+   "Vistas en fondo blanco para tu tienda online",
+   "Escenas ambientadas para redes y anuncios",
+   "Animación 3D, si la necesitas"
+  ],
+  "ejemplos": [
+   {"t": "Una marca que lanza un producto", "d": "Quiere vender en preventa con imágenes realistas antes de fabricarlo."},
+   {"t": "Una fábrica de muebles", "d": "Necesita mostrar cada modelo en muchos colores sin fotografiarlos todos."},
+   {"t": "Una empresa que va a una feria", "d": "Quiere ver cómo quedará su stand antes de construirlo."}
+  ],
+  "faq": [
+   {"q": "¿Qué necesito para empezar?", "a": "Lo ideal son planos o medidas, pero también podemos trabajar desde fotos, una muestra física o un boceto."},
+   {"q": "¿Se nota que no es una foto?", "a": "Un buen {{render|render}} es muy difícil de distinguir de una foto. Cuidamos materiales, luz y detalles para que se vea real."},
+   {"q": "¿Puedo usar el modelo después para otras imágenes?", "a": "Sí. Una vez hecho el modelo, es más rápido crear nuevas imágenes, colores o escenarios."},
+   {"q": "¿Sirve para mi tienda online?", "a": "Sí. Muchas tiendas usan renders en vez de fotos porque todas las imágenes quedan iguales y se pueden cambiar fácilmente."}
+  ]
+ },
+ "en": {
+  "slug": "3d-modeling-and-rendering",
+  "nombre": "3D modeling & rendering",
+  "seo_titulo": "3D product modeling and rendering | ¡Miiish!",
+  "seo_desc": "We build your product, packaging or space in 3D and create realistic images and animations without a photo shoot. Great for pre-sales, online stores, catalogs and ads.",
+  "h1": "Show your product before it is made",
+  "bajada": "We build your product, packaging, furniture or space in 3D and create images and animations so real they look like photos, with no photo shoot needed.",
+  "que_es": [
+   "3D is like building your product inside the computer. Once it exists digitally, we can show it from any angle, in any color, in any setting and with perfect lighting.",
+   "This is useful to sell something that isn't manufactured yet, test packaging variations before printing, show what a space will look like or get catalog images without relying on photos. And if you later change a detail, you don't have to reshoot everything."
+  ],
+  "senales": [
+   "You want to launch a pre-sale, but the product doesn't exist yet.",
+   "Your product photos don't look as good as you'd like or are expensive to redo.",
+   "You need to show many color or model variations.",
+   "You have to present a booth, shop or space that isn't built yet."
+  ],
+  "ayuda": [
+   {"t": "Your product in 3D", "d": "We do {{modelado|3D modeling}} of your product from blueprints, photos or an idea."},
+   {"t": "Realistic materials", "d": "With {{texturizado|texturing}} we give each surface its real look: metal, glass, fabric, wood or plastic."},
+   {"t": "Images that look like photos", "d": "We create photorealistic {{render|renders}} of your product on white or in settings, ready for your online store and ads."},
+   {"t": "Packaging in 3D", "d": "We test your {{packaging|packaging}} in 3D to see how it will look on the shelf before printing it."},
+   {"t": "3D animations", "d": "We animate your product spinning, assembling or showing its parts, for social media, ads and presentations."}
+  ],
+  "pasos": [
+   {"t": "We gather information", "d": "You send us blueprints, measurements, photos, samples or references of what you want to show."},
+   {"t": "We model", "d": "We build the 3D model and send you simple views to confirm shapes and proportions."},
+   {"t": "We set the scene and render", "d": "We apply materials, light and setting, and generate the images or animation."},
+   {"t": "We adjust and deliver", "d": "We make the agreed changes and deliver high-quality files."}
+  ],
+  "recibes": [
+   "3D model of your product, packaging or space",
+   "High-resolution realistic images",
+   "White-background views for your online store",
+   "Styled scenes for social media and ads",
+   "3D animation, if you need it"
+  ],
+  "ejemplos": [
+   {"t": "A brand launching a product", "d": "Wants to pre-sell with realistic images before manufacturing."},
+   {"t": "A furniture maker", "d": "Needs to show each model in many colors without photographing them all."},
+   {"t": "A company going to a trade show", "d": "Wants to see what its booth will look like before building it."}
+  ],
+  "faq": [
+   {"q": "What do I need to get started?", "a": "Blueprints or measurements are ideal, but we can also work from photos, a physical sample or a sketch."},
+   {"q": "Can you tell it's not a photo?", "a": "A good {{render|render}} is very hard to tell apart from a photo. We take care of materials, light and details so it looks real."},
+   {"q": "Can I reuse the model for other images?", "a": "Yes. Once the model exists, creating new images, colors or settings is faster."},
+   {"q": "Is it useful for my online store?", "a": "Yes. Many stores use renders instead of photos because all images look consistent and are easy to change."}
+  ]
+ },
+ "pt": {
+  "slug": "modelagem-e-render-3d",
+  "nombre": "Modelagem e render 3D",
+  "seo_titulo": "Modelagem 3D e render de produtos | ¡Miiish!",
+  "seo_desc": "Criamos seu produto, embalagem ou ambiente em 3D e fazemos imagens e animações realistas sem sessão de fotos. Ideal para pré-venda, lojas online, catálogos e anúncios.",
+  "h1": "Mostre seu produto antes de fabricá-lo",
+  "bajada": "Criamos seu produto, embalagem, móvel ou ambiente em 3D e fazemos imagens e animações tão reais que parecem fotos, sem precisar de sessão fotográfica.",
+  "que_es": [
+   "O 3D é como construir seu produto dentro do computador. Depois que ele existe no digital, podemos mostrá-lo de qualquer ângulo, em qualquer cor, em qualquer cenário e com a luz perfeita.",
+   "Isso serve para vender algo que ainda não foi fabricado, testar variações de uma embalagem antes de imprimir, mostrar como vai ficar um ambiente ou ter imagens de catálogo sem depender de fotos. E se depois você mudar um detalhe, não é preciso fotografar tudo de novo."
+  ],
+  "senales": [
+   "Você quer lançar uma pré-venda, mas o produto ainda não existe.",
+   "As fotos do seu produto não ficam tão boas quanto você gostaria ou são caras de refazer.",
+   "Você precisa mostrar muitas variações de cores ou modelos.",
+   "Você precisa apresentar um estande, loja ou ambiente que ainda não foi construído."
+  ],
+  "ayuda": [
+   {"t": "Seu produto em 3D", "d": "Fazemos a {{modelado|modelagem 3D}} do seu produto a partir de plantas, fotos ou uma ideia."},
+   {"t": "Materiais realistas", "d": "Com a {{texturizado|texturização}} damos a cada superfície seu aspecto real: metal, vidro, tecido, madeira ou plástico."},
+   {"t": "Imagens como fotos", "d": "Fazemos {{render|render}} fotorrealista do seu produto em fundo branco ou em ambientes, pronto para sua loja online e seus anúncios."},
+   {"t": "Embalagens em 3D", "d": "Testamos sua {{packaging|embalagem}} em 3D para ver como vai ficar na prateleira antes de imprimir."},
+   {"t": "Animações 3D", "d": "Animamos seu produto girando, se montando ou mostrando suas partes, para redes, anúncios e apresentações."}
+  ],
+  "pasos": [
+   {"t": "Reunimos as informações", "d": "Você nos envia plantas, medidas, fotos, amostras ou referências do que quer mostrar."},
+   {"t": "Modelamos", "d": "Construímos o modelo 3D e enviamos vistas simples para confirmar formas e proporções."},
+   {"t": "Ambientamos e renderizamos", "d": "Aplicamos materiais, luz e cenário, e geramos as imagens ou a animação."},
+   {"t": "Ajustamos e entregamos", "d": "Fazemos as alterações combinadas e entregamos os arquivos em alta qualidade."}
+  ],
+  "recibes": [
+   "Modelo 3D do seu produto, embalagem ou ambiente",
+   "Imagens realistas em alta resolução",
+   "Vistas em fundo branco para sua loja online",
+   "Cenas ambientadas para redes e anúncios",
+   "Animação 3D, se você precisar"
+  ],
+  "ejemplos": [
+   {"t": "Uma marca lançando um produto", "d": "Quer vender em pré-venda com imagens realistas antes de fabricar."},
+   {"t": "Uma fábrica de móveis", "d": "Precisa mostrar cada modelo em várias cores sem fotografar todos."},
+   {"t": "Uma empresa que vai a uma feira", "d": "Quer ver como vai ficar seu estande antes de construí-lo."}
+  ],
+  "faq": [
+   {"q": "O que eu preciso para começar?", "a": "O ideal são plantas ou medidas, mas também podemos trabalhar a partir de fotos, uma amostra física ou um esboço."},
+   {"q": "Dá para perceber que não é foto?", "a": "Um bom {{render|render}} é muito difícil de diferenciar de uma foto. Cuidamos de materiais, luz e detalhes para parecer real."},
+   {"q": "Posso usar o modelo depois para outras imagens?", "a": "Sim. Com o modelo pronto, criar novas imagens, cores ou cenários é mais rápido."},
+   {"q": "Serve para minha loja online?", "a": "Sim. Muitas lojas usam renders em vez de fotos porque todas as imagens ficam padronizadas e são fáceis de mudar."}
+  ]
+ }
+}

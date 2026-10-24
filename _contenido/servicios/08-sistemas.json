@@ -1,0 +1,155 @@
+{
+ "id": "sistemas",
+ "orden": 8,
+ "color": "#FF4FD8",
+ "equipo": ["eduardo", "javiera"],
+ "herramientas": ["Python", "React", "Node.js", "n8n", "Zapier", "GitHub"],
+ "relacionados": ["web", "publicidad", "branding"],
+ "es": {
+  "slug": "sistemas-a-medida",
+  "nombre": "Sistemas a medida",
+  "seo_titulo": "Sistemas a medida para pymes en Chile: inventario, ventas y clientes | ¡Miiish!",
+  "seo_desc": "Creamos sistemas hechos para tu negocio: punto de venta, control de stock, gestión de clientes, paneles y tareas automáticas conectadas a tu tienda online.",
+  "h1": "Ordena tu negocio con un sistema hecho para ti",
+  "bajada": "Si llevas las ventas, el stock o los clientes en planillas, cuadernos o mensajes, creamos un sistema simple que hace ese trabajo por ti y conecta todo en un solo lugar.",
+  "que_es": [
+   "Muchos negocios crecen usando planillas de Excel, cuadernos y chats. Funciona al principio, pero llega un momento en que se pierden pedidos, el stock no cuadra y nadie sabe cuánto se vendió realmente.",
+   "Un sistema a medida es un programa pensado exactamente para cómo trabajas tú: no tienes que adaptarte a un software genérico lleno de funciones que no usas. Además, puede conversar con tu tienda online, tu facturación u otras herramientas mediante {{api|APIs}}, para que la información se mueva sola."
+  ],
+  "senales": [
+   "Usas varias planillas que nunca coinciden entre sí.",
+   "Vendes en local y en internet y el stock se descuadra.",
+   "Pierdes tiempo copiando datos de un lugar a otro.",
+   "No tienes a mano cuánto vendiste, qué se mueve más o quiénes son tus mejores clientes."
+  ],
+  "ayuda": [
+   {"t": "Punto de venta", "d": "Creamos un sistema de {{pdv|punto de venta}} para cobrar en tu local y registrar cada venta automáticamente."},
+   {"t": "Control de inventario", "d": "Llevamos tu stock al día entre bodega, local y tienda online, con avisos cuando un producto se está acabando."},
+   {"t": "Gestión de clientes", "d": "Armamos un {{crm|CRM}}: un lugar donde ver a cada cliente, sus compras, conversaciones y próximos pasos."},
+   {"t": "Conectar tus herramientas", "d": "Hacemos {{integraciones|integraciones}} entre tu tienda online, tu sistema de pagos, tu facturación y otras apps."},
+   {"t": "Tareas que se hacen solas", "d": "Con {{automatizacion|automatizaciones}} eliminamos el trabajo repetitivo: correos, avisos, informes y traspasos de datos."}
+  ],
+  "pasos": [
+   {"t": "Conocemos cómo trabajas", "d": "Revisamos tus procesos, tus planillas y qué te quita más tiempo hoy."},
+   {"t": "Diseñamos la solución", "d": "Te mostramos cómo se verán las pantallas y qué hará el sistema, antes de programar."},
+   {"t": "Programamos por etapas", "d": "Construimos primero lo más importante, para que puedas usarlo pronto, y luego sumamos el resto."},
+   {"t": "Te acompañamos", "d": "Te enseñamos a usarlo, cargamos tus datos y seguimos disponibles para soporte y mejoras."}
+  ],
+  "recibes": [
+   "Sistema web que funciona en computador, tablet y celular",
+   "Usuarios y permisos para tu equipo",
+   "Paneles con tus números más importantes",
+   "Conexión con tu tienda online u otras herramientas",
+   "Capacitación y soporte"
+  ],
+  "ejemplos": [
+   {"t": "Una tienda con local y web", "d": "Necesita que el stock se descuente solo, venda donde venda."},
+   {"t": "Una empresa de servicios", "d": "Quiere ordenar a sus clientes, cotizaciones y seguimientos en un solo lugar."},
+   {"t": "Una distribuidora", "d": "Busca que los pedidos de sus vendedores lleguen directo a bodega, sin pasar por planillas."}
+  ],
+  "faq": [
+   {"q": "¿Por qué no usar un software que ya existe?", "a": "A veces conviene, y te lo diremos. Un sistema a medida tiene sentido cuando tu forma de trabajar no calza con los programas genéricos o cuando necesitas conectar varias herramientas."},
+   {"q": "¿Necesito saber de computación para usarlo?", "a": "No. Lo diseñamos para que sea simple y te enseñamos a usarlo a ti y a tu equipo."},
+   {"q": "¿Mis datos están seguros?", "a": "Sí. Usamos usuarios con contraseña, permisos por persona y respaldos de la información."},
+   {"q": "¿Se puede conectar con mi tienda online?", "a": "Sí. Lo conectamos con Shopify, Jumpseller, WooCommerce y otras plataformas mediante {{api|APIs}}."}
+  ]
+ },
+ "en": {
+  "slug": "custom-systems",
+  "nombre": "Custom systems",
+  "seo_titulo": "Custom software for small businesses: inventory, sales and customers | ¡Miiish!",
+  "seo_desc": "We build systems made for your business: point of sale, stock control, customer management, dashboards and automated tasks connected to your online store.",
+  "h1": "Organize your business with a system made for you",
+  "bajada": "If you keep sales, stock or customers in spreadsheets, notebooks or chats, we build a simple system that does that work for you and connects everything in one place.",
+  "que_es": [
+   "Many businesses grow using Excel spreadsheets, notebooks and chats. It works at first, but at some point orders get lost, stock doesn't add up and nobody knows how much was really sold.",
+   "A custom system is a program designed exactly for the way you work: you don't have to adapt to generic software full of features you don't use. It can also talk to your online store, invoicing or other tools through {{api|APIs}}, so information moves on its own."
+  ],
+  "senales": [
+   "You use several spreadsheets that never match each other.",
+   "You sell in-store and online and your stock gets out of sync.",
+   "You waste time copying data from one place to another.",
+   "You can't easily see how much you sold, what moves most or who your best customers are."
+  ],
+  "ayuda": [
+   {"t": "Point of sale", "d": "We build a {{pdv|point of sale}} system to charge in your shop and record every sale automatically."},
+   {"t": "Inventory control", "d": "We keep your stock up to date across warehouse, shop and online store, with alerts when a product is running low."},
+   {"t": "Customer management", "d": "We set up a {{crm|CRM}}: one place to see each customer, their purchases, conversations and next steps."},
+   {"t": "Connecting your tools", "d": "We build {{integraciones|integrations}} between your online store, payment system, invoicing and other apps."},
+   {"t": "Tasks that run themselves", "d": "With {{automatizacion|automations}} we remove repetitive work: emails, alerts, reports and data transfers."}
+  ],
+  "pasos": [
+   {"t": "We learn how you work", "d": "We review your processes, your spreadsheets and what takes up most of your time today."},
+   {"t": "We design the solution", "d": "We show you what the screens will look like and what the system will do, before coding."},
+   {"t": "We build in stages", "d": "We build the most important part first so you can use it soon, then add the rest."},
+   {"t": "We stay with you", "d": "We train you, load your data and stay available for support and improvements."}
+  ],
+  "recibes": [
+   "Web system that works on desktop, tablet and phone",
+   "Users and permissions for your team",
+   "Dashboards with your key numbers",
+   "Connection to your online store or other tools",
+   "Training and support"
+  ],
+  "ejemplos": [
+   {"t": "A shop with a store and website", "d": "Needs stock to update automatically wherever it sells."},
+   {"t": "A service company", "d": "Wants to organize its customers, quotes and follow-ups in one place."},
+   {"t": "A distributor", "d": "Wants orders from its sales reps to go straight to the warehouse, without spreadsheets."}
+  ],
+  "faq": [
+   {"q": "Why not use existing software?", "a": "Sometimes that's the better choice, and we'll tell you. A custom system makes sense when your way of working doesn't fit generic programs or when you need to connect several tools."},
+   {"q": "Do I need to be tech-savvy to use it?", "a": "No. We design it to be simple and train you and your team to use it."},
+   {"q": "Is my data safe?", "a": "Yes. We use password-protected users, per-person permissions and data backups."},
+   {"q": "Can it connect to my online store?", "a": "Yes. We connect it to Shopify, Jumpseller, WooCommerce and other platforms through {{api|APIs}}."}
+  ]
+ },
+ "pt": {
+  "slug": "sistemas-sob-medida",
+  "nombre": "Sistemas sob medida",
+  "seo_titulo": "Sistemas sob medida para pequenas empresas: estoque, vendas e clientes | ¡Miiish!",
+  "seo_desc": "Criamos sistemas feitos para o seu negócio: ponto de venda, controle de estoque, gestão de clientes, painéis e tarefas automáticas conectadas à sua loja online.",
+  "h1": "Organize seu negócio com um sistema feito para você",
+  "bajada": "Se você controla vendas, estoque ou clientes em planilhas, cadernos ou mensagens, criamos um sistema simples que faz esse trabalho por você e conecta tudo em um só lugar.",
+  "que_es": [
+   "Muitos negócios crescem usando planilhas de Excel, cadernos e chats. Funciona no começo, mas chega um momento em que pedidos se perdem, o estoque não bate e ninguém sabe quanto realmente foi vendido.",
+   "Um sistema sob medida é um programa pensado exatamente para o seu jeito de trabalhar: você não precisa se adaptar a um software genérico cheio de funções que não usa. Além disso, ele pode conversar com sua loja online, seu faturamento ou outras ferramentas por meio de {{api|APIs}}, para a informação circular sozinha."
+  ],
+  "senales": [
+   "Você usa várias planilhas que nunca batem entre si.",
+   "Você vende na loja e na internet e o estoque fica desencontrado.",
+   "Você perde tempo copiando dados de um lugar para outro.",
+   "Você não tem à mão quanto vendeu, o que sai mais ou quem são seus melhores clientes."
+  ],
+  "ayuda": [
+   {"t": "Ponto de venda", "d": "Criamos um sistema de {{pdv|ponto de venda}} para cobrar na sua loja e registrar cada venda automaticamente."},
+   {"t": "Controle de estoque", "d": "Mantemos seu estoque atualizado entre depósito, loja e loja online, com avisos quando um produto está acabando."},
+   {"t": "Gestão de clientes", "d": "Montamos um {{crm|CRM}}: um lugar para ver cada cliente, suas compras, conversas e próximos passos."},
+   {"t": "Conectar suas ferramentas", "d": "Fazemos {{integraciones|integrações}} entre sua loja online, seu sistema de pagamentos, seu faturamento e outros apps."},
+   {"t": "Tarefas que se fazem sozinhas", "d": "Com {{automatizacion|automações}} eliminamos o trabalho repetitivo: e-mails, avisos, relatórios e transferência de dados."}
+  ],
+  "pasos": [
+   {"t": "Conhecemos como você trabalha", "d": "Analisamos seus processos, suas planilhas e o que mais toma seu tempo hoje."},
+   {"t": "Desenhamos a solução", "d": "Mostramos como serão as telas e o que o sistema vai fazer, antes de programar."},
+   {"t": "Programamos por etapas", "d": "Construímos primeiro o mais importante, para você usar logo, e depois acrescentamos o resto."},
+   {"t": "Acompanhamos você", "d": "Ensinamos a usar, carregamos seus dados e continuamos disponíveis para suporte e melhorias."}
+  ],
+  "recibes": [
+   "Sistema web que funciona no computador, tablet e celular",
+   "Usuários e permissões para sua equipe",
+   "Painéis com seus números mais importantes",
+   "Conexão com sua loja online ou outras ferramentas",
+   "Treinamento e suporte"
+  ],
+  "ejemplos": [
+   {"t": "Uma loja física com site", "d": "Precisa que o estoque seja descontado sozinho, venda onde vender."},
+   {"t": "Uma empresa de serviços", "d": "Quer organizar clientes, orçamentos e acompanhamentos em um só lugar."},
+   {"t": "Uma distribuidora", "d": "Quer que os pedidos dos vendedores cheguem direto ao depósito, sem passar por planilhas."}
+  ],
+  "faq": [
+   {"q": "Por que não usar um software que já existe?", "a": "Às vezes vale mais a pena, e nós vamos dizer. Um sistema sob medida faz sentido quando seu jeito de trabalhar não se encaixa nos programas genéricos ou quando você precisa conectar várias ferramentas."},
+   {"q": "Preciso entender de informática para usar?", "a": "Não. Criamos tudo para ser simples e ensinamos você e sua equipe a usar."},
+   {"q": "Meus dados ficam seguros?", "a": "Sim. Usamos usuários com senha, permissões por pessoa e backups das informações."},
+   {"q": "Dá para conectar com minha loja online?", "a": "Sim. Conectamos com Shopify, Jumpseller, WooCommerce e outras plataformas por meio de {{api|APIs}}."}
+  ]
+ }
+}

@@ -1,0 +1,155 @@
+{
+ "id": "animacion",
+ "orden": 6,
+ "color": "#FFFFFF",
+ "equipo": ["javiera", "camila", "matias"],
+ "herramientas": ["After Effects", "Illustrator", "Photoshop", "Figma"],
+ "relacionados": ["video", "branding", "modelado"],
+ "es": {
+  "slug": "animacion-y-personajes",
+  "nombre": "Animación y personajes",
+  "seo_titulo": "Animación 2D, motion graphics y mascotas de marca en Chile | ¡Miiish!",
+  "seo_desc": "Creamos la mascota de tu marca, animamos tu logo y hacemos videos animados que explican tu producto de forma simple. Motion graphics y animación 2D.",
+  "h1": "Dale vida y personalidad a tu marca",
+  "bajada": "Animamos tu logo, creamos la mascota de tu marca y hacemos videos animados que explican tu producto en segundos, aunque sea complejo.",
+  "que_es": [
+   "La animación sirve para contar cosas que son difíciles de grabar: cómo funciona una app, un servicio que no se ve, un proceso por dentro o una idea. Con dibujos y gráficos en movimiento, lo complicado se entiende rápido y se recuerda mejor.",
+   "Una mascota o personaje de marca le pone cara a tu negocio. Puede aparecer en tus redes, en tus envases, en tus anuncios y en tus videos, y hace que la gente te reconozca y te tenga cariño."
+  ],
+  "senales": [
+   "Tu producto o servicio es difícil de explicar en pocas palabras.",
+   "Tu logo es estático y quieres que se vea moderno en videos y redes.",
+   "Quieres que tu marca tenga una personalidad más cercana y divertida.",
+   "Necesitas contenido llamativo, pero no tienes algo físico que grabar."
+  ],
+  "ayuda": [
+   {"t": "Gráficos animados", "d": "Hacemos {{motion|motion graphics}}: textos, íconos y formas en movimiento para redes, presentaciones y anuncios."},
+   {"t": "Logo animado", "d": "Animamos tu logo para el inicio y cierre de tus videos, tus stories y tu página web."},
+   {"t": "Videos que explican", "d": "Creamos {{explainer|explainers}}: videos cortos animados que explican cómo funciona tu producto o servicio."},
+   {"t": "Mascota de marca", "d": "Hacemos {{character|character design}}: diseñamos un personaje con personalidad propia y todas sus poses y expresiones."},
+   {"t": "Animación 2D", "d": "Damos vida a tus personajes con {{2d|animación 2D}} para series cortas, anuncios o contenido de redes."}
+  ],
+  "pasos": [
+   {"t": "Entendemos el mensaje", "d": "Conversamos sobre qué quieres comunicar, a quién y dónde se va a ver la animación."},
+   {"t": "Escribimos y bocetamos", "d": "Escribimos el guion y dibujamos el storyboard o los primeros bocetos del personaje para que los apruebes."},
+   {"t": "Diseñamos y animamos", "d": "Creamos las ilustraciones finales, las animamos y agregamos música, voz y efectos de sonido."},
+   {"t": "Ajustamos y entregamos", "d": "Revisamos contigo, hacemos los cambios acordados y entregamos los archivos en los formatos que necesites."}
+  ],
+  "recibes": [
+   "Guion y storyboard",
+   "Ilustraciones y diseño del personaje",
+   "Animación final con música y sonido",
+   "Versiones para redes sociales, web y presentaciones",
+   "Hoja del personaje con poses y expresiones, si creamos una mascota"
+  ],
+  "ejemplos": [
+   {"t": "Una app o software", "d": "Necesita un video de un minuto que explique cómo funciona, para su web y sus anuncios."},
+   {"t": "Una marca de alimentos para niños", "d": "Quiere una mascota que aparezca en sus envases y en sus redes."},
+   {"t": "Una empresa con presentaciones a clientes", "d": "Busca gráficos animados que hagan más claras sus cifras y procesos."}
+  ],
+  "faq": [
+   {"q": "¿Qué diferencia hay entre animación 2D y motion graphics?", "a": "La {{2d|animación 2D}} da vida a personajes dibujados, como en los dibujos animados. Los {{motion|motion graphics}} animan textos, íconos y formas para explicar información."},
+   {"q": "¿La mascota queda siendo mía?", "a": "Sí. Al terminar te entregamos los archivos del personaje para que lo uses en tu marca."},
+   {"q": "¿Pueden poner voz en off?", "a": "Sí. Podemos sumar locución en español, inglés o portugués y subtítulos."},
+   {"q": "¿Sirve la animación para anuncios?", "a": "Sí. Las animaciones llaman mucho la atención en redes y funcionan muy bien en {{paid-media|publicidad digital}}."}
+  ]
+ },
+ "en": {
+  "slug": "animation-and-characters",
+  "nombre": "Animation & characters",
+  "seo_titulo": "2D animation, motion graphics and brand mascots | ¡Miiish!",
+  "seo_desc": "We create your brand mascot, animate your logo and make animated videos that explain your product simply. Motion graphics and 2D animation.",
+  "h1": "Bring your brand to life with personality",
+  "bajada": "We animate your logo, create your brand mascot and make animated videos that explain your product in seconds, even if it is complex.",
+  "que_es": [
+   "Animation is great for telling things that are hard to film: how an app works, a service you can't see, a process inside something or an idea. With drawings and moving graphics, complicated things are understood quickly and remembered better.",
+   "A brand mascot or character puts a face on your business. It can appear on your social media, packaging, ads and videos, and it makes people recognize you and feel fond of you."
+  ],
+  "senales": [
+   "Your product or service is hard to explain in a few words.",
+   "Your logo is static and you want it to look modern in videos and on social media.",
+   "You want your brand to have a friendlier, more fun personality.",
+   "You need eye-catching content, but have nothing physical to film."
+  ],
+  "ayuda": [
+   {"t": "Animated graphics", "d": "We make {{motion|motion graphics}}: moving text, icons and shapes for social media, presentations and ads."},
+   {"t": "Animated logo", "d": "We animate your logo for the start and end of your videos, your stories and your website."},
+   {"t": "Videos that explain", "d": "We create {{explainer|explainers}}: short animated videos that explain how your product or service works."},
+   {"t": "Brand mascot", "d": "We do {{character|character design}}: we design a character with its own personality and all its poses and expressions."},
+   {"t": "2D animation", "d": "We bring your characters to life with {{2d|2D animation}} for short series, ads or social content."}
+  ],
+  "pasos": [
+   {"t": "We understand the message", "d": "We talk about what you want to communicate, to whom and where the animation will be seen."},
+   {"t": "We write and sketch", "d": "We write the script and draw the storyboard or first character sketches for your approval."},
+   {"t": "We design and animate", "d": "We create the final illustrations, animate them and add music, voice and sound effects."},
+   {"t": "We adjust and deliver", "d": "We review with you, make the agreed changes and deliver the files in the formats you need."}
+  ],
+  "recibes": [
+   "Script and storyboard",
+   "Illustrations and character design",
+   "Final animation with music and sound",
+   "Versions for social media, web and presentations",
+   "Character sheet with poses and expressions, if we create a mascot"
+  ],
+  "ejemplos": [
+   {"t": "An app or software company", "d": "Needs a one-minute video explaining how it works, for its website and ads."},
+   {"t": "A kids' food brand", "d": "Wants a mascot to appear on its packaging and social media."},
+   {"t": "A company that pitches to clients", "d": "Wants animated graphics that make its numbers and processes clearer."}
+  ],
+  "faq": [
+   {"q": "What's the difference between 2D animation and motion graphics?", "a": "{{2d|2D animation}} brings drawn characters to life, like cartoons. {{motion|Motion graphics}} animate text, icons and shapes to explain information."},
+   {"q": "Do I own the mascot?", "a": "Yes. When we finish we hand over the character files so you can use it across your brand."},
+   {"q": "Can you add a voice-over?", "a": "Yes. We can add voice-over in Spanish, English or Portuguese, plus subtitles."},
+   {"q": "Does animation work for ads?", "a": "Yes. Animation grabs attention on social media and works very well in {{paid-media|digital advertising}}."}
+  ]
+ },
+ "pt": {
+  "slug": "animacao-e-personagens",
+  "nombre": "Animação e personagens",
+  "seo_titulo": "Animação 2D, motion graphics e mascotes de marca | ¡Miiish!",
+  "seo_desc": "Criamos o mascote da sua marca, animamos seu logo e fazemos vídeos animados que explicam seu produto de forma simples. Motion graphics e animação 2D.",
+  "h1": "Dê vida e personalidade à sua marca",
+  "bajada": "Animamos seu logo, criamos o mascote da sua marca e fazemos vídeos animados que explicam seu produto em segundos, mesmo que ele seja complexo.",
+  "que_es": [
+   "A animação serve para contar coisas difíceis de gravar: como funciona um app, um serviço que não se vê, um processo por dentro ou uma ideia. Com desenhos e gráficos em movimento, o complicado fica fácil de entender e de lembrar.",
+   "Um mascote ou personagem de marca dá rosto ao seu negócio. Ele pode aparecer nas suas redes, embalagens, anúncios e vídeos, e faz as pessoas reconhecerem você e criarem carinho pela marca."
+  ],
+  "senales": [
+   "Seu produto ou serviço é difícil de explicar em poucas palavras.",
+   "Seu logo é estático e você quer que ele pareça moderno em vídeos e redes.",
+   "Você quer que sua marca tenha uma personalidade mais próxima e divertida.",
+   "Você precisa de conteúdo chamativo, mas não tem algo físico para gravar."
+  ],
+  "ayuda": [
+   {"t": "Gráficos animados", "d": "Fazemos {{motion|motion graphics}}: textos, ícones e formas em movimento para redes, apresentações e anúncios."},
+   {"t": "Logo animado", "d": "Animamos seu logo para a abertura e o encerramento dos seus vídeos, seus stories e seu site."},
+   {"t": "Vídeos que explicam", "d": "Criamos {{explainer|explainers}}: vídeos curtos animados que explicam como funciona seu produto ou serviço."},
+   {"t": "Mascote da marca", "d": "Fazemos {{character|character design}}: criamos um personagem com personalidade própria e todas as suas poses e expressões."},
+   {"t": "Animação 2D", "d": "Damos vida aos seus personagens com {{2d|animação 2D}} para séries curtas, anúncios ou conteúdo para redes."}
+  ],
+  "pasos": [
+   {"t": "Entendemos a mensagem", "d": "Conversamos sobre o que você quer comunicar, para quem e onde a animação vai aparecer."},
+   {"t": "Escrevemos e esboçamos", "d": "Escrevemos o roteiro e desenhamos o storyboard ou os primeiros esboços do personagem para você aprovar."},
+   {"t": "Criamos e animamos", "d": "Fazemos as ilustrações finais, animamos e acrescentamos música, voz e efeitos sonoros."},
+   {"t": "Ajustamos e entregamos", "d": "Revisamos com você, fazemos as alterações combinadas e entregamos os arquivos nos formatos que você precisar."}
+  ],
+  "recibes": [
+   "Roteiro e storyboard",
+   "Ilustrações e design do personagem",
+   "Animação final com música e som",
+   "Versões para redes sociais, web e apresentações",
+   "Ficha do personagem com poses e expressões, se criarmos um mascote"
+  ],
+  "ejemplos": [
+   {"t": "Um app ou software", "d": "Precisa de um vídeo de um minuto que explique como funciona, para o site e os anúncios."},
+   {"t": "Uma marca de alimentos infantis", "d": "Quer um mascote que apareça nas embalagens e nas redes."},
+   {"t": "Uma empresa que apresenta para clientes", "d": "Busca gráficos animados que deixem seus números e processos mais claros."}
+  ],
+  "faq": [
+   {"q": "Qual a diferença entre animação 2D e motion graphics?", "a": "A {{2d|animação 2D}} dá vida a personagens desenhados, como nos desenhos animados. O {{motion|motion graphics}} anima textos, ícones e formas para explicar informações."},
+   {"q": "O mascote fica sendo meu?", "a": "Sim. Ao terminar entregamos os arquivos do personagem para você usar na sua marca."},
+   {"q": "Vocês podem colocar narração?", "a": "Sim. Podemos incluir locução em espanhol, inglês ou português, além de legendas."},
+   {"q": "Animação funciona em anúncios?", "a": "Sim. As animações chamam muita atenção nas redes e funcionam muito bem em {{paid-media|publicidade digital}}."}
+  ]
+ }
+}

@@ -1,0 +1,155 @@
+{
+ "id": "merch",
+ "orden": 9,
+ "color": "#FFFFFF",
+ "equipo": ["diego", "camila", "joaquin"],
+ "herramientas": ["Illustrator", "Blender", "Photoshop", "Figma"],
+ "relacionados": ["branding", "modelado", "contenido"],
+ "es": {
+  "slug": "merchandising-y-material-pop",
+  "nombre": "Merchandising y material POP",
+  "seo_titulo": "Diseño de merchandising y material POP en Chile | ¡Miiish!",
+  "seo_desc": "Diseñamos productos con tu marca, afiches, exhibidores, envases promocionales y kits para eventos, para que tu marca se vea en el mundo real y destaque en el punto de venta.",
+  "h1": "Tu marca en el mundo real",
+  "bajada": "Diseñamos productos con tu logo, material para tu local, exhibidores y kits para eventos, para que tu marca se vea igual de bien fuera de la pantalla.",
+  "que_es": [
+   "El {{merch|merchandising}} son los productos con tu marca: poleras, tazas, bolsas, gorros o lo que se te ocurra. Sirven para regalar a clientes, uniformar a tu equipo o incluso vender, y hacen que tu marca salga a la calle.",
+   "El {{pop|material POP}} es todo lo que ayuda a vender en el {{pdv|punto de venta}}: afiches, colgantes, exhibidores, stickers en la vitrina o displays en el mesón. Es lo que hace que alguien se fije en tu producto entre muchos otros."
+  ],
+  "senales": [
+   "Vas a participar en una feria o evento y no tienes material de marca.",
+   "Tu producto se pierde en la góndola entre la competencia.",
+   "Quieres regalar algo a tus clientes que no termine en un cajón.",
+   "Tu local no transmite la misma imagen que tus redes sociales."
+  ],
+  "ayuda": [
+   {"t": "Productos con tu marca", "d": "Diseñamos merchandising que la gente quiere usar: textiles, accesorios, artículos de oficina y regalos corporativos."},
+   {"t": "Material para tu local", "d": "Creamos afiches, vinilos, colgantes y señalética con tu identidad para que tu local se vea profesional."},
+   {"t": "Exhibidores y displays", "d": "Diseñamos exhibidores para mesón y góndola, y te los mostramos en {{render|render}} 3D antes de fabricarlos."},
+   {"t": "Envases para promociones", "d": "Hacemos {{packaging|packaging}} especial para lanzamientos, fechas especiales y packs de regalo."},
+   {"t": "Kits para eventos", "d": "Preparamos todo lo que necesitas para una feria o activación: stand, pendones, regalos y material impreso."}
+  ],
+  "pasos": [
+   {"t": "Definimos el uso", "d": "Conversamos sobre dónde se usará, a quién va dirigido y cuántas unidades necesitas."},
+   {"t": "Diseñamos y mostramos", "d": "Diseñamos las piezas y te las mostramos en simulaciones o en 3D para que veas cómo quedarán."},
+   {"t": "Preparamos para producir", "d": "Dejamos los archivos listos para la imprenta o el fabricante y, si quieres, te recomendamos proveedores."},
+   {"t": "Revisamos el resultado", "d": "Te acompañamos en la revisión de pruebas de color y muestras antes de la producción final."}
+  ],
+  "recibes": [
+   "Diseño de productos y material con tu marca",
+   "Simulaciones o renders 3D de cada pieza",
+   "Archivos listos para imprenta y fabricación",
+   "Recomendación de materiales y proveedores",
+   "Revisión de pruebas antes de producir"
+  ],
+  "ejemplos": [
+   {"t": "Una marca de bebidas", "d": "Quiere exhibidores para almacenes y supermercados que hagan destacar su producto."},
+   {"t": "Una empresa con aniversario", "d": "Busca regalos para clientes y equipo que realmente se usen."},
+   {"t": "Una startup que va a una feria", "d": "Necesita stand, pendones y merchandising listos para el evento."}
+  ],
+  "faq": [
+   {"q": "¿Ustedes fabrican los productos?", "a": "Nos encargamos del diseño y de dejar todo listo para producir. Si quieres, te recomendamos proveedores y coordinamos con ellos."},
+   {"q": "¿Puedo ver cómo quedará antes de fabricar?", "a": "Sí. Te mostramos cada pieza en simulación o en {{render|render}} 3D para evitar sorpresas."},
+   {"q": "¿Hacen cantidades pequeñas?", "a": "El diseño es el mismo para pocas o muchas unidades. Te ayudamos a elegir técnicas y proveedores que convengan según la cantidad."},
+   {"q": "¿Tiene que estar lista mi marca?", "a": "Ayuda que lo esté. Si todavía no tienes una identidad definida, podemos partir por el {{branding|branding}}."}
+  ]
+ },
+ "en": {
+  "slug": "merchandise-and-pop-materials",
+  "nombre": "Merchandise & POP materials",
+  "seo_titulo": "Branded merchandise and POP materials design | ¡Miiish!",
+  "seo_desc": "We design branded products, posters, displays, promotional packaging and event kits, so your brand shows up in the real world and stands out at the point of sale.",
+  "h1": "Your brand in the real world",
+  "bajada": "We design branded products, in-store materials, displays and event kits, so your brand looks just as good off the screen.",
+  "que_es": [
+   "{{merch|Merchandise}} means products with your brand: T-shirts, mugs, bags, caps or anything you can imagine. They're great as gifts for customers, uniforms for your team or even as products to sell, and they take your brand out into the street.",
+   "{{pop|POP materials}} are everything that helps sell at the {{pdv|point of sale}}: posters, hanging signs, displays, window stickers or counter stands. They are what makes someone notice your product among many others."
+  ],
+  "senales": [
+   "You're going to a trade show or event and have no branded materials.",
+   "Your product gets lost on the shelf among competitors.",
+   "You want to give customers something that won't end up in a drawer.",
+   "Your shop doesn't convey the same image as your social media."
+  ],
+  "ayuda": [
+   {"t": "Branded products", "d": "We design merchandise people actually want to use: apparel, accessories, office items and corporate gifts."},
+   {"t": "Materials for your shop", "d": "We create posters, vinyls, hanging signs and signage in your identity so your shop looks professional."},
+   {"t": "Displays", "d": "We design counter and shelf displays, and show them to you as 3D {{render|renders}} before they're made."},
+   {"t": "Promotional packaging", "d": "We create special {{packaging|packaging}} for launches, holidays and gift packs."},
+   {"t": "Event kits", "d": "We prepare everything you need for a trade show or activation: booth, banners, giveaways and printed materials."}
+  ],
+  "pasos": [
+   {"t": "We define the use", "d": "We talk about where it will be used, who it is for and how many units you need."},
+   {"t": "We design and show you", "d": "We design the pieces and show them to you as mockups or in 3D so you can see how they will look."},
+   {"t": "We prepare for production", "d": "We get the files ready for the printer or manufacturer and, if you want, recommend suppliers."},
+   {"t": "We review the result", "d": "We help you check color proofs and samples before the final production run."}
+  ],
+  "recibes": [
+   "Design of branded products and materials",
+   "Mockups or 3D renders of each piece",
+   "Files ready for print and manufacturing",
+   "Material and supplier recommendations",
+   "Proof review before production"
+  ],
+  "ejemplos": [
+   {"t": "A beverage brand", "d": "Wants displays for corner shops and supermarkets that make its product stand out."},
+   {"t": "A company celebrating an anniversary", "d": "Wants gifts for customers and staff that actually get used."},
+   {"t": "A startup going to a trade show", "d": "Needs a booth, banners and merchandise ready for the event."}
+  ],
+  "faq": [
+   {"q": "Do you manufacture the products?", "a": "We handle the design and get everything ready for production. If you want, we recommend suppliers and coordinate with them."},
+   {"q": "Can I see what it will look like before production?", "a": "Yes. We show you each piece as a mockup or 3D {{render|render}} to avoid surprises."},
+   {"q": "Do you do small quantities?", "a": "The design is the same for a few units or many. We help you choose techniques and suppliers that make sense for the quantity."},
+   {"q": "Does my brand need to be ready?", "a": "It helps. If you don't have a defined identity yet, we can start with {{branding|branding}}."}
+  ]
+ },
+ "pt": {
+  "slug": "merchandising-e-material-de-pdv",
+  "nombre": "Merchandising e material de PDV",
+  "seo_titulo": "Design de merchandising e material de PDV | ¡Miiish!",
+  "seo_desc": "Criamos produtos com sua marca, cartazes, expositores, embalagens promocionais e kits para eventos, para sua marca aparecer no mundo real e se destacar no ponto de venda.",
+  "h1": "Sua marca no mundo real",
+  "bajada": "Criamos produtos com seu logo, material para sua loja, expositores e kits para eventos, para sua marca ficar tão bonita fora da tela quanto dentro dela.",
+  "que_es": [
+   "O {{merch|merchandising}} são os produtos com a sua marca: camisetas, canecas, sacolas, bonés ou o que você imaginar. Servem para presentear clientes, uniformizar sua equipe ou até vender, e levam sua marca para a rua.",
+   "O {{pop|material de PDV}} é tudo o que ajuda a vender no {{pdv|ponto de venda}}: cartazes, móbiles, expositores, adesivos na vitrine ou displays no balcão. É o que faz alguém notar seu produto entre muitos outros."
+  ],
+  "senales": [
+   "Você vai participar de uma feira ou evento e não tem material de marca.",
+   "Seu produto se perde na prateleira entre a concorrência.",
+   "Você quer presentear seus clientes com algo que não acabe na gaveta.",
+   "Sua loja não transmite a mesma imagem que suas redes sociais."
+  ],
+  "ayuda": [
+   {"t": "Produtos com sua marca", "d": "Criamos merchandising que as pessoas querem usar: têxteis, acessórios, artigos de escritório e brindes corporativos."},
+   {"t": "Material para sua loja", "d": "Criamos cartazes, adesivos, móbiles e sinalização com sua identidade para sua loja parecer profissional."},
+   {"t": "Expositores e displays", "d": "Criamos expositores de balcão e prateleira, e mostramos em {{render|render}} 3D antes de fabricar."},
+   {"t": "Embalagens promocionais", "d": "Fazemos {{packaging|embalagens}} especiais para lançamentos, datas comemorativas e kits de presente."},
+   {"t": "Kits para eventos", "d": "Preparamos tudo o que você precisa para uma feira ou ativação: estande, banners, brindes e material impresso."}
+  ],
+  "pasos": [
+   {"t": "Definimos o uso", "d": "Conversamos sobre onde será usado, para quem é e quantas unidades você precisa."},
+   {"t": "Criamos e mostramos", "d": "Criamos as peças e mostramos em simulações ou em 3D para você ver como vão ficar."},
+   {"t": "Preparamos para produzir", "d": "Deixamos os arquivos prontos para a gráfica ou o fabricante e, se quiser, recomendamos fornecedores."},
+   {"t": "Revisamos o resultado", "d": "Acompanhamos a revisão de provas de cor e amostras antes da produção final."}
+  ],
+  "recibes": [
+   "Design de produtos e materiais com sua marca",
+   "Simulações ou renders 3D de cada peça",
+   "Arquivos prontos para gráfica e fabricação",
+   "Recomendação de materiais e fornecedores",
+   "Revisão de provas antes de produzir"
+  ],
+  "ejemplos": [
+   {"t": "Uma marca de bebidas", "d": "Quer expositores para mercados e supermercados que destaquem seu produto."},
+   {"t": "Uma empresa fazendo aniversário", "d": "Busca brindes para clientes e equipe que realmente sejam usados."},
+   {"t": "Uma startup indo a uma feira", "d": "Precisa de estande, banners e merchandising prontos para o evento."}
+  ],
+  "faq": [
+   {"q": "Vocês fabricam os produtos?", "a": "Cuidamos do design e deixamos tudo pronto para produzir. Se quiser, recomendamos fornecedores e coordenamos com eles."},
+   {"q": "Posso ver como vai ficar antes de fabricar?", "a": "Sim. Mostramos cada peça em simulação ou em {{render|render}} 3D para evitar surpresas."},
+   {"q": "Vocês fazem quantidades pequenas?", "a": "O design é o mesmo para poucas ou muitas unidades. Ajudamos você a escolher técnicas e fornecedores que façam sentido para a quantidade."},
+   {"q": "Minha marca precisa estar pronta?", "a": "Ajuda bastante. Se você ainda não tem uma identidade definida, podemos começar pelo {{branding|branding}}."}
+  ]
+ }
+}

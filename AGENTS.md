@@ -65,3 +65,10 @@ Este repositorio es el sitio miiish.com. Cada ejecución del agente publica **un
 - Todo el CSS del sitio vive en archivos aparte dentro de `assets/`: `miiish.css` (landing en los 3 idiomas), `noticias.css` (noticias) y `gracias.css` (páginas de gracias). El JS está en `assets/miiish.js` y `assets/glosario.js`.
 - No agregues `<style>` ni atributos `style="..."` en las páginas. Si una noticia necesita un estilo nuevo, agrégalo a `assets/noticias.css`.
 - `miiish.css`, `miiish.js` y `glosario.js` se generan desde el diseño: no los edites a mano. Los enlaces llevan `?v=` con una huella del contenido, así el navegador baja la versión nueva apenas cambia.
+
+## Páginas de servicios (desde el 24-oct-2026)
+- Hay una página por servicio en 3 idiomas: `/servicios/<slug>/`, `/en/services/<slug>/` y `/pt/servicos/<slug>/`, más un índice en cada idioma.
+- El contenido vive en `_contenido/servicios/NN-<id>.json` (es, en y pt en el mismo archivo). Las palabras técnicas se escriben `{{clave|texto}}` con una clave de `assets/glosario.js`.
+- Para regenerarlas: `python3 tools/servicios.py`. También agrega en la portada el botón "Ver todo sobre…" de cada servicio. No edites a mano los `index.html` de esas carpetas.
+- Estilos en `assets/servicios.css` y script en `assets/servicios.js` (se editan a mano). `tools/build.py` ya incluye estas páginas en `sitemap.xml` y `llms.txt`.
+- Si una noticia trata de un tema de un servicio, puedes enlazar a su página de servicio en español.

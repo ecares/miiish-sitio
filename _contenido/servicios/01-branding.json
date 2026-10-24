@@ -1,0 +1,155 @@
+{
+ "id": "branding",
+ "orden": 1,
+ "color": "#D7FF3A",
+ "equipo": ["joaquin", "camila", "javiera"],
+ "herramientas": ["Figma", "Illustrator", "Photoshop", "Canva"],
+ "relacionados": ["contenido", "merch", "animacion"],
+ "es": {
+  "slug": "branding",
+  "nombre": "Branding",
+  "seo_titulo": "Branding en Santiago: nombre, logo e identidad de marca | ¡Miiish!",
+  "seo_desc": "Creamos o renovamos tu marca: a quién le hablas, nombre, logo, colores, tipografías, envases y un manual para usarla bien. Agencia creativa en Santiago de Chile.",
+  "h1": "Una marca que la gente reconoce y recuerda",
+  "bajada": "Te ayudamos a definir quién eres, a quién le hablas y cómo te ves: nombre, logo, colores y todo lo necesario para que tu negocio se vea profesional en cualquier lugar.",
+  "que_es": [
+   "El {{branding|branding}} es la identidad de tu negocio. No es solo el logo: es el nombre, los colores, la forma de hablar y la sensación que deja tu marca cuando alguien la ve en Instagram, en una bolsa o en la puerta de tu local.",
+   "Cuando una marca está bien hecha, la gente la reconoce sin leer el nombre, confía más en ella y está dispuesta a pagar lo que vale. Cuando cada pieza se ve distinta, el cliente se confunde y tu negocio parece más pequeño de lo que es."
+  ],
+  "senales": [
+   "Tu logo lo hizo un amigo o lo armaste tú, y sientes que ya no te representa.",
+   "Cada publicación, afiche o etiqueta se ve distinta a la anterior.",
+   "Vas a lanzar un negocio o un producto nuevo y no sabes cómo llamarlo.",
+   "Tu competencia se ve más profesional, aunque tu producto sea igual o mejor."
+  ],
+  "ayuda": [
+   {"t": "Saber a quién le hablas", "d": "Conversamos sobre tu negocio, tus clientes y tu competencia para definir tu {{posicionamiento|posicionamiento}}: qué te hace distinto y por qué alguien debería elegirte."},
+   {"t": "Encontrar el nombre", "d": "Si partes de cero o quieres cambiar, hacemos {{naming|naming}}: proponemos nombres fáciles de recordar y revisamos que el dominio web y las redes estén disponibles."},
+   {"t": "Diseñar cómo te ves", "d": "Creamos tu {{identidad|identidad visual}}: logo, versiones para fondos claros y oscuros, colores, tipografías e íconos que funcionan juntos."},
+   {"t": "Dejarlo por escrito", "d": "Armamos un {{manual|manual de marca}} sencillo para que tú, tu equipo o cualquier proveedor usen la marca siempre igual."},
+   {"t": "Llevarlo a tus productos", "d": "Diseñamos {{packaging|packaging}}: envases, etiquetas y cajas que se ven bien en la góndola y en las fotos."}
+  ],
+  "pasos": [
+   {"t": "Conversamos", "d": "En la primera reunión nos cuentas de tu negocio, qué te gusta, qué no y hacia dónde quieres ir."},
+   {"t": "Investigamos y proponemos", "d": "Revisamos a tu competencia y te mostramos caminos posibles, con referencias, para elegir juntos una dirección."},
+   {"t": "Diseñamos y ajustamos", "d": "Desarrollamos la propuesta elegida y la ajustamos con tus comentarios hasta que te sientas representado."},
+   {"t": "Te entregamos todo", "d": "Recibes los archivos listos para imprimir y para redes, y el manual para usarlos."}
+  ],
+  "recibes": [
+   "Logo en todas sus versiones (color, blanco, negro y versión pequeña)",
+   "Paleta de colores y tipografías",
+   "Manual de marca en PDF",
+   "Archivos listos para imprenta, web y redes sociales",
+   "Diseño de envases o etiquetas, si lo necesitas"
+  ],
+  "ejemplos": [
+   {"t": "Una cafetería que abre", "d": "Necesita nombre, logo, carta, vasos y letrero, todo con el mismo estilo."},
+   {"t": "Una pyme con años en el mercado", "d": "Quiere modernizar su imagen sin perder a los clientes que ya la conocen."},
+   {"t": "Un emprendimiento online", "d": "Va a lanzar su tienda y necesita una marca que se vea confiable en las fotos y en las redes."}
+  ],
+  "faq": [
+   {"q": "¿Puedo renovar mi logo sin cambiar la marca completa?", "a": "Sí. Podemos hacer una actualización: mantener lo que la gente ya reconoce y modernizar el resto, para que no pierdas a tus clientes actuales."},
+   {"q": "¿Qué pasa si no me gusta la primera propuesta?", "a": "Es normal ajustar. Antes de diseñar acordamos una dirección con referencias, y después hacemos rondas de cambios con tus comentarios."},
+   {"q": "¿Los archivos quedan a mi nombre?", "a": "Sí. Al terminar te entregamos todos los archivos finales para que los uses donde quieras."},
+   {"q": "¿También hacen las redes y la web con la nueva marca?", "a": "Sí. Como somos un equipo completo, podemos llevar tu marca a tus {{community|redes sociales}}, tu página web, tus videos y tu material impreso."}
+  ]
+ },
+ "en": {
+  "slug": "branding",
+  "nombre": "Branding",
+  "seo_titulo": "Branding agency in Chile: naming, logo and brand identity | ¡Miiish!",
+  "seo_desc": "We create or refresh your brand: who you talk to, name, logo, colors, fonts, packaging and a guide to use it well. Creative agency in Santiago, Chile.",
+  "h1": "A brand people recognize and remember",
+  "bajada": "We help you define who you are, who you talk to and how you look: name, logo, colors and everything you need for your business to look professional anywhere.",
+  "que_es": [
+   "{{branding|Branding}} is your business identity. It is not just the logo: it is the name, the colors, the way you talk and the feeling your brand leaves when someone sees it on Instagram, on a bag or on your shop door.",
+   "When a brand is well made, people recognize it without reading the name, trust it more and are willing to pay what it is worth. When every piece looks different, customers get confused and your business looks smaller than it is."
+  ],
+  "senales": [
+   "A friend made your logo, or you did it yourself, and it no longer represents you.",
+   "Every post, poster or label looks different from the last one.",
+   "You are launching a new business or product and do not know what to call it.",
+   "Your competitors look more professional, even if your product is just as good or better."
+  ],
+  "ayuda": [
+   {"t": "Knowing who you talk to", "d": "We talk about your business, your customers and your competitors to define your {{posicionamiento|positioning}}: what makes you different and why someone should choose you."},
+   {"t": "Finding the name", "d": "If you are starting from scratch or want a change, we do {{naming|naming}}: we suggest easy-to-remember names and check that the web domain and social handles are available."},
+   {"t": "Designing how you look", "d": "We create your {{identidad|visual identity}}: logo, versions for light and dark backgrounds, colors, fonts and icons that work together."},
+   {"t": "Putting it in writing", "d": "We put together a simple {{manual|brand guidelines}} document so you, your team or any supplier always use the brand the same way."},
+   {"t": "Bringing it to your products", "d": "We design {{packaging|packaging}}: containers, labels and boxes that look good on the shelf and in photos."}
+  ],
+  "pasos": [
+   {"t": "We talk", "d": "In the first meeting you tell us about your business, what you like, what you don't and where you want to go."},
+   {"t": "We research and propose", "d": "We look at your competitors and show you possible directions, with references, so we can choose one together."},
+   {"t": "We design and adjust", "d": "We develop the chosen direction and refine it with your feedback until you feel it represents you."},
+   {"t": "We hand everything over", "d": "You get files ready for print and social media, plus the guide to use them."}
+  ],
+  "recibes": [
+   "Logo in all its versions (color, white, black and small size)",
+   "Color palette and fonts",
+   "Brand guidelines in PDF",
+   "Files ready for print, web and social media",
+   "Packaging or label design, if you need it"
+  ],
+  "ejemplos": [
+   {"t": "A new coffee shop", "d": "Needs a name, logo, menu, cups and sign, all in the same style."},
+   {"t": "An established small business", "d": "Wants to modernize its image without losing the customers who already know it."},
+   {"t": "An online startup", "d": "Is about to launch its store and needs a brand that looks trustworthy in photos and on social media."}
+  ],
+  "faq": [
+   {"q": "Can I refresh my logo without changing the whole brand?", "a": "Yes. We can do an update: keep what people already recognize and modernize the rest, so you don't lose your current customers."},
+   {"q": "What if I don't like the first proposal?", "a": "Adjusting is normal. Before designing we agree on a direction with references, and then we do rounds of changes based on your feedback."},
+   {"q": "Do I own the files?", "a": "Yes. When we finish we hand over all the final files so you can use them wherever you want."},
+   {"q": "Do you also do social media and the website with the new brand?", "a": "Yes. Since we are a full team, we can bring your brand to your {{community|social media}}, website, videos and printed materials."}
+  ]
+ },
+ "pt": {
+  "slug": "branding",
+  "nombre": "Branding",
+  "seo_titulo": "Branding no Chile: nome, logo e identidade de marca | ¡Miiish!",
+  "seo_desc": "Criamos ou renovamos sua marca: para quem você fala, nome, logo, cores, tipografias, embalagens e um manual para usá-la bem. Agência criativa em Santiago do Chile.",
+  "h1": "Uma marca que as pessoas reconhecem e lembram",
+  "bajada": "Ajudamos você a definir quem você é, para quem fala e como aparece: nome, logo, cores e tudo o que é preciso para o seu negócio parecer profissional em qualquer lugar.",
+  "que_es": [
+   "O {{branding|branding}} é a identidade do seu negócio. Não é só o logo: é o nome, as cores, o jeito de falar e a sensação que a sua marca deixa quando alguém a vê no Instagram, numa sacola ou na porta da sua loja.",
+   "Quando uma marca é bem feita, as pessoas a reconhecem sem ler o nome, confiam mais nela e aceitam pagar o que ela vale. Quando cada peça parece diferente, o cliente se confunde e o seu negócio parece menor do que é."
+  ],
+  "senales": [
+   "Um amigo fez seu logo, ou você mesmo fez, e ele já não representa você.",
+   "Cada post, cartaz ou etiqueta parece diferente do anterior.",
+   "Você vai lançar um negócio ou produto novo e não sabe que nome dar.",
+   "Sua concorrência parece mais profissional, mesmo que seu produto seja igual ou melhor."
+  ],
+  "ayuda": [
+   {"t": "Saber para quem você fala", "d": "Conversamos sobre seu negócio, seus clientes e sua concorrência para definir seu {{posicionamiento|posicionamento}}: o que torna você diferente e por que alguém deveria escolher você."},
+   {"t": "Encontrar o nome", "d": "Se você parte do zero ou quer mudar, fazemos {{naming|naming}}: sugerimos nomes fáceis de lembrar e verificamos se o domínio e as redes estão disponíveis."},
+   {"t": "Criar como você aparece", "d": "Criamos sua {{identidad|identidade visual}}: logo, versões para fundos claros e escuros, cores, tipografias e ícones que funcionam juntos."},
+   {"t": "Deixar tudo por escrito", "d": "Montamos um {{manual|manual de marca}} simples para que você, sua equipe ou qualquer fornecedor usem a marca sempre do mesmo jeito."},
+   {"t": "Levar para seus produtos", "d": "Criamos {{packaging|embalagens}}: potes, etiquetas e caixas que ficam bonitos na prateleira e nas fotos."}
+  ],
+  "pasos": [
+   {"t": "Conversamos", "d": "Na primeira reunião você nos conta sobre seu negócio, do que gosta, do que não gosta e aonde quer chegar."},
+   {"t": "Pesquisamos e propomos", "d": "Analisamos sua concorrência e mostramos caminhos possíveis, com referências, para escolhermos juntos uma direção."},
+   {"t": "Criamos e ajustamos", "d": "Desenvolvemos a proposta escolhida e ajustamos com seus comentários até você se sentir representado."},
+   {"t": "Entregamos tudo", "d": "Você recebe os arquivos prontos para impressão e redes, e o manual para usá-los."}
+  ],
+  "recibes": [
+   "Logo em todas as versões (colorida, branca, preta e reduzida)",
+   "Paleta de cores e tipografias",
+   "Manual de marca em PDF",
+   "Arquivos prontos para gráfica, web e redes sociais",
+   "Design de embalagens ou etiquetas, se você precisar"
+  ],
+  "ejemplos": [
+   {"t": "Uma cafeteria que vai abrir", "d": "Precisa de nome, logo, cardápio, copos e fachada, tudo no mesmo estilo."},
+   {"t": "Uma empresa com anos de mercado", "d": "Quer modernizar a imagem sem perder os clientes que já a conhecem."},
+   {"t": "Um negócio online", "d": "Vai lançar a loja e precisa de uma marca que transmita confiança nas fotos e nas redes."}
+  ],
+  "faq": [
+   {"q": "Posso renovar meu logo sem mudar a marca inteira?", "a": "Sim. Podemos fazer uma atualização: manter o que as pessoas já reconhecem e modernizar o resto, para você não perder seus clientes atuais."},
+   {"q": "E se eu não gostar da primeira proposta?", "a": "Ajustar é normal. Antes de criar, combinamos uma direção com referências, e depois fazemos rodadas de alterações com seus comentários."},
+   {"q": "Os arquivos ficam comigo?", "a": "Sim. Ao terminar entregamos todos os arquivos finais para você usar onde quiser."},
+   {"q": "Vocês também cuidam das redes e do site com a nova marca?", "a": "Sim. Como somos uma equipe completa, podemos levar sua marca para suas {{community|redes sociais}}, seu site, seus vídeos e seu material impresso."}
+  ]
+ }
+}

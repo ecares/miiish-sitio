@@ -1,0 +1,155 @@
+{
+ "id": "publicidad",
+ "orden": 4,
+ "color": "#FFFFFF",
+ "equipo": ["eduardo", "joaquin", "matias"],
+ "herramientas": ["Meta Ads", "Google Ads", "TikTok Ads", "LinkedIn Ads", "Google Tag Manager", "Google Analytics", "Looker Studio"],
+ "relacionados": ["web", "contenido", "video"],
+ "es": {
+  "slug": "publicidad-digital",
+  "nombre": "Publicidad digital",
+  "seo_titulo": "Publicidad en Instagram, Facebook, Google y TikTok en Chile | ¡Miiish!",
+  "seo_desc": "Creamos y manejamos anuncios en Meta, Google, TikTok y LinkedIn enfocados en conseguir clientes y ventas, no solo \"me gusta\". Informes mensuales fáciles de entender.",
+  "h1": "Anuncios que traen clientes, no solo \"me gusta\"",
+  "bajada": "Hacemos y manejamos tu publicidad en Instagram, Facebook, Google, TikTok y LinkedIn, y te mostramos cada mes, en simple, cuánto te costó conseguir cada cliente.",
+  "que_es": [
+   "La {{paid-media|publicidad digital}} es pagar para que tus anuncios aparezcan frente a personas que todavía no te conocen pero que podrían comprarte: por ejemplo, gente de tu comuna que busca \"pastelería cerca\" en Google o que sigue cuentas de decoración en Instagram.",
+   "Muchas marcas gastan en \"promocionar publicaciones\" y celebran los likes. Pero los seguidores y los \"me gusta\" no pagan las cuentas. Nosotros configuramos las campañas para buscar {{conversion|conversiones}}: mensajes, formularios y ventas reales, y medimos el {{cpa|CPA}} y el {{roas|ROAS}} para saber si cada peso invertido vuelve."
+  ],
+  "senales": [
+   "Le pones plata al botón \"Promocionar\" y no sabes si te trajo ventas.",
+   "Tus anuncios consiguen likes, pero no mensajes ni compras.",
+   "Probaste con publicidad, gastaste y no viste resultados claros.",
+   "Tienes buen producto, pero muy poca gente nueva te conoce."
+  ],
+  "ayuda": [
+   {"t": "Anuncios en Instagram y Facebook", "d": "Creamos y manejamos campañas en {{meta-ads|Meta Ads}} para llegar a las personas con más probabilidad de comprarte."},
+   {"t": "Anuncios en Google", "d": "Con {{google-ads|Google Ads}} apareces justo cuando alguien busca lo que vendes, en el buscador, YouTube o Maps."},
+   {"t": "TikTok y LinkedIn", "d": "Usamos TikTok para llegar a públicos jóvenes con videos, y LinkedIn cuando le vendes a otras empresas."},
+   {"t": "Elegir bien a quién mostrarle", "d": "Hacemos {{segmentacion|segmentación}}: definimos edad, zona, intereses y comportamiento para no gastar en personas que no te van a comprar."},
+   {"t": "Probar y mejorar", "d": "Hacemos {{ab|A/B testing}}: probamos distintas imágenes y textos y dejamos funcionando los que consiguen más clientes por menos dinero."}
+  ],
+  "pasos": [
+   {"t": "Definimos la meta", "d": "Acordamos qué es un buen resultado para ti: ventas, mensajes, reservas o formularios, y cuánto quieres invertir."},
+   {"t": "Preparamos la medición", "d": "Instalamos Google Tag Manager y los píxeles para saber qué anuncio trajo cada venta o consulta."},
+   {"t": "Lanzamos los anuncios", "d": "Diseñamos las piezas, escribimos los textos y publicamos las campañas con varias versiones para comparar."},
+   {"t": "Optimizamos y te informamos", "d": "Revisamos los resultados constantemente, movemos el presupuesto a lo que funciona y cada mes te enviamos un informe simple."}
+  ],
+  "recibes": [
+   "Estrategia de campañas según tu objetivo y presupuesto",
+   "Diseño de anuncios en imagen y video",
+   "Configuración de medición (píxeles, Tag Manager y Analytics)",
+   "Optimización constante de las campañas",
+   "Informe mensual con lo importante: cuánto invertiste y cuántos clientes conseguiste"
+  ],
+  "ejemplos": [
+   {"t": "Una tienda online", "d": "Quiere que cada peso en anuncios vuelva multiplicado en ventas."},
+   {"t": "Un centro de estética", "d": "Necesita llenar su agenda con reservas de personas de su comuna."},
+   {"t": "Una empresa que vende a empresas", "d": "Busca reuniones con gerentes de un rubro específico a través de LinkedIn y Google."}
+  ],
+  "faq": [
+   {"q": "¿Cuánto tengo que invertir en anuncios?", "a": "Depende de tu rubro y de tu meta. Te recomendamos un monto para partir, medimos y lo ajustamos según los resultados. El dinero de los anuncios se paga directo a Meta, Google o TikTok, aparte de nuestro trabajo."},
+   {"q": "¿Por qué no basta con tener más seguidores?", "a": "Porque un seguidor no siempre compra. Por eso optimizamos por {{conversion|conversiones}} y te mostramos el {{cpa|costo por cliente}}, que es lo que de verdad importa para tu negocio."},
+   {"q": "¿Las cuentas publicitarias quedan a mi nombre?", "a": "Sí. Trabajamos dentro de tus propias cuentas para que siempre tengas acceso a tus datos y tu historial."},
+   {"q": "¿Necesito una página web para hacer publicidad?", "a": "No siempre: también se puede llevar gente a WhatsApp o a un formulario. Pero una buena página o tienda online suele mejorar mucho los resultados."}
+  ]
+ },
+ "en": {
+  "slug": "digital-advertising",
+  "nombre": "Digital advertising",
+  "seo_titulo": "Instagram, Facebook, Google and TikTok ads | ¡Miiish!",
+  "seo_desc": "We create and manage ads on Meta, Google, TikTok and LinkedIn focused on getting customers and sales, not just likes. Easy-to-read monthly reports.",
+  "h1": "Ads that bring customers, not just likes",
+  "bajada": "We create and manage your advertising on Instagram, Facebook, Google, TikTok and LinkedIn, and every month we show you, in plain terms, how much each new customer cost.",
+  "que_es": [
+   "{{paid-media|Digital advertising}} means paying for your ads to appear in front of people who don't know you yet but could buy from you: for example, people nearby searching for \"bakery near me\" on Google or following home decor accounts on Instagram.",
+   "Many brands spend on \"boosting posts\" and celebrate the likes. But followers and likes don't pay the bills. We set up campaigns to go after {{conversion|conversions}}: real messages, forms and sales, and we track {{cpa|CPA}} and {{roas|ROAS}} to know if every dollar invested comes back."
+  ],
+  "senales": [
+   "You spend money on the \"Boost\" button and don't know if it brought sales.",
+   "Your ads get likes, but no messages or purchases.",
+   "You tried advertising, spent money and saw no clear results.",
+   "You have a good product, but very few new people know about you."
+  ],
+  "ayuda": [
+   {"t": "Instagram and Facebook ads", "d": "We create and manage {{meta-ads|Meta Ads}} campaigns to reach the people most likely to buy from you."},
+   {"t": "Google ads", "d": "With {{google-ads|Google Ads}} you show up right when someone searches for what you sell, on Search, YouTube or Maps."},
+   {"t": "TikTok and LinkedIn", "d": "We use TikTok to reach younger audiences with video, and LinkedIn when you sell to other businesses."},
+   {"t": "Choosing who sees your ads", "d": "We do {{segmentacion|targeting}}: we define age, area, interests and behavior so you don't spend on people who won't buy."},
+   {"t": "Testing and improving", "d": "We run {{ab|A/B testing}}: we try different images and copy and keep the ones that get more customers for less money."}
+  ],
+  "pasos": [
+   {"t": "We set the goal", "d": "We agree on what a good result is for you: sales, messages, bookings or forms, and how much you want to invest."},
+   {"t": "We set up tracking", "d": "We install Google Tag Manager and pixels to know which ad brought each sale or inquiry."},
+   {"t": "We launch the ads", "d": "We design the creatives, write the copy and publish campaigns with several versions to compare."},
+   {"t": "We optimize and report", "d": "We check results constantly, move budget to what works and send you a simple report every month."}
+  ],
+  "recibes": [
+   "Campaign strategy based on your goal and budget",
+   "Image and video ad design",
+   "Tracking setup (pixels, Tag Manager and Analytics)",
+   "Ongoing campaign optimization",
+   "Monthly report with what matters: how much you invested and how many customers you got"
+  ],
+  "ejemplos": [
+   {"t": "An online store", "d": "Wants every dollar spent on ads to come back multiplied in sales."},
+   {"t": "A beauty clinic", "d": "Needs to fill its calendar with bookings from people in its area."},
+   {"t": "A B2B company", "d": "Wants meetings with managers in a specific industry through LinkedIn and Google."}
+  ],
+  "faq": [
+   {"q": "How much do I need to spend on ads?", "a": "It depends on your industry and your goal. We recommend a starting amount, measure and adjust based on results. Ad spend is paid directly to Meta, Google or TikTok, separately from our work."},
+   {"q": "Why isn't having more followers enough?", "a": "Because a follower doesn't always buy. That's why we optimize for {{conversion|conversions}} and show you the {{cpa|cost per customer}}, which is what really matters for your business."},
+   {"q": "Are the ad accounts in my name?", "a": "Yes. We work inside your own accounts so you always have access to your data and history."},
+   {"q": "Do I need a website to advertise?", "a": "Not always: you can also send people to WhatsApp or a form. But a good website or online store usually improves results a lot."}
+  ]
+ },
+ "pt": {
+  "slug": "publicidade-digital",
+  "nombre": "Publicidade digital",
+  "seo_titulo": "Anúncios no Instagram, Facebook, Google e TikTok | ¡Miiish!",
+  "seo_desc": "Criamos e gerenciamos anúncios no Meta, Google, TikTok e LinkedIn focados em conseguir clientes e vendas, não só curtidas. Relatórios mensais fáceis de entender.",
+  "h1": "Anúncios que trazem clientes, não só curtidas",
+  "bajada": "Criamos e gerenciamos sua publicidade no Instagram, Facebook, Google, TikTok e LinkedIn, e todo mês mostramos de forma simples quanto custou conseguir cada cliente.",
+  "que_es": [
+   "A {{paid-media|publicidade digital}} é pagar para que seus anúncios apareçam para pessoas que ainda não conhecem você, mas que poderiam comprar: por exemplo, gente do seu bairro que procura \"confeitaria perto de mim\" no Google ou que segue contas de decoração no Instagram.",
+   "Muitas marcas gastam em \"impulsionar publicações\" e comemoram as curtidas. Mas seguidores e curtidas não pagam as contas. Nós configuramos as campanhas para buscar {{conversion|conversões}}: mensagens, formulários e vendas reais, e medimos o {{cpa|CPA}} e o {{roas|ROAS}} para saber se cada real investido volta."
+  ],
+  "senales": [
+   "Você coloca dinheiro no botão \"Impulsionar\" e não sabe se trouxe vendas.",
+   "Seus anúncios ganham curtidas, mas não mensagens nem compras.",
+   "Você já tentou anunciar, gastou e não viu resultados claros.",
+   "Você tem um bom produto, mas pouca gente nova conhece você."
+  ],
+  "ayuda": [
+   {"t": "Anúncios no Instagram e Facebook", "d": "Criamos e gerenciamos campanhas no {{meta-ads|Meta Ads}} para chegar às pessoas com mais chance de comprar de você."},
+   {"t": "Anúncios no Google", "d": "Com o {{google-ads|Google Ads}} você aparece exatamente quando alguém procura o que você vende, na busca, no YouTube ou no Maps."},
+   {"t": "TikTok e LinkedIn", "d": "Usamos o TikTok para chegar a públicos jovens com vídeos, e o LinkedIn quando você vende para outras empresas."},
+   {"t": "Escolher bem para quem mostrar", "d": "Fazemos {{segmentacion|segmentação}}: definimos idade, região, interesses e comportamento para não gastar com quem não vai comprar."},
+   {"t": "Testar e melhorar", "d": "Fazemos {{ab|testes A/B}}: testamos imagens e textos diferentes e mantemos os que trazem mais clientes por menos dinheiro."}
+  ],
+  "pasos": [
+   {"t": "Definimos a meta", "d": "Combinamos o que é um bom resultado para você: vendas, mensagens, reservas ou formulários, e quanto quer investir."},
+   {"t": "Preparamos a medição", "d": "Instalamos o Google Tag Manager e os pixels para saber qual anúncio trouxe cada venda ou consulta."},
+   {"t": "Lançamos os anúncios", "d": "Criamos as peças, escrevemos os textos e publicamos as campanhas com várias versões para comparar."},
+   {"t": "Otimizamos e informamos", "d": "Acompanhamos os resultados o tempo todo, levamos o orçamento para o que funciona e todo mês enviamos um relatório simples."}
+  ],
+  "recibes": [
+   "Estratégia de campanhas de acordo com seu objetivo e orçamento",
+   "Criação de anúncios em imagem e vídeo",
+   "Configuração de medição (pixels, Tag Manager e Analytics)",
+   "Otimização constante das campanhas",
+   "Relatório mensal com o que importa: quanto você investiu e quantos clientes conseguiu"
+  ],
+  "ejemplos": [
+   {"t": "Uma loja online", "d": "Quer que cada real em anúncios volte multiplicado em vendas."},
+   {"t": "Uma clínica de estética", "d": "Precisa encher a agenda com reservas de pessoas da região."},
+   {"t": "Uma empresa que vende para empresas", "d": "Busca reuniões com gestores de um setor específico pelo LinkedIn e pelo Google."}
+  ],
+  "faq": [
+   {"q": "Quanto preciso investir em anúncios?", "a": "Depende do seu setor e da sua meta. Recomendamos um valor para começar, medimos e ajustamos conforme os resultados. O dinheiro dos anúncios é pago direto ao Meta, Google ou TikTok, separado do nosso trabalho."},
+   {"q": "Por que não basta ter mais seguidores?", "a": "Porque um seguidor nem sempre compra. Por isso otimizamos por {{conversion|conversões}} e mostramos o {{cpa|custo por cliente}}, que é o que realmente importa para o seu negócio."},
+   {"q": "As contas de anúncios ficam no meu nome?", "a": "Sim. Trabalhamos dentro das suas próprias contas para que você sempre tenha acesso aos seus dados e ao histórico."},
+   {"q": "Preciso de um site para anunciar?", "a": "Nem sempre: também dá para levar as pessoas ao WhatsApp ou a um formulário. Mas um bom site ou loja online costuma melhorar muito os resultados."}
+  ]
+ }
+}

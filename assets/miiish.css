@@ -229,6 +229,8 @@ a{color:inherit}
 .sv-body{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:28px;padding:0 30px 30px 122px}
 .sv-body ul{margin:0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:8px}
 .sv-body li{font-size:14px;padding:7px 13px;border-radius:999px;border:1px solid #444}
+.sv-more{display:inline-flex;align-self:flex-start;justify-self:start;width:max-content;max-width:100%;align-items:center;gap:8px;margin-top:18px;min-height:44px;padding:0 20px;border-radius:999px;background:var(--lima);color:var(--negro)!important;font-weight:600;font-size:15px;text-decoration:none;transition:transform .25s}
+.sv-more:hover{transform:translateY(-2px)}
 .demo{position:relative;height:240px;border-radius:20px;overflow:hidden}
 
 /* Equipo: círculo que crece al pasar el mouse (Meat) */

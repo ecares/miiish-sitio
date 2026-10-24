@@ -67,6 +67,8 @@
            pt:{req:'Preencha seu nome, e-mail e conte sobre o seu projeto.',mail:'Confira o seu e-mail, parece ter um erro.',err:'Não conseguimos enviar sua mensagem. Tente de novo ou escreva para hola@miiish.com.',env:'Enviando…'}}[L]||{};
     var t0=Date.now(), box=f.querySelector('.cf-err'), btn=f.querySelector('.cf-send');
     f.elements.t.value=String(t0);
+    // Si llega desde la página de un servicio (?s=Branding), deja marcada esa opción
+    try{var pre=new URLSearchParams(location.search).get('s');if(pre)f.querySelectorAll('input[name="servicios[]"]').forEach(function(c){if(c.value===pre)c.checked=true})}catch(x){}
     function fallo(m){box.textContent=m;box.hidden=false}
     f.addEventListener('submit',function(e){
       e.preventDefault();box.hidden=true;
