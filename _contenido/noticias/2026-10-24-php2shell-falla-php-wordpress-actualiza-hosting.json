@@ -1,0 +1,58 @@
+{
+  "slug": "php2shell-falla-php-wordpress-actualiza-hosting",
+  "titulo": "PHP2Shell: la falla que tiene a medio internet parchando, y tu WordPress puede ser uno",
+  "bajada": "Una IA ayudó a encontrar dos fallas graves en PHP, el lenguaje detrás de WordPress y WooCommerce. Ya hay parche: qué pasó y qué pedirle hoy a tu hosting.",
+  "categoria": "Desarrollo web",
+  "fecha": "2026-10-24",
+  "palabras_clave": [
+    "PHP2Shell",
+    "vulnerabilidad PHP WordPress",
+    "actualizar PHP hosting",
+    "seguridad WordPress Chile",
+    "WooCommerce hackeo",
+    "qué versión de PHP tengo"
+  ],
+  "claves": [
+    "El **21 de octubre de 2026** la empresa de ciberseguridad Wiz reveló **PHP2Shell**, dos fallas graves en PHP, el lenguaje con que funcionan WordPress, WooCommerce, Drupal y Joomla.",
+    "Con una sola visita maliciosa, un atacante podría **tomar el control del servidor** y leer datos como contraseñas, sin necesidad de usuario ni clave.",
+    "PHP ya publicó el arreglo: las versiones **8.5.12, 8.4.27, 8.3.36 y 8.2.35**. Si tu sitio usa PHP 8.1 o una más antigua, estás en zona de riesgo.",
+    "Lo que tienes que hacer hoy: preguntarle a tu hosting qué versión de PHP usa tu sitio y si ya la actualizó."
+  ],
+  "cuerpo": "Esta semana medio internet anduvo con el botiquín en la mano. El 21 de octubre de 2026, la empresa de ciberseguridad Wiz dio a conocer **PHP2Shell**, dos fallas graves en PHP, el lenguaje de programación con que funcionan WordPress, WooCommerce y harto otro software web. Ese mismo día PHP publicó el arreglo, y gobiernos y empresas de Estados Unidos, Reino Unido y otros países bajaron decenas de sitios por un rato para instalarlo ([Wiz](https://www.wiz.io/blog/php2shell-php-rce), [Axios](https://www.axios.com/2026/10/22/php-vulnerability-security-update-websites)).\n\nSi tu negocio tiene página web o tienda online, sigue leyendo: hay una pregunta que conviene hacerle hoy a tu hosting.\n\n## Primero, ¿qué es PHP y por qué te importa?\n\nPHP es el idioma en que está escrito el \"motor\" de muchísimos sitios. Cuando alguien entra a tu página, el **servidor** (el computador donde vive tu sitio, que normalmente arriendas a una empresa de **hosting**) usa PHP para armar lo que la persona ve. Según Axios, PHP está detrás de cerca del 70% de los sitios cuyo lenguaje se puede identificar, incluyendo Wikipedia, blogs en WordPress y tiendas online.\n\nO sea: si tu web está hecha en WordPress o tu tienda corre en WooCommerce, tu sitio funciona con PHP, lo sepas o no.\n\n## ¿Qué encontraron exactamente?\n\nSon dos fallas de seguridad registradas como CVE-2026-109618 y CVE-2026-109619, con una gravedad de hasta 9,2 sobre 10. En simple, permiten algo que en la jerga se llama **ejecución remota de código**: que un desconocido, desde cualquier parte del mundo y sin usuario ni contraseña, le dé órdenes a tu servidor como si fuera el dueño. De yapa, también podría leer datos que el servidor tiene en memoria, como contraseñas o claves de acceso a otros servicios.\n\nLo más llamativo es que las fallas están en PHP mismo, no en tu sitio. Aunque tu web esté bien hecha, si el PHP de abajo no está actualizado, la puerta queda abierta. Según Wiz, todas las versiones de PHP publicadas en la última década tienen al menos una de las dos fallas, y para demostrarlo lograron tomar el control de instalaciones recientes de WordPress, Drupal y Joomla en sus pruebas.\n\nAhora, la parte de película: Wiz cuenta que usó modelos de inteligencia artificial de Google y de OpenAI para encontrar los errores, que llevaban más de diez años escondidos. OpenAI dijo a Axios que, hasta donde sabe, \"la IA encontró estas vulnerabilidades antes que los atacantes\".\n\n## ¿Ya hay ataques?\n\nAquí hay que ser precisos. Según Help Net Security, el sistema de trampas de Amazon detectó un intento de ataque el 17 de octubre, cuatro días antes del anuncio, y la firma Patchstack recibió reportes de varios incidentes desde empresas de hosting. Recorded Future, otra compañía de inteligencia en seguridad, aclara que todavía no está claro cuántos ataques han resultado ni si hay sitios efectivamente comprometidos ([Help Net Security](https://www.helpnetsecurity.com/2026/10/21/php2shell-php-vulnerabilities-patched-cve-2026-109618-cve-2026-109619/), [Recorded Future](https://www.recordedfuture.com/blog/php2shell-vulnerability-exploitation)). Axios, por su parte, no reporta daños a gran escala hasta ahora.\n\nTraducción: no es para entrar en pánico, pero tampoco para dejarlo para la otra semana.\n\n## Qué significa para una pyme en Chile\n\nMuchas pymes chilenas tienen su web en WordPress y su tienda en WooCommerce, en un hosting compartido que alguien contrató hace años y nadie ha vuelto a mirar. Ese es justo el escenario más delicado: sitios que siguen funcionando, pero con un PHP viejito por debajo.\n\nOjo con esto: según Help Net Security, PHP ya no da soporte normal a la versión 8.1 ni a las anteriores. Para las versiones 7.4, 8.0 y 8.1 publicó solo parches mínimos pensados para quienes compilan PHP por su cuenta, algo que casi ningún hosting compartido hace. Si tu sitio todavía corre en PHP 7, el camino real es subir de versión.\n\nY si vendes por Shopify o Jumpseller, respira: esas plataformas administran sus propios servidores, así que esta tarea no te toca a ti directamente.\n\n## Qué recomendamos hacer\n\n- **Pregúntale hoy a tu hosting** qué versión de PHP usa tu sitio y si ya instaló el arreglo. Las versiones corregidas son **8.5.12, 8.4.27, 8.3.36 y 8.2.35** (o más nuevas dentro de cada rama).\n- **Revisa tú mismo**: en WordPress, entra a Herramientas > Salud del sitio > Información > Servidor y busca la línea de la versión de PHP.\n- **Si estás en PHP 8.1 o anterior**, planifica el cambio a una versión con soporte. Antes, haz un respaldo y prueba que tu tema y tus plugins (los complementos que le agregan funciones a WordPress) funcionen bien.\n- **Activa un firewall web** si tu proveedor lo ofrece. Un **WAF** es un filtro que bloquea visitas sospechosas antes de que lleguen a tu sitio; Cloudflare, por ejemplo, ya activó reglas contra este ataque para todos sus clientes. Es un parche transitorio, no reemplaza actualizar.\n- **Si algo se ve raro** (sitio lento, errores, usuarios que no reconoces), cambia las contraseñas del panel, del hosting y de la base de datos.\n\nEl Centro Nacional de Ciberseguridad del Reino Unido llegó a recomendar desconectar los sistemas que no se puedan arreglar de inmediato. Para una pyme, lo razonable es no llegar a eso: un correo a tu hosting hoy puede ahorrarte un dolor de cabeza en plena temporada de ventas.\n\nSi no sabes por dónde partir con tu sitio, en ¡Miiish! te ayudamos a revisarlo y dejarlo al día en nuestro servicio de [páginas web y tiendas online](/servicios/paginas-web-y-tiendas-online/).",
+  "faq": [
+    {
+      "pregunta": "¿Mi sitio en WordPress está afectado por PHP2Shell?",
+      "respuesta": "Probablemente sí, si su servidor usa una versión de PHP anterior a 8.5.12, 8.4.27, 8.3.36 o 8.2.35, según la rama. Puedes ver la versión en Herramientas > Salud del sitio > Información > Servidor, o preguntarle a tu hosting."
+    },
+    {
+      "pregunta": "¿Tengo que hacer algo si mi tienda está en Shopify o Jumpseller?",
+      "respuesta": "No directamente: esas plataformas administran sus propios servidores. La tarea es para quienes tienen su sitio o tienda en un hosting propio, como WordPress o WooCommerce."
+    },
+    {
+      "pregunta": "¿Basta con actualizar los plugins de WordPress?",
+      "respuesta": "No. La falla está en PHP, el lenguaje que corre en el servidor, así que lo que hay que actualizar es la versión de PHP del hosting."
+    }
+  ],
+  "fuentes": [
+    {
+      "titulo": "PHP2Shell: AI uncovers critical RCE vulnerabilities affecting 70% of the Internet",
+      "medio": "Wiz Research, 21 de octubre de 2026",
+      "url": "https://www.wiz.io/blog/php2shell-php-rce"
+    },
+    {
+      "titulo": "Black October: why bugs discovered by OpenAI tech are creating a cyber emergency",
+      "medio": "Axios, 22 de octubre de 2026",
+      "url": "https://www.axios.com/2026/10/22/php-vulnerability-security-update-websites"
+    },
+    {
+      "titulo": "PHP2Shell: Critical PHP vulnerabilities patched, update now!",
+      "medio": "Help Net Security, 21 de octubre de 2026",
+      "url": "https://www.helpnetsecurity.com/2026/10/21/php2shell-php-vulnerabilities-patched-cve-2026-109618-cve-2026-109619/"
+    },
+    {
+      "titulo": "PHP2Shell Exploitation: Two Critical PHP Flaws Explained",
+      "medio": "Recorded Future, 21 de octubre de 2026",
+      "url": "https://www.recordedfuture.com/blog/php2shell-vulnerability-exploitation"
+    }
+  ]
+}
