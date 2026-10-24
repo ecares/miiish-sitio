@@ -117,8 +117,8 @@
 .s114{margin:4px 0 0!important;font-size:15px!important;line-height:1.5!important;color:#CFCFCF!important}
 .s115{--c:#FFFFFF!important}
 .s116{margin:0!important;color:#FFFFFF!important;font-weight:600!important;line-height:1.35!important}
-.s117{margin:0!important;color:var(--fucsia)!important;font-weight:600!important;line-height:1.35!important}
-.s118{--c:var(--fucsia)!important}
+.s117{--c:var(--fucsia)!important}
+.s118{margin:0!important;color:var(--fucsia)!important;font-weight:600!important;line-height:1.35!important}
 .s119{display:flex!important;justify-content:center!important}
 .s120{position:relative!important;z-index:3!important;background:var(--hueso)!important}
 .s121{padding-top:var(--pad-l)!important;padding-bottom:var(--pad-l)!important;display:flex!important;flex-direction:column!important;gap:44px!important}
