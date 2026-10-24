@@ -200,9 +200,9 @@ if (!$enviado) {
 // ---------- 2) Confirmación al cliente, en su idioma ----------
 // Por seguridad no repetimos el texto libre del mensaje (evita que el formulario se use para enviar spam a terceros).
 $SV = [
-    'en' => ['Branding' => 'Branding', 'Redes sociales' => 'Social media', 'Web y e-commerce' => 'Web & e-commerce', 'Paid media' => 'Meta & Google campaigns', 'Video' => 'Video', 'Animación' => 'Animation & characters', '3D' => '3D modeling & rendering', 'Merchandising y POP' => 'Merchandise & POP materials', 'Sistemas a medida' => 'Custom systems'],
-    'pt' => ['Branding' => 'Branding', 'Redes sociales' => 'Redes sociais', 'Web y e-commerce' => 'Sites e e-commerce', 'Paid media' => 'Campanhas no Meta e Google', 'Video' => 'Vídeo', 'Animación' => 'Animação e personagens', '3D' => 'Modelagem e render 3D', 'Merchandising y POP' => 'Merchandising e material de PDV', 'Sistemas a medida' => 'Sistemas sob medida'],
-    'es' => ['Branding' => 'Branding', 'Redes sociales' => 'Redes sociales', 'Web y e-commerce' => 'Web y e-commerce', 'Paid media' => 'Campañas en Meta y Google', 'Video' => 'Video', 'Animación' => 'Animación y personajes', '3D' => 'Modelado y render 3D', 'Merchandising y POP' => 'Merchandising y material POP', 'Sistemas a medida' => 'Sistemas a medida'],
+    'en' => ['Branding' => 'Branding', 'Redes sociales' => 'Social media', 'Web y e-commerce' => 'Website or online store', 'Paid media' => 'Ads to get more customers', 'No lo sé' => 'Not sure yet', 'Video' => 'Video', 'Animación' => 'Animation & characters', '3D' => '3D modeling & rendering', 'Merchandising y POP' => 'Merchandise & POP materials', 'Sistemas a medida' => 'Custom systems'],
+    'pt' => ['Branding' => 'Branding', 'Redes sociales' => 'Redes sociais', 'Web y e-commerce' => 'Site ou loja online', 'Paid media' => 'Anúncios para conseguir clientes', 'No lo sé' => 'Ainda não sei', 'Video' => 'Vídeo', 'Animación' => 'Animação e personagens', '3D' => 'Modelagem e render 3D', 'Merchandising y POP' => 'Merchandising e material de PDV', 'Sistemas a medida' => 'Sistemas sob medida'],
+    'es' => ['Branding' => 'Branding', 'Redes sociales' => 'Redes sociales', 'Web y e-commerce' => 'Página web o tienda online', 'Paid media' => 'Anuncios para conseguir clientes', 'No lo sé' => 'Todavía no lo sé', 'Video' => 'Video', 'Animación' => 'Animación y personajes', '3D' => 'Modelado y render 3D', 'Merchandising y POP' => 'Merchandising y material POP', 'Sistemas a medida' => 'Sistemas a medida'],
 ][$idioma];
 $serviciosCliente = [];
 foreach ($servicios as $x) {
@@ -211,15 +211,15 @@ foreach ($servicios as $x) {
 $C = [
     'es' => ['asunto' => '¡Miiish! Recibimos tu mensaje', 'pre' => 'Te respondemos en menos de un día hábil.', 'hola' => 'Hola, %s', 'tit' => 'Recibimos tu mensaje', 'emo' => '¡miiish!',
              'p1' => 'Gracias por escribirnos. Tu solicitud ya está en manos de nuestro equipo y te responderemos a este correo en menos de un día hábil.',
-             'nec' => 'Lo que nos contaste que necesitas', 'pasos' => 'Lo que viene', 'p_1' => 'Revisamos tu mensaje y te escribimos.', 'p_2' => 'Agendamos un diagnóstico de 30 minutos.', 'p_3' => 'Te enviamos una propuesta y cotización a medida.',
+             'nec' => 'Lo que nos contaste que necesitas', 'pasos' => 'Lo que viene', 'p_1' => 'Revisamos tu mensaje y te escribimos.', 'p_2' => 'Agendamos una primera reunión para conocer tu negocio.', 'p_3' => 'Te enviamos una propuesta y cotización a medida.',
              'mas' => 'Si quieres agregar algo, solo responde este correo.', 'cta' => 'Visita miiish.com', 'firma' => 'El equipo de ¡Miiish!', 'pie' => 'Recibiste este correo porque completaste el formulario de contacto en miiish.com. Si no fuiste tú, puedes ignorarlo.', 'ruta' => '/'],
     'en' => ['asunto' => '¡Miiish! We got your message', 'pre' => 'We will reply within one business day.', 'hola' => 'Hi %s', 'tit' => 'We got your message', 'emo' => '¡miiish!',
              'p1' => 'Thanks for reaching out. Your request is already with our team and we will reply to this email within one business day.',
-             'nec' => 'What you told us you need', 'pasos' => 'What happens next', 'p_1' => 'We review your message and get back to you.', 'p_2' => 'We book a 30-minute discovery call.', 'p_3' => 'We send you a tailored proposal and quote.',
+             'nec' => 'What you told us you need', 'pasos' => 'What happens next', 'p_1' => 'We review your message and get back to you.', 'p_2' => 'We book a first meeting to get to know your business.', 'p_3' => 'We send you a tailored proposal and quote.',
              'mas' => 'Want to add something? Just reply to this email.', 'cta' => 'Visit miiish.com', 'firma' => 'The ¡Miiish! team', 'pie' => 'You received this email because you filled in the contact form on miiish.com. If it was not you, you can ignore it.', 'ruta' => '/en/'],
     'pt' => ['asunto' => '¡Miiish! Recebemos sua mensagem', 'pre' => 'Respondemos em até um dia útil.', 'hola' => 'Olá, %s', 'tit' => 'Recebemos sua mensagem', 'emo' => '¡miiish!',
              'p1' => 'Obrigado por escrever. Sua solicitação já está com a nossa equipe e vamos responder este e-mail em até um dia útil.',
-             'nec' => 'O que você nos contou que precisa', 'pasos' => 'Próximos passos', 'p_1' => 'Revisamos sua mensagem e respondemos.', 'p_2' => 'Agendamos um diagnóstico de 30 minutos.', 'p_3' => 'Enviamos uma proposta e um orçamento sob medida.',
+             'nec' => 'O que você nos contou que precisa', 'pasos' => 'Próximos passos', 'p_1' => 'Revisamos sua mensagem e respondemos.', 'p_2' => 'Agendamos uma primeira reunião para conhecer o seu negócio.', 'p_3' => 'Enviamos uma proposta e um orçamento sob medida.',
              'mas' => 'Quer acrescentar algo? É só responder este e-mail.', 'cta' => 'Visite miiish.com', 'firma' => 'Equipe ¡Miiish!', 'pie' => 'Você recebeu este e-mail porque preencheu o formulário de contato em miiish.com. Se não foi você, pode ignorar.', 'ruta' => '/pt/'],
 ][$idioma];
 $saludo = sprintf($C['hola'], mb_substr($primer, 0, 30));
