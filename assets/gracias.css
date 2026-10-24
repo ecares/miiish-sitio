@@ -40,7 +40,8 @@
 .g-stat span{color:#CFCFCF;font-size:15px}
 .g-chips{display:flex;flex-wrap:wrap;gap:8px}
 .g-chip{padding:8px 14px;border-radius:999px;border:1px solid var(--negro);font-size:14px;font-weight:600}
-.g-equipo{width:100%;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.g-equipo{width:100%;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.g-pm{aspect-ratio:1/1;border-radius:18px;display:grid;place-items:center;border:2px dashed #3A3A3A;background:repeating-linear-gradient(135deg,#1A1A1A 0 16px,#121212 16px 32px);font-family:"Unbounded",sans-serif;font-weight:900;font-size:80px;color:var(--fucsia)}
 .g-tm{margin:0;background:var(--negro);color:var(--blanco);border-radius:24px;padding:8px 8px 16px;display:flex;flex-direction:column;gap:12px}
 .g-tm img{display:block;width:100%;aspect-ratio:1/1;object-fit:cover;object-position:50% 30%;border-radius:18px;height:auto}
 .g-tm figcaption{display:flex;flex-direction:column;gap:2px;padding:0 8px}

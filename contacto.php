@@ -200,9 +200,9 @@ if (!$enviado) {
 // ---------- 2) Confirmación al cliente, en su idioma ----------
 // Por seguridad no repetimos el texto libre del mensaje (evita que el formulario se use para enviar spam a terceros).
 $SV = [
-    'en' => ['Branding' => 'Branding', 'Redes sociales' => 'Social media', 'Web y e-commerce' => 'Web & e-commerce', 'Paid media' => 'Meta & Google campaigns', 'Video' => 'Video', 'Animación' => 'Animation & characters', '3D' => '3D modeling & rendering', 'Sistemas a medida' => 'Custom systems'],
-    'pt' => ['Branding' => 'Branding', 'Redes sociales' => 'Redes sociais', 'Web y e-commerce' => 'Sites e e-commerce', 'Paid media' => 'Campanhas no Meta e Google', 'Video' => 'Vídeo', 'Animación' => 'Animação e personagens', '3D' => 'Modelagem e render 3D', 'Sistemas a medida' => 'Sistemas sob medida'],
-    'es' => ['Branding' => 'Branding', 'Redes sociales' => 'Redes sociales', 'Web y e-commerce' => 'Web y e-commerce', 'Paid media' => 'Campañas en Meta y Google', 'Video' => 'Video', 'Animación' => 'Animación y personajes', '3D' => 'Modelado y render 3D', 'Sistemas a medida' => 'Sistemas a medida'],
+    'en' => ['Branding' => 'Branding', 'Redes sociales' => 'Social media', 'Web y e-commerce' => 'Web & e-commerce', 'Paid media' => 'Meta & Google campaigns', 'Video' => 'Video', 'Animación' => 'Animation & characters', '3D' => '3D modeling & rendering', 'Merchandising y POP' => 'Merchandise & POP materials', 'Sistemas a medida' => 'Custom systems'],
+    'pt' => ['Branding' => 'Branding', 'Redes sociales' => 'Redes sociais', 'Web y e-commerce' => 'Sites e e-commerce', 'Paid media' => 'Campanhas no Meta e Google', 'Video' => 'Vídeo', 'Animación' => 'Animação e personagens', '3D' => 'Modelagem e render 3D', 'Merchandising y POP' => 'Merchandising e material de PDV', 'Sistemas a medida' => 'Sistemas sob medida'],
+    'es' => ['Branding' => 'Branding', 'Redes sociales' => 'Redes sociales', 'Web y e-commerce' => 'Web y e-commerce', 'Paid media' => 'Campañas en Meta y Google', 'Video' => 'Video', 'Animación' => 'Animación y personajes', '3D' => 'Modelado y render 3D', 'Merchandising y POP' => 'Merchandising y material POP', 'Sistemas a medida' => 'Sistemas a medida'],
 ][$idioma];
 $serviciosCliente = [];
 foreach ($servicios as $x) {

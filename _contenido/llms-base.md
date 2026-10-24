@@ -12,19 +12,21 @@
 - **Producción de video**: Reels, TikTok, video para anuncios, producto y corporativo, edición y color.
 - **Animación y personajes**: Motion graphics, logo animado, videos explicativos, ilustración y diseño de personajes.
 - **Modelado y render 3D**: Modelado de producto, render fotorrealista, packaging 3D, escenas y animación 3D.
+- **Merchandising y material POP**: Merchandising de marca, material POP, displays y exhibidores, packaging promocional y kits para eventos.
 - **Sistemas a medida**: Punto de venta, control de inventario, CRM, portales, integraciones y automatizaciones.
 
 ## Equipo
 - Eduardo Cares: Full Stack Developer & Paid Media Manager
-- Matías Fuentes: Filmmaker & Editor de Video / Postproducción
-- Camila Piña: 3D Artist, Illustrator & Art Director
 - Joaquín Holl: Digital Designer, Content Manager & Brand Designer
+- Camila Piña: 3D Artist, Illustrator & Art Director
+- Diego Morales: Diseño 3D y Render · Estrategia de Diseño y UX · Merchandising y POP
+- Matías Fuentes: Filmmaker & Editor de Video / Postproducción
 
 ## Plataformas
 - Meta Ads, Google Ads, TikTok Ads, WhatsApp, Shopify, Jumpseller, WordPress, Python, Figma, Canva, CapCut, Claude Code, ChatGPT, Gemini, OpenClaw
 
 ## Preguntas frecuentes
-- **¿Qué es ¡Miiish!?** Una agencia creativa y de marketing digital en Santiago de Chile. Hacemos branding, contenido para redes sociales, sitios web y e-commerce, sistemas a medida, video, animación, modelado y render 3D, y campañas en Meta Ads, Google Ads y TikTok Ads, todo con un mismo equipo.
+- **¿Qué es ¡Miiish!?** Una agencia creativa y de marketing digital en Santiago de Chile. Hacemos branding, contenido para redes sociales, sitios web y e-commerce, sistemas a medida, video, animación, modelado y render 3D, merchandising y material POP, y campañas en Meta Ads, Google Ads y TikTok Ads, todo con un mismo equipo.
 - **¿Trabajan solo con empresas de Santiago?** No. Estamos en Santiago y trabajamos con marcas de todo Chile y también de otros países, de forma remota. Las reuniones pueden ser presenciales o por videollamada, en español, inglés o portugués.
 - **¿Hacen campañas de Meta Ads y Google Ads?** Sí. Definimos la estrategia, producimos las creatividades, configuramos la medición de conversiones, testeamos audiencias y anuncios, y te entregamos un informe de resultados cada mes.
 - **¿Desarrollan tiendas online y sistemas a medida?** Sí. Creamos tiendas en Shopify, Jumpseller y WooCommerce, sitios en WordPress y sistemas a medida de ventas, inventario, CRM e integraciones con tus canales.
