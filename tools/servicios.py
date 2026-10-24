@@ -30,7 +30,7 @@ FORMULARIO = {'branding': 'Branding', 'contenido': 'Redes sociales', 'web': 'Web
               'merch': 'Merchandising y POP'}
 
 EQUIPO = {
-    'eduardo': ('Eduardo Cares', 'equipo-eduardo-cares', {'es': 'Founder & CEO · Full Stack Developer & Paid Media Manager'}),
+    'eduardo': ('Eduardo Cares', 'equipo-eduardo-cares', {'es': 'Marketing Lead · Full Stack Developer & Paid Media Manager'}),
     'joaquin': ('Joaquín Holl', 'equipo-joaquin-holl', {'es': 'Creative Director · Digital Designer, Content Manager & Brand Designer'}),
     'javiera': ('Javiera Torres', 'equipo-javiera', {'es': 'Project Manager · Motion Graphics, 2D Animation & Character Design for Branding'}),
     'camila': ('Camila Piña', 'equipo-camila-pina', {'es': '3D Artist, Illustrator & Art Director'}),
@@ -350,6 +350,12 @@ def main():
             open(os.path.join(d, 'index.html'), 'w', encoding='utf-8').write(doc)
             n += 1
     enlazar_portadas(todos)
+    # Copia de respaldo de /servicios/ dentro de assets/paginas/: el servidor la muestra en /servicios/
+    # (regla en .htaccess) mientras la copia automática de cPanel no incluya la carpeta servicios.
+    import shutil
+    espejo = os.path.join(RAIZ, 'assets', 'paginas', 'servicios')
+    shutil.rmtree(espejo, ignore_errors=True)
+    shutil.copytree(os.path.join(RAIZ, 'servicios'), espejo)
     print(f'OK: {n} páginas de servicios')
 
 

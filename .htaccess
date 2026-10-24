@@ -15,6 +15,9 @@ RewriteCond %{HTTPS} off [OR]
 RewriteCond %{HTTP_HOST} ^www\. [NC]
 RewriteCond %{HTTP_HOST} ^(?:www\.)?(.+)$ [NC]
 RewriteRule ^ https://%1%{REQUEST_URI} [L,R=301]
+# Páginas de servicios en español: si la carpeta servicios/ no está en el servidor, se usa la copia de assets/paginas/
+RewriteCond %{DOCUMENT_ROOT}/servicios !-d
+RewriteRule ^servicios(/.*)?$ assets/paginas/servicios$1 [L]
 </IfModule>
 
 <IfModule mod_expires.c>
