@@ -18,6 +18,7 @@
 ## Equipo
 - Eduardo Cares: Full Stack Developer & Paid Media Manager
 - Joaquín Holl: Digital Designer, Content Manager & Brand Designer
+- Javiera Torres: Project Manager
 - Camila Piña: 3D Artist, Illustrator & Art Director
 - Diego Morales: Diseño 3D y Render · Estrategia de Diseño y UX · Merchandising y POP
 - Matías Fuentes: Filmmaker & Editor de Video / Postproducción
