@@ -551,3 +551,15 @@ a{color:inherit}
 
 .lc-img{width:64px;height:64px;object-fit:contain;display:block}
 @media (max-width:560px){.lc-img{width:52px;height:52px}}
+
+/* Aviso del glosario: nota destacada y aviso flotante */
+.gl-tip{display:inline-flex;align-items:flex-start;gap:10px;align-self:flex-start;margin:0 0 6px;padding:10px 16px 10px 10px;border-radius:18px;background:var(--negro);color:#fff;font-family:"Instrument Sans",sans-serif;font-size:15px;font-weight:500;line-height:1.4;letter-spacing:0;text-transform:none;max-width:640px;text-align:left}
+.gl-tip-i{flex:0 0 auto;width:24px;height:24px;border-radius:50%;background:var(--fucsia);color:var(--negro);display:grid;place-items:center;font-family:"Unbounded",sans-serif;font-weight:800;font-size:13px;line-height:1}
+.gl-demo{text-decoration:underline;text-decoration-style:dotted;text-decoration-thickness:2px;text-underline-offset:.22em;text-decoration-color:var(--fucsia);color:var(--lima)}
+.gl-aviso{position:fixed;left:max(16px,env(safe-area-inset-left));bottom:max(16px,env(safe-area-inset-bottom));z-index:150;width:min(380px,calc(100vw - 32px));background:var(--negro);color:#fff;border:2px solid var(--fucsia);border-radius:22px;padding:18px 18px 16px;box-shadow:8px 8px 0 var(--fucsia);font-family:"Instrument Sans",sans-serif;transform:translateY(140%);opacity:0;transition:transform .55s cubic-bezier(.2,.8,.2,1),opacity .4s}
+.gl-aviso.on{transform:none;opacity:1}
+.gl-aviso b{display:flex;align-items:center;gap:10px;font-family:"Unbounded",sans-serif;font-weight:800;font-size:16px;line-height:1.2;text-transform:uppercase;letter-spacing:-.01em;margin-bottom:8px}
+.gl-aviso p{margin:0 0 14px;font-size:15px;line-height:1.5;color:#E2E2DD}
+.gl-aviso button{font:700 14px "Instrument Sans",sans-serif;min-height:42px;padding:0 18px;border-radius:999px;border:0;background:var(--lima);color:var(--negro);cursor:pointer}
+.gl-aviso .gl-x{position:absolute;top:8px;right:10px;min-height:0;padding:4px 8px;background:none;color:#9A9A95;font-size:20px}
+@media (prefers-reduced-motion:reduce){.gl-aviso{transition:none}}

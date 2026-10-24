@@ -152,7 +152,15 @@ a:focus-visible,button:focus-visible,summary:focus-visible,.gl:focus-visible{out
 .gl{cursor:help;text-decoration:underline;text-decoration-style:dotted;text-decoration-thickness:2px;text-underline-offset:.22em;text-decoration-color:var(--fucsia);display:inline}
 .gl:hover,.gl[aria-expanded="true"]{text-decoration-style:solid;color:var(--fucsia)}
 .s-hero .gl:hover,.s-oscuro .gl:hover,.s-hero .gl[aria-expanded="true"],.s-oscuro .gl[aria-expanded="true"]{color:var(--lima)}
-.gl-tip{margin:4px 0 0!important;font-family:"DM Mono",monospace;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:#8A8A85}
+.gl-tip{display:inline-flex;align-items:flex-start;gap:10px;margin:6px 0 0!important;padding:10px 16px 10px 10px;border-radius:18px;background:var(--negro);color:#fff;font-size:15px;font-weight:500;line-height:1.4;max-width:620px}
+.gl-tip-i{flex:0 0 auto;width:24px;height:24px;border-radius:50%;background:var(--fucsia);color:var(--negro);display:grid;place-items:center;font-family:"Unbounded",sans-serif;font-weight:800;font-size:13px;line-height:1}
+.gl-demo{text-decoration:underline;text-decoration-style:dotted;text-decoration-thickness:2px;text-underline-offset:.22em;text-decoration-color:var(--fucsia);color:var(--lima)}
+.gl-aviso{position:fixed;left:max(16px,env(safe-area-inset-left));bottom:max(16px,env(safe-area-inset-bottom));z-index:150;width:min(380px,calc(100vw - 32px));background:var(--negro);color:#fff;border:2px solid var(--fucsia);border-radius:22px;padding:18px 18px 16px;box-shadow:8px 8px 0 var(--fucsia);transform:translateY(140%);opacity:0;transition:transform .55s cubic-bezier(.2,.8,.2,1),opacity .4s}
+.gl-aviso.on{transform:none;opacity:1}
+.gl-aviso b{display:flex;align-items:center;gap:10px;font-family:"Unbounded",sans-serif;font-weight:800;font-size:16px;line-height:1.2;text-transform:uppercase;letter-spacing:-.01em;margin-bottom:8px}
+.gl-aviso p{margin:0 0 14px;font-size:15px;line-height:1.5;color:#E2E2DD}
+.gl-aviso button{font:700 14px "Instrument Sans",sans-serif;min-height:42px;padding:0 18px;border-radius:999px;border:0;background:var(--lima);color:var(--negro);cursor:pointer}
+.gl-aviso .gl-x{position:absolute;top:8px;right:10px;min-height:0;padding:4px 8px;background:none;color:#9A9A95;font-size:20px}
 .gl-pop{position:fixed;z-index:200;max-width:min(340px,calc(100vw - 32px));background:var(--negro);color:#fff;border:1px solid #333;border-radius:18px;padding:16px 18px;box-shadow:0 20px 50px -20px rgba(0,0,0,.6);font-size:15px;line-height:1.5;animation:glIn .2s ease both}
 .gl-pop b{display:block;margin-bottom:6px;font-family:"DM Mono",monospace;font-weight:500;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--lima)}
 .gl-pop button{position:absolute;top:8px;right:10px;background:none;border:0;color:#9A9A95;font-size:20px;line-height:1;cursor:pointer;padding:4px}

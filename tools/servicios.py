@@ -50,7 +50,7 @@ IDIOMAS = {
                indice_pill='Nuestros servicios', indice_h1=('Todo lo que tu marca necesita,', 'explicado en simple'),
                indice_bajada='Somos un equipo de diseño, tecnología, video y publicidad. Elige un área para ver qué incluye, cómo trabajamos y en qué te podemos ayudar.',
                ver='Ver servicio', cotiza='Cotiza este servicio', ver_incluye='Ver qué incluye', servicio='Servicio',
-               que_es='¿De qué se trata?', tip='Toca las palabras subrayadas y te las explicamos en simple.',
+               que_es='¿De qué se trata?', tip='Si no entiendes algún concepto, haz clic en los <span class="gl-demo">textos subrayados</span> y te lo explicamos en simple.',
                senales='¿Te suena alguna de estas?', ayuda='Cómo te ayudamos', pasos='Cómo trabajamos', recibes='Lo que recibes',
                herramientas='Herramientas que usamos', ejemplos='Por ejemplo', equipo='Quiénes lo hacen',
                equipo_txt='Trabajamos en conjunto como un solo equipo; nuestra project manager coordina cada proyecto.',
@@ -64,7 +64,7 @@ IDIOMAS = {
                indice_pill='Our services', indice_h1=('Everything your brand needs,', 'explained simply'),
                indice_bajada='We are a team of design, technology, video and advertising. Pick an area to see what it includes, how we work and how we can help you.',
                ver='See service', cotiza='Get a quote for this', ver_incluye='See what it includes', servicio='Service',
-               que_es='What is it about?', tip='Tap the underlined words and we will explain them simply.',
+               que_es='What is it about?', tip='If you don\'t understand a term, click the <span class="gl-demo">underlined text</span> and we\'ll explain it in plain words.',
                senales='Does any of this sound familiar?', ayuda='How we help you', pasos='How we work', recibes='What you get',
                herramientas='Tools we use', ejemplos='For example', equipo='Who does it',
                equipo_txt='We work together as one team; our project manager coordinates every project.',
@@ -78,7 +78,7 @@ IDIOMAS = {
                indice_pill='Nossos serviços', indice_h1=('Tudo o que sua marca precisa,', 'explicado de forma simples'),
                indice_bajada='Somos uma equipe de design, tecnologia, vídeo e publicidade. Escolha uma área para ver o que inclui, como trabalhamos e como podemos ajudar.',
                ver='Ver serviço', cotiza='Peça um orçamento', ver_incluye='Ver o que inclui', servicio='Serviço',
-               que_es='Do que se trata?', tip='Toque nas palavras sublinhadas e explicamos de um jeito simples.',
+               que_es='Do que se trata?', tip='Se não entender algum conceito, clique nos <span class="gl-demo">textos sublinhados</span> e explicamos de forma simples.',
                senales='Alguma destas soa familiar?', ayuda='Como ajudamos você', pasos='Como trabalhamos', recibes='O que você recebe',
                herramientas='Ferramentas que usamos', ejemplos='Por exemplo', equipo='Quem faz',
                equipo_txt='Trabalhamos juntos como uma só equipe; nossa project manager coordena cada projeto.',
@@ -234,7 +234,7 @@ def pagina_servicio(s, todos, l):
     <span class="s-num" aria-hidden="true">{num}</span>
   </div></section>
   <section class="s-wrap s-sec s-intro">
-    <div><h2>{t["que_es"]}</h2>{p(d["que_es"])}<p class="gl-tip">{t["tip"]}</p></div>
+    <div><h2>{t["que_es"]}</h2>{p(d["que_es"])}<p class="gl-tip"><span class="gl-tip-i" aria-hidden="true">?</span><span>{t["tip"]}</span></p></div>
     <aside class="s-senales"><h2>{t["senales"]}</h2><ul>{senales}</ul></aside>
   </section>
   <section class="s-wrap s-sec" id="incluye"><h2 class="s-h2">{t["ayuda"]}</h2><ol class="s-ayuda">{ayuda}</ol></section>

@@ -112,5 +112,32 @@
   },true);
   document.addEventListener('keydown',function(e){if(e.key==='Escape')cerrarGl();var b=e.target.closest&&e.target.closest('.gl');if(b&&(e.key==='Enter'||e.key===' ')){e.preventDefault();b.click()}});
   window.addEventListener('wheel',cerrarGl,{passive:true});window.addEventListener('touchmove',cerrarGl,{passive:true});
+  // Aviso: la primera vez que aparece una palabra subrayada, explica que se puede tocar
+  (function(){
+    var LA=(document.documentElement.lang||'es').slice(0,2), tactil=window.matchMedia&&matchMedia('(hover: none)').matches;
+    var T={es:{t:'¿Una palabra que no entiendes?',p:(tactil?'Toca':'Haz clic en')+' los textos subrayados y te lo explicamos en simple.',b:'Entendido',x:'Cerrar'},
+           en:{t:"A word you don't understand?",p:(tactil?'Tap':'Click')+" the underlined text and we'll explain it in plain words.",b:'Got it',x:'Close'},
+           pt:{t:'Uma palavra que você não entende?',p:(tactil?'Toque':'Clique')+' nos textos sublinhados e explicamos de forma simples.',b:'Entendi',x:'Fechar'}}[LA]||{};
+    var visto=false;try{visto=localStorage.getItem('miiish_gl_aviso')==='1'}catch(e){}
+    var terms=document.querySelectorAll('.gl');if(visto||!terms.length||!('IntersectionObserver' in window))return;
+    var caja=null,tm=null;
+    function guardar(){try{localStorage.setItem('miiish_gl_aviso','1')}catch(e){}}
+    function cerrar(){if(!caja)return;caja.classList.remove('on');var c=caja;caja=null;setTimeout(function(){c.remove()},600);guardar();clearTimeout(tm)}
+    function mostrar(){
+      if(caja||visto)return;visto=true;
+      caja=document.createElement('div');caja.className='gl-aviso';caja.setAttribute('role','status');
+      var b=document.createElement('b');var i=document.createElement('span');i.className='gl-tip-i';i.setAttribute('aria-hidden','true');i.textContent='?';b.appendChild(i);b.appendChild(document.createTextNode(T.t));
+      var p=document.createElement('p');p.textContent=T.p;
+      var ok=document.createElement('button');ok.type='button';ok.textContent=T.b;ok.onclick=cerrar;
+      var x=document.createElement('button');x.type='button';x.className='gl-x';x.setAttribute('aria-label',T.x);x.textContent='×';x.onclick=cerrar;
+      caja.appendChild(x);caja.appendChild(b);caja.appendChild(p);caja.appendChild(ok);document.body.appendChild(caja);
+      requestAnimationFrame(function(){requestAnimationFrame(function(){if(caja)caja.classList.add('on')})});
+      tm=setTimeout(cerrar,14000);
+    }
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){io.disconnect();setTimeout(mostrar,700)}})},{threshold:1});
+    terms.forEach(function(t){io.observe(t)});
+    // si ya tocó una palabra, entendió: no hace falta el aviso
+    document.addEventListener('click',function(e){if(e.target.closest&&e.target.closest('.gl')){visto=true;io.disconnect();cerrar();guardar()}},true);
+  })();
   if(location.hash.length>1)setTimeout(function(){scrollToId(location.hash.slice(1))},300);
 })();
