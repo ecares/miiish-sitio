@@ -1,0 +1,53 @@
+{
+  "slug": "chrome-advierte-sitios-http-revisa-https-tu-web",
+  "titulo": "Chrome ahora frena antes de entrar a sitios sin HTTPS: ¿tu web pasa la prueba?",
+  "bajada": "Chrome ya avisa a todos sus usuarios antes de abrir una página sin HTTPS. Te explicamos qué cambió, a quién afecta y cómo revisar tu sitio en cinco minutos.",
+  "categoria": "Desarrollo web",
+  "fecha": "2026-10-25",
+  "palabras_clave": [
+    "Chrome advertencia sitio no seguro",
+    "qué es HTTPS",
+    "certificado SSL para mi página web",
+    "cómo pasar mi sitio de HTTP a HTTPS",
+    "Always Use Secure Connections Chrome",
+    "página web segura pyme Chile"
+  ],
+  "claves": [
+    "Google activó para todos los usuarios de Chrome, en computador y celular, el ajuste que avisa antes de abrir un sitio sin HTTPS.",
+    "El aviso aparece la primera vez que visitas una página HTTP y deja elegir entre volver o seguir.",
+    "Según Google, casi el 95% de los usuarios de Chrome en computador no ve ningún aviso en una semana: casi toda la web ya usa HTTPS.",
+    "Si tu sitio, tu landing o un enlace viejo todavía usa HTTP, tus clientes se van a topar con una pantalla de advertencia antes de verte."
+  ],
+  "cuerpo": "Google cambió una configuración de Chrome que puede afectar a cualquier negocio con página web: desde esta semana, el navegador **avisa antes de entrar a un sitio que no usa HTTPS**. Según [Android Authority](https://www.androidauthority.com/google-chrome-https-security-warnings-default-3725570/), el cambio se anunció el 21 de octubre y llega a todos los usuarios, en computador y en celular.\n\nDicho en simple: si tu web todavía funciona \"a la antigua\", hay una pantalla de advertencia entre tu cliente y tu negocio. Y nadie quiere que lo reciban con un \"¿seguro que quieres entrar?\".\n\n## Primero lo primero: ¿qué es HTTPS?\n\nCuando entras a una página, tu navegador y el sitio se pasan información. Con **HTTP** esa información viaja \"a la vista\", como una postal: cualquiera que esté en medio (por ejemplo, en un wifi público) podría leerla o cambiarla. Con **HTTPS** viaja cifrada, como en un sobre cerrado. La \"S\" es de seguro.\n\nPara tener HTTPS, tu sitio necesita un **certificado SSL**, que es como un carnet digital que demuestra que la página es quien dice ser y permite cifrar la conexión. Hoy muchos hostings lo entregan gratis.\n\n## Qué cambió en Chrome\n\nChrome tenía desde 2022 un ajuste opcional llamado **\"Usar siempre conexiones seguras\"** (*Always Use Secure Connections*). Antes, un sitio sin HTTPS se abría igual y solo aparecía el texto \"No seguro\" junto a la dirección. Ahora, con el ajuste activado por defecto, Chrome se detiene **antes** de cargar la página y muestra un aviso que explica el riesgo y te deja volver atrás o continuar.\n\nAlgunos detalles que conviene saber:\n\n- **Aparece la primera vez** que visitas un sitio HTTP. Si dices que sí, no vuelve a molestar, salvo que pases al menos dos semanas sin entrar a ese sitio, según el resumen de la agencia [Relevant Audience](https://www.relevantaudience.com/general-topics/chrome-warns-before-insecure-http-connections/) sobre el anuncio de Google.\n- **Quedan fuera las direcciones locales**, como la página de configuración de tu router (por ejemplo, 192.168.0.1) o sistemas internos de una empresa.\n- **Se puede desactivar** en Configuración, Privacidad y seguridad, Seguridad. Pero tus clientes no lo van a hacer por ti.\n\nNo es una sorpresa total. En octubre de 2025, Google ya había anunciado este plan: primero lo activó en abril de 2026 para quienes usan la protección mejorada de Chrome y dejó para octubre de 2026 el cambio para todos, como contó [BleepingComputer](https://www.bleepingcomputer.com/news/google/google-chrome-to-warn-users-before-opening-insecure-http-sites/) en su momento.\n\n## ¿A cuántos les va a saltar el aviso?\n\nPoquitos, y esa es justamente la idea. Según datos de la propia Google citados por Android Authority, casi el **95% de los usuarios de Chrome en computador** no ve ningún aviso de HTTP en una semana, y menos del 1% ve tres o más. BleepingComputer, por su parte, calculaba que entre el 95% y el 99% de los sitios ya usa HTTPS.\n\nO sea: casi toda la web ya se puso al día. El problema es para quienes quedaron atrás, porque ahora se notan harto más.\n\n## Qué significa para una marca o pyme en Chile\n\nPiensa en el caso típico: una página hecha hace años por un sobrino, un dominio que nadie renovó bien, o una **landing page** (una página única hecha para una campaña o promoción) montada a la rápida. Si alguna de esas todavía carga con HTTP, la primera impresión de tu cliente ya no es tu logo ni tu oferta: es una advertencia de seguridad.\n\nY eso cuesta plata, sobre todo si estás pagando publicidad. Cada clic en un anuncio de Google o Meta que termina en una pantalla de aviso es un clic que probablemente se pierde. Con el Black Friday y la Navidad a la vuelta de la esquina, no es momento de regalar ventas.\n\nOjo con esto también: no basta con que la página principal tenga HTTPS. Revisa los enlaces viejos que andan dando vueltas, como el de tu bio de Instagram, códigos QR impresos en folletos o firmas de correo. Si apuntan a la versión \"http://\" y tu sitio no redirige bien a la segura, el aviso puede aparecer igual.\n\n## Qué recomendamos hacer\n\n- **Haz la prueba de los cinco minutos.** Abre tu sitio en Chrome escribiendo la dirección con \"http://\" adelante. Si te lleva solo a \"https://\" y no ves ningún aviso, vas bien.\n- **Revisa todas tus páginas sueltas:** landings de campañas, tienda online, formularios de contacto y subdominios (por ejemplo, tienda.tunegocio.cl).\n- **Pide el certificado SSL a tu hosting.** La mayoría lo tiene incluido; a veces solo hay que activarlo desde el panel.\n- **Configura la redirección**, para que cualquiera que entre por HTTP termine automáticamente en HTTPS.\n- **Actualiza tus enlaces** en redes, Google Business Profile, anuncios y material impreso nuevo.\n- **Activa el ajuste en tu propio Chrome** para detectar a tiempo cualquier página que se te haya escapado.\n\nSi tu web necesita una manito para quedar segura (o derechamente una renovación), en ¡Miiish! hacemos [páginas web y tiendas online](/servicios/paginas-web-y-tiendas-online/) pensadas para que tus clientes entren sin sustos: [cuéntanos tu proyecto](/#contacto).",
+  "faq": [
+    {
+      "pregunta": "¿Por qué Chrome dice que mi página no es segura?",
+      "respuesta": "Porque tu sitio se está abriendo con HTTP y no con HTTPS, es decir, sin una conexión cifrada. Desde octubre de 2026 Chrome muestra un aviso antes de cargar esas páginas, así que conviene activar un certificado SSL y redirigir todo a HTTPS."
+    },
+    {
+      "pregunta": "¿Cómo paso mi sitio de HTTP a HTTPS?",
+      "respuesta": "Activa un certificado SSL en tu hosting (muchos lo incluyen gratis) y configura una redirección para que todas las visitas por HTTP terminen en HTTPS. Después revisa que tus enlaces en redes, anuncios y QR usen la dirección segura."
+    },
+    {
+      "pregunta": "¿Se puede quitar el aviso de Chrome para sitios HTTP?",
+      "respuesta": "Cada usuario puede desactivarlo en la configuración de seguridad de Chrome, pero como dueño de un sitio no controlas eso. La única solución real es que tu página use HTTPS."
+    }
+  ],
+  "fuentes": [
+    {
+      "titulo": "Google Chrome now warns users before opening HTTP websites",
+      "medio": "Android Authority, 21 de octubre de 2026",
+      "url": "https://www.androidauthority.com/google-chrome-https-security-warnings-default-3725570/"
+    },
+    {
+      "titulo": "Chrome now warns before insecure HTTP connections",
+      "medio": "Relevant Audience, 24 de octubre de 2026",
+      "url": "https://www.relevantaudience.com/general-topics/chrome-warns-before-insecure-http-connections/"
+    },
+    {
+      "titulo": "Google Chrome to warn users before opening insecure HTTP sites",
+      "medio": "BleepingComputer, 28 de octubre de 2025",
+      "url": "https://www.bleepingcomputer.com/news/google/google-chrome-to-warn-users-before-opening-insecure-http-sites/"
+    }
+  ]
+}
