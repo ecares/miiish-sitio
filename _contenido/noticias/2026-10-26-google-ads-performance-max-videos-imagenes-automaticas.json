@@ -1,0 +1,53 @@
+{
+  "slug": "google-ads-performance-max-videos-imagenes-automaticas",
+  "titulo": "Google Ads ya puede sacar videos de tus redes para tus anuncios: revisa este ajuste",
+  "bajada": "Performance Max trae activado un ajuste que usa videos de tus redes y tu web en tus anuncios, y desde el 4 de diciembre hará lo mismo con imágenes. Cómo revisarlo.",
+  "categoria": "Paid media",
+  "fecha": "2026-10-26",
+  "palabras_clave": [
+    "Google Ads Performance Max",
+    "videos obtenidos Google Ads",
+    "extracción de imágenes Performance Max",
+    "publicidad en Google Chile",
+    "campañas Google Ads pymes",
+    "desactivar recursos automáticos Google Ads"
+  ],
+  "claves": [
+    "Las campañas **Performance Max** nuevas traen encendido el ajuste **Videos obtenidos**, que toma videos de tus redes, tu web o tu canal de YouTube.",
+    "Google dice que el ajuste podría estar activado también en **algunas campañas antiguas**, así que conviene revisarlas.",
+    "Desde el **4 de diciembre de 2026**, las campañas Performance Max nuevas tendrán activada por defecto la **extracción de imágenes** de tu sitio.",
+    "Ambas opciones se pueden apagar en la configuración de la campaña."
+  ],
+  "cuerpo": "Si haces publicidad en Google, ojo con esto. Google Ads agregó en sus campañas **Performance Max** un interruptor llamado **\"Videos obtenidos\"** (*Sourced videos*) que viene **encendido por defecto** en las campañas nuevas: con él, la IA de Google busca videos tuyos en tus redes, tu sitio o tu canal de YouTube y los mete en tus anuncios. Google cambió su página de ayuda el 21 de octubre y el ajuste se reportó el 23 ([Search Engine Roundtable](https://www.seroundtable.com/google-ads-sourced-videos-42365.html), [PPC Land](https://ppc.land/google-can-add-up-to-10-crawled-videos-to-pmax-asset-groups-by-default/)). Y de yapa, desde el **4 de diciembre** pasará algo parecido con las imágenes de tu web ([PPC Land](https://ppc.land/google-turns-on-pmax-image-extraction-by-default-from-december-4/)).\n\n## Primero lo básico: ¿qué es Performance Max?\n\nEs un tipo de campaña de Google Ads en la que tú pones el objetivo, el presupuesto y tus piezas (textos, fotos, videos), y la inteligencia artificial de Google decide dónde y cómo mostrarlas: en el buscador, YouTube, Gmail, Maps y otros espacios. Es cómoda, pero mientras más automatiza Google, más importa revisar qué hace con tu marca.\n\n## Qué cambió con los videos\n\nEl nuevo ajuste aparece en la sección de optimización de recursos de la campaña (los \"recursos\" o *assets* son las piezas que forman tus anuncios). Esto es lo que sabemos:\n\n- **Viene activado** en todas las campañas Performance Max nuevas, según la ayuda de Google citada por [Search Engine Roundtable](https://www.seroundtable.com/google-ads-sourced-videos-42365.html).\n- **También podría estar activado en campañas antiguas.** Google dice que puede haberse encendido en algunas campañas existentes durante una actualización reciente, pero no aclara en cuáles ni cuándo ([PPC Land](https://ppc.land/google-can-add-up-to-10-crawled-videos-to-pmax-asset-groups-by-default/)).\n- **De dónde saca los videos:** de redes sociales, de la página a la que apunta tu anuncio (la *landing page*, o sea, la página donde aterriza la persona después del clic) y de tu canal de YouTube vinculado. Para usarlos, esas fuentes tienen que estar aprobadas en tu portafolio de videos.\n- **Cuántos:** hasta **10 videos** por grupo de recursos, que se suman a los que tú subiste.\n- **Dónde quedan:** según PPC Land, los videos se suben a un canal de YouTube que es de Google, pero con tu logo y el nombre de tu negocio.\n- **Se actualizan solos:** Google los revisa cada cierto tiempo, y si borras un video de su lugar original, también sale de Google Ads.\n\nPPC Land agrega que la función se está liberando por etapas y que pide un presupuesto diario sobre los 5 dólares, así que puede que todavía no la veas en tu cuenta. Tampoco hubo un anuncio oficial con fechas por país.\n\n## Y en diciembre, las imágenes\n\nHay un segundo cambio en la misma línea. Desde el **4 de diciembre de 2026**, las campañas Performance Max nuevas tendrán activada por defecto la **extracción de imágenes**: la IA de Google revisa tus páginas, toma fotos en buena resolución y las usa en tus anuncios, que pueden aparecer en Búsqueda, YouTube, Display, Discover, Gmail y Maps ([PPC Land](https://ppc.land/google-turns-on-pmax-image-extraction-by-default-from-december-4/)).\n\nEl detalle importante: esto aplica **aunque tengas apagadas las imágenes dinámicas a nivel de cuenta**. Hasta ahora, si no tocabas la campaña, heredaba lo que dijera la cuenta; desde esa fecha, las campañas nuevas parten con la extracción encendida. Las campañas que ya existen mantienen su configuración. Además, Google pide confirmar que tienes los derechos legales sobre esas imágenes y que permites su uso en publicidad.\n\n## Qué significa para una marca o pyme en Chile\n\nPara el negocio que hace sus propias campañas, esto tiene un lado bueno y otro a vigilar.\n\n**Lo bueno:** si no tienes harto material, Google te \"rellena\" el anuncio con lo que ya publicaste, y eso puede ayudar a que la campaña salga a andar sin que produzcas videos nuevos.\n\n**Lo que hay que vigilar:**\n\n- **Tu marca puede aparecer con piezas viejas o fuera de tono.** Ese reel de una promo que ya terminó, o la foto con el precio antiguo, puede terminar en un anuncio.\n- **Derechos de uso.** Si en tus redes tienes videos con música con licencia, fotos de un banco de imágenes o contenido de alguien más, ojo. PPC Land advierte que Google no aclara quién responde por esos derechos cuando un clip se toma automáticamente.\n- **Medir se complica.** Si cambian las piezas sin que tú lo decidas, cuesta más saber qué está funcionando y qué no.\n\n## Qué te recomendamos hacer\n\n1. **Revisa todas tus campañas Performance Max**, sobre todo las antiguas. Entra a la configuración de optimización de recursos y busca \"Videos obtenidos\". Si no lo quieres, desmárcalo.\n2. **Mira la lista de fuentes aprobadas** con la opción \"Administrar fuentes\" y deja solo las que controlas de verdad.\n3. **Ordena tu casa digital:** borra o archiva en tus redes y tu web el contenido desactualizado (promos vencidas, precios viejos, fotos que ya no representan a tu marca).\n4. **Antes del 4 de diciembre**, define si quieres extracción de imágenes en las campañas que crearás para Navidad. Si no, apágala al crear cada campaña.\n5. **Si lo dejas encendido, mide.** Prueba con una campaña y compárala con otra sin estas opciones antes de decidir para toda la cuenta.\n\nLa automatización puede ser una buena aliada, pero funciona mejor cuando tú pones las reglas. Si quieres que alguien le eche un ojo a tus campañas, en ¡Miiish! hacemos [publicidad digital](/servicios/publicidad-digital/) para pymes: [cuéntanos tu proyecto](/#contacto).",
+  "faq": [
+    {
+      "pregunta": "¿Qué son los videos obtenidos en Google Ads?",
+      "respuesta": "Es un ajuste de Performance Max con el que la IA de Google busca videos tuyos en redes sociales, tu sitio web o tu canal de YouTube vinculado y los agrega a tus anuncios, hasta 10 por grupo de recursos."
+    },
+    {
+      "pregunta": "¿Cómo desactivo los videos obtenidos en Performance Max?",
+      "respuesta": "Entra a la configuración de optimización de recursos de la campaña y desmarca la opción de videos obtenidos. Con \"Administrar fuentes\" puedes revisar qué sitios y redes tiene aprobados."
+    },
+    {
+      "pregunta": "¿Qué pasa el 4 de diciembre con las imágenes en Google Ads?",
+      "respuesta": "Desde esa fecha, las campañas Performance Max nuevas tendrán activada por defecto la extracción de imágenes de tu sitio, aunque tengas apagadas las imágenes dinámicas a nivel de cuenta. Las campañas existentes mantienen su configuración."
+    }
+  ],
+  "fuentes": [
+    {
+      "titulo": "Google Ads Asset Optimization Sourced Videos On/Off Toggle",
+      "medio": "Search Engine Roundtable, 23 de octubre de 2026",
+      "url": "https://www.seroundtable.com/google-ads-sourced-videos-42365.html"
+    },
+    {
+      "titulo": "Google can add up to 10 crawled videos to PMax asset groups by default",
+      "medio": "PPC Land, octubre de 2026",
+      "url": "https://ppc.land/google-can-add-up-to-10-crawled-videos-to-pmax-asset-groups-by-default/"
+    },
+    {
+      "titulo": "Google turns on PMax image extraction by default from December 4",
+      "medio": "PPC Land, 21 de octubre de 2026",
+      "url": "https://ppc.land/google-turns-on-pmax-image-extraction-by-default-from-december-4/"
+    }
+  ]
+}
