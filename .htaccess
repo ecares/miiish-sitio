@@ -4,6 +4,7 @@ DirectoryIndex index.html
 
 # Archivos internos que no deben verse desde la web
 RedirectMatch 404 /\.git
+RedirectMatch 404 ^/\.claude(/|$)
 RedirectMatch 404 ^/(_contenido|tools)(/|$)
 RedirectMatch 404 ^/(AGENTS|README)\.md$
 RedirectMatch 404 ^/\.cpanel\.yml$
