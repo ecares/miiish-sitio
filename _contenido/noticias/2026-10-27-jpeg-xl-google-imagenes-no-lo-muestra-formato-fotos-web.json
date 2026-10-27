@@ -1,0 +1,48 @@
+{
+  "slug": "jpeg-xl-google-imagenes-no-lo-muestra-formato-fotos-web",
+  "titulo": "JPEG XL llegó a Chrome, pero Google Imágenes no lo muestra: ojo con las fotos de tu web",
+  "bajada": "Chrome y Firefox ya leen el formato JPEG XL, pero Google confirmó que su buscador de imágenes y Discover no lo soportan. Te contamos qué formato usar y cómo.",
+  "categoria": "Desarrollo web",
+  "fecha": "2026-10-27",
+  "palabras_clave": [
+    "qué es JPEG XL",
+    "mejor formato de imagen para página web",
+    "WebP o AVIF para mi web",
+    "por qué mis fotos no aparecen en Google Imágenes",
+    "optimizar imágenes página web pyme",
+    "formatos de imagen que acepta Google"
+  ],
+  "claves": [
+    "John Mueller, de Google, dijo que JPEG XL no está soportado por ahora en Google Imágenes ni en las vistas previas de Discover.",
+    "Esto llega justo cuando Chrome (versión 155) y Firefox (versión 158) empezaron a mostrar imágenes JPEG XL en octubre.",
+    "Google no ha dado fecha para soportarlo; con AVIF se demoró unos cuatro años desde que llegó a Chrome.",
+    "Si quieres probar JPEG XL, súbelo siempre con una versión de respaldo en JPEG, WebP o AVIF para no desaparecer de Google Imágenes."
+  ],
+  "cuerpo": "Hay un formato de imagen nuevo dando vueltas, **JPEG XL**, y en octubre llegó a los dos navegadores más populares de computador. Pero ojo: John Mueller, uno de los voceros de Google para temas de buscador, confirmó el 15 de octubre que **Google Imágenes y las vistas previas de Discover no lo soportan**. La noticia la recogieron [Search Engine Journal](https://www.searchenginejournal.com/google-images-discover-previews-dont-support-jpeg-xl/593816/) el 21 de octubre y [Search Engine Roundtable](https://www.seroundtable.com/google-jpeg-xl-42352.html) el 23.\n\nTraducción para el día a día: si alguien de tu equipo (o tu sobrino que \"sabe de computadores\") se entusiasma y pasa todas las fotos de tu web a JPEG XL, tus productos podrían quedar fuera de Google Imágenes. Y esa es una vitrina que harta gente usa para buscar, por ejemplo, \"zapatillas blancas\" o \"torta de cumpleaños Ñuñoa\".\n\n## Primero, ¿qué es un formato de imagen?\n\nEs la \"receta\" con que se guarda una foto en un archivo. Seguro conoces **JPEG** (las fotos de siempre) y **PNG** (ideal para logos y fondos transparentes). En los últimos años aparecieron formatos más livianos, como **WebP** y **AVIF**, que logran que la foto pese menos sin verse peor. Y una web con imágenes livianas carga más rápido, algo que agradecen tus clientes y también Google.\n\n**JPEG XL** es el último en sumarse a la fiesta. Es un formato abierto que promete comprimir mejor que el JPEG clásico, y el propio equipo de Chrome recomienda probarlo junto a AVIF.\n\n## Qué pasó exactamente\n\nSegún Search Engine Journal, el calendario fue así:\n\n- **Chrome 155** empezó a mostrar JPEG XL a un grupo chico de usuarios el 23 de septiembre y lo liberó a todos desde el 6 de octubre.\n- **Firefox 158**, lanzado el 13 de octubre, también lo incorporó.\n- **Safari** lo soporta desde 2023, y **Edge** todavía tiene un soporte limitado.\n\nCon tanto navegador sumándose, era lógico preguntarse si Google lo leía para su buscador. Mueller respondió en Bluesky (una red social parecida a X) sin rodeos: \"JPEG-XL is currently not supported\", o sea, por ahora no está soportado.\n\nLa documentación de Google lista los formatos que sí acepta en las imágenes de una página: **BMP, GIF, JPEG, PNG, WebP, SVG y AVIF**. JPEG XL no aparece.\n\nDe yapa, un detalle curioso: Search Engine Roundtable cuenta que el consultor Glenn Gabe encontró algunos archivos JPEG XL que igual aparecen en Google Imágenes. Pero la postura oficial es que no está soportado, así que mejor no apostar tu catálogo a esa excepción.\n\n## ¿Cuándo lo va a soportar Google?\n\nNadie sabe. Google no ha dado una fecha. Como referencia, Search Engine Journal recuerda lo que pasó con AVIF: Chrome lo incorporó en agosto de 2020 y Google lo sumó a su buscador recién en agosto de 2024, unos **cuatro años después**. No significa que esta vez vaya a tardar lo mismo, pero sí que no conviene quedarse esperando.\n\n## Qué significa para tu marca o pyme en Chile\n\nSi tienes una tienda online, una web de servicios o un catálogo, tus fotos trabajan para ti de dos formas: hacen que la página se vea bien y te pueden traer visitas desde Google Imágenes y **Discover** (el feed de noticias y contenidos que Google muestra en el celular, debajo de la barra de búsqueda o en la app de Google).\n\nLa mayoría de las pymes no tiene que hacer nada hoy: si tu web usa JPEG, PNG o WebP, estás bien. El riesgo aparece en dos casos:\n\n- **Si alguien convierte las imágenes** a JPEG XL para \"optimizar\" la web, sin dejar una versión de respaldo.\n- **Si usas un plugin o servicio de optimización** de imágenes (muy común en WordPress o tiendas online) y este empieza a entregar JPEG XL por defecto. Vale la pena revisar su configuración.\n\n## Qué te recomendamos hacer\n\n1. **Revisa en qué formato están tus fotos.** Abre tu web, haz clic derecho sobre una imagen y elige \"Abrir imagen en una pestaña nueva\": la terminación del archivo (.jpg, .png, .webp, .avif o .jxl) te da la pista.\n2. **Para el día a día, quédate con WebP o AVIF.** Son livianos, los leen los navegadores y Google los acepta.\n3. **Si quieres probar JPEG XL, hazlo con respaldo.** La forma recomendada es usar en el código de la página la etiqueta `<picture>`, que deja ofrecer varias versiones de una misma foto: el navegador elige la que entiende y el buscador toma la versión normal que va dentro. Mueller dijo que, armado así, funciona para cualquier buscador.\n4. **Cuida la imagen de vista previa.** Para Discover y para cuando compartes un enlace, la foto destacada se define en el código (por ejemplo, con la etiqueta *og:image*). Asegúrate de que apunte a un JPEG, PNG, WebP o AVIF.\n5. **Pregúntale a quien mantiene tu web** si algún plugin está cambiando el formato de las imágenes de forma automática.\n\nEn resumen: JPEG XL pinta bien, pero todavía no es para jugársela entero. Si quieres que revisemos cómo cargan y cómo se ven las imágenes de tu sitio, en ¡Miiish! hacemos [páginas web y tiendas online](/servicios/paginas-web-y-tiendas-online/) pensadas para verse bien y aparecer en Google: [cuéntanos tu proyecto](/#contacto).",
+  "faq": [
+    {
+      "pregunta": "¿Google Imágenes muestra fotos en formato JPEG XL?",
+      "respuesta": "No de forma oficial. John Mueller, de Google, dijo en octubre de 2026 que JPEG XL no está soportado por ahora en Google Imágenes ni en las vistas previas de Discover."
+    },
+    {
+      "pregunta": "¿Qué formato de imagen conviene usar en mi página web?",
+      "respuesta": "WebP o AVIF son buenas opciones porque son livianos, los leen los navegadores modernos y Google los acepta. JPEG y PNG siguen funcionando sin problema."
+    },
+    {
+      "pregunta": "¿Puedo usar JPEG XL sin perder posicionamiento en Google Imágenes?",
+      "respuesta": "Sí, si lo ofreces con una versión de respaldo en un formato soportado, usando la etiqueta picture con una imagen JPEG, WebP o AVIF dentro."
+    }
+  ],
+  "fuentes": [
+    {
+      "titulo": "Google Images & Discover Previews Don't Support JPEG XL",
+      "medio": "Search Engine Journal, 21 de octubre de 2026",
+      "url": "https://www.searchenginejournal.com/google-images-discover-previews-dont-support-jpeg-xl/593816/"
+    },
+    {
+      "titulo": "JPEG XL Image Format Not Supported By Google Images & Google Discover",
+      "medio": "Search Engine Roundtable, 23 de octubre de 2026",
+      "url": "https://www.seroundtable.com/google-jpeg-xl-42352.html"
+    }
+  ]
+}
