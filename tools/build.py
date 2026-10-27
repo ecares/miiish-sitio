@@ -22,6 +22,19 @@ CATEGORIAS = {
 }
 MESES = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre']
 CAMPOS = ['slug', 'titulo', 'bajada', 'categoria', 'fecha', 'cuerpo', 'claves', 'fuentes']
+TIPOS = {'noticia': 'Noticia', 'guia': 'Guía'}
+# Personas del equipo que pueden figurar como revisoras de una nota (campo "revisado_por").
+EQUIPO = {
+    'eduardo': ('Eduardo Cares', 'Marketing Lead · Full Stack Developer & Paid Media Manager'),
+    'joaquin': ('Joaquín Holl', 'Creative Director · Brand Designer'),
+    'javiera': ('Javiera Torres', 'Project Manager · Motion Graphics y animación 2D'),
+    'camila': ('Camila Piña', '3D Artist, Illustrator & Art Director'),
+    'diego': ('Diego Morales', 'Diseño 3D y Render · Estrategia de Diseño y UX'),
+    'matias': ('Matías Fuentes', 'Filmmaker y editor de video'),
+}
+# Sitios que reescriben noticias de otros o publican contenido generado en masa: no sirven como fuente.
+FUENTES_DEBILES = ('releasebot.io', 'contentgrip.com', 'seoworth.it.com', 'spyingbee.com', 'outfeed.ai', 'kua.ai',
+                   'ecosistemastartup.com', 'letsdatascience.com', 'tech-insider.org', 'chulbuldesign.com', 'heytori.tech')
 
 esc = lambda t: html.escape(str(t), quote=True)
 
@@ -39,6 +52,8 @@ def fecha_corta(f):
 def inline(t):
     t = esc(t)
     t = re.sub(r'\[([^\]]+)\]\((https?://[^)\s]+)\)', lambda m: f'<a href="{m.group(2)}" target="_blank" rel="noopener">{m.group(1)}</a>', t)
+    # Enlaces internos del sitio (/servicios/..., /#contacto): misma pestaña
+    t = re.sub(r'\[([^\]]+)\]\((/[^)\s]*)\)', lambda m: f'<a href="{m.group(2)}">{m.group(1)}</a>', t)
     t = re.sub(r'\*\*([^*]+)\*\*', r'<strong>\1</strong>', t)
     t = re.sub(r'(?<![\w*])\*([^*\n]+)\*(?!\w)', r'<em>\1</em>', t)
     t = re.sub(r'`([^`]+)`', r'<code>\1</code>', t)
@@ -89,6 +104,23 @@ def minutos(p):
     return max(2, round(palabras / 200))
 
 
+def indexable(p):
+    return p.get('indexar', True) is not False
+
+
+def servicio_info(slug):
+    """Nombre y ruta de una página de servicio en español a partir de su slug."""
+    try:
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+        import servicios
+        for x in servicios.cargar():
+            if x['es'].get('slug') == slug:
+                return x['es']['nombre'], servicios.ruta(x, 'es')
+    except Exception:
+        pass
+    return None
+
+
 LOGO = '<a class="n-logo" href="/" aria-label="¡Miiish! inicio"><span class="lj">¡mii</span><span class="ls">ish!</span></a>'
 
 
@@ -110,7 +142,7 @@ def css_noticias():
         return '/assets/noticias.css'
 
 
-def pagina(titulo, descripcion, ruta, cuerpo, jsonld, tipo='website', imagen='/og-image.jpg', extra_head=''):
+def pagina(titulo, descripcion, ruta, cuerpo, jsonld, tipo='website', imagen='/og-image.jpg', extra_head='', robots='index,follow,max-image-preview:large,max-snippet:-1'):
     url = DOMINIO + ruta
     return f'''<!doctype html>
 <html lang="es-CL">
@@ -119,7 +151,7 @@ def pagina(titulo, descripcion, ruta, cuerpo, jsonld, tipo='website', imagen='/o
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>{esc(titulo)}</title>
 <meta name="description" content="{esc(descripcion)}">
-<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+<meta name="robots" content="{robots}">
 <link rel="canonical" href="{url}">
 <meta name="theme-color" content="#D7FF3A">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -157,6 +189,7 @@ ORG = {'@type': 'Organization', '@id': DOMINIO + '/#organizacion', 'name': '¡Mi
 def tarjeta(p, raiz='/noticias/'):
     return (f'<a class="n-card" href="{raiz}{p["slug"]}/" data-cat="{esc(p["categoria"])}">'
             f'<span class="n-cat" style="--c:{CATEGORIAS.get(p["categoria"], "#D7FF3A")}">{esc(p["categoria"])}</span>'
+            + (f'<span class="n-tipo">{TIPOS[p["tipo"]]}</span>' if p.get('tipo') == 'guia' else '') +
             f'<span class="n-card-t">{esc(p["titulo"])}</span><span class="n-card-b">{esc(p["bajada"])}</span>'
             f'<span class="n-card-d">{fecha_corta(p["fecha"])} · {minutos(p)} min</span></a>')
 
@@ -171,19 +204,32 @@ def articulo(p, otros):
         faq_html = '<section class="n-faq"><h2>Preguntas frecuentes</h2>' + ''.join(
             f'<details><summary>{esc(q["pregunta"])}</summary><p>{inline(q["respuesta"])}</p></details>' for q in faq) + '</section>'
     relacionados = ''.join(tarjeta(o) for o in otros[:3])
+    aporte = ''
+    if p.get('aporte_equipo'):
+        aporte = f'<aside class="n-aporte"><h2>La mirada de ¡Miiish!</h2>{markdown(p["aporte_equipo"])}</aside>'
+    servicio = ''
+    si = servicio_info(p['servicio']) if p.get('servicio') else None
+    if si:
+        servicio = f'<p class="n-servicio">Servicio relacionado: <a href="{si[1]}">{esc(si[0])} →</a></p>'
+    rev = EQUIPO.get(p.get('revisado_por', ''))
+    firma = 'Equipo ¡Miiish!' + (f' · Revisado por {esc(rev[0])}, {esc(rev[1])}' if rev else '')
+    act = f' · Actualizado el <time datetime="{p["actualizado"][:10]}">{fecha_larga(p["actualizado"])}</time>' if p.get('actualizado') else ''
+    tipo_tag = f' <span class="n-tipo">{TIPOS[p["tipo"]]}</span>' if p.get('tipo') == 'guia' else ''
     cuerpo = f'''<article class="n-art">
   <div class="n-wrap n-art-head">
     <nav class="n-bc" aria-label="Ruta"><a href="/">Inicio</a> / <a href="/noticias/">Noticias</a> / <span>{esc(p["categoria"])}</span></nav>
-    <span class="n-cat" style="--c:{CATEGORIAS.get(p["categoria"], "#D7FF3A")}">{esc(p["categoria"])}</span>
+    <span class="n-cat" style="--c:{CATEGORIAS.get(p["categoria"], "#D7FF3A")}">{esc(p["categoria"])}</span>{tipo_tag}
     <h1>{esc(p["titulo"])}</h1>
     <p class="n-bajada">{esc(p["bajada"])}</p>
-    <p class="n-meta"><time datetime="{p["fecha"][:10]}">{fecha_larga(p["fecha"])}</time> · {minutos(p)} min de lectura · Equipo ¡Miiish!</p>
+    <p class="n-meta"><time datetime="{p["fecha"][:10]}">{fecha_larga(p["fecha"])}</time> · {minutos(p)} min de lectura{act} · {firma}</p>
   </div>
   <div class="n-wrap n-art-body">
     <aside class="n-claves"><h2>En 30 segundos</h2><ul>{claves}</ul></aside>
     <div class="n-texto">
 {markdown(p["cuerpo"])}
     </div>
+    {aporte}
+    {servicio}
     {faq_html}
     <section class="n-fuentes"><h2>Fuentes</h2><ul>{fuentes}</ul></section>
   </div>
@@ -195,6 +241,7 @@ def articulo(p, otros):
          'datePublished': p['fecha'], 'dateModified': p.get('actualizado', p['fecha']), 'inLanguage': 'es-CL',
          'articleSection': p['categoria'], 'keywords': ', '.join(p.get('palabras_clave', [])),
          'mainEntityOfPage': DOMINIO + ruta, 'image': DOMINIO + '/og-image.jpg', 'author': ORG, 'publisher': ORG,
+         **({'editor': {'@type': 'Person', 'name': rev[0], 'jobTitle': rev[1], 'worksFor': {'@id': ORG['@id']}}} if rev else {}),
          'citation': [f['url'] for f in p['fuentes']], 'wordCount': len(re.findall(r'\w+', p['cuerpo']))},
         {'@type': 'BreadcrumbList', 'itemListElement': [
             {'@type': 'ListItem', 'position': 1, 'name': 'Inicio', 'item': DOMINIO + '/'},
@@ -204,7 +251,8 @@ def articulo(p, otros):
         ld['@graph'].append({'@type': 'FAQPage', 'mainEntity': [
             {'@type': 'Question', 'name': q['pregunta'], 'acceptedAnswer': {'@type': 'Answer', 'text': q['respuesta']}} for q in faq]})
     extra = f'<meta property="article:published_time" content="{p["fecha"]}">\n<meta property="article:section" content="{esc(p["categoria"])}">\n'
-    return pagina(f'{p["titulo"]} | Noticias ¡Miiish!', p['bajada'], ruta, cuerpo, ld, 'article', extra_head=extra)
+    robots = 'index,follow,max-image-preview:large,max-snippet:-1' if indexable(p) else 'noindex,follow'
+    return pagina(f'{p["titulo"]} | Noticias ¡Miiish!', p['bajada'], ruta, cuerpo, ld, 'article', extra_head=extra, robots=robots)
 
 
 def listado(posts):
@@ -215,7 +263,7 @@ def listado(posts):
     cuerpo = f'''<section class="n-wrap n-list-head">
   <span class="n-cat" style="--c:#D7FF3A">Noticias</span>
   <h1>Diseño, web, marketing e IA, <em>explicado para tu negocio</em></h1>
-  <p class="n-bajada">Cada dos días revisamos lo que está pasando en tecnología, desarrollo web, diseño, redes y publicidad digital, y te contamos qué significa para una marca en Chile.</p>
+  <p class="n-bajada">Guías prácticas y las novedades que de verdad importan en diseño, desarrollo web, redes y publicidad digital, explicadas para marcas y pymes en Chile.</p>
   <div class="n-chips" role="group" aria-label="Filtrar por tema">{chips}</div>
 </section>
 <section class="n-wrap"><div class="n-grid" id="n-grid">{grid}</div></section>
@@ -278,6 +326,15 @@ def validar(p, archivo):
     datetime.date.fromisoformat(p['fecha'][:10])
     if len(p['fuentes']) < 2:
         sys.exit(f'{archivo}: necesita al menos 2 fuentes')
+    if p.get('tipo', 'noticia') not in TIPOS:
+        sys.exit(f'{archivo}: tipo "{p["tipo"]}" no está en {list(TIPOS)}')
+    if p.get('revisado_por') and p['revisado_por'] not in EQUIPO:
+        sys.exit(f'{archivo}: revisado_por "{p["revisado_por"]}" no está en {list(EQUIPO)}')
+    if p.get('servicio') and not servicio_info(p['servicio']):
+        sys.exit(f'{archivo}: servicio "{p["servicio"]}" no existe en _contenido/servicios/')
+    for f in p['fuentes']:
+        if any(d in f['url'] for d in FUENTES_DEBILES):
+            print(f'AVISO {archivo}: fuente poco confiable {f["url"]}; reemplázala por la fuente original')
 
 
 def main():
@@ -296,15 +353,16 @@ def main():
     for p in posts:
         d = os.path.join(RAIZ, 'noticias', p['slug'])
         os.makedirs(d, exist_ok=True)
-        otros = [o for o in posts if o['slug'] != p['slug']]
+        otros = [o for o in posts if o['slug'] != p['slug'] and indexable(o)]
         mismas = [o for o in otros if o['categoria'] == p['categoria']] + [o for o in otros if o['categoria'] != p['categoria']]
         open(os.path.join(d, 'index.html'), 'w', encoding='utf-8').write(articulo(p, mismas))
-    open(os.path.join(RAIZ, 'noticias', 'index.html'), 'w', encoding='utf-8').write(listado(posts))
-    open(os.path.join(RAIZ, 'rss.xml'), 'w', encoding='utf-8').write(rss(posts))
-    open(os.path.join(RAIZ, 'sitemap.xml'), 'w', encoding='utf-8').write(sitemap(posts))
+    visibles = [p for p in posts if indexable(p)]
+    open(os.path.join(RAIZ, 'noticias', 'index.html'), 'w', encoding='utf-8').write(listado(visibles))
+    open(os.path.join(RAIZ, 'rss.xml'), 'w', encoding='utf-8').write(rss(visibles))
+    open(os.path.join(RAIZ, 'sitemap.xml'), 'w', encoding='utf-8').write(sitemap(visibles))
     base_llms = os.path.join(RAIZ, '_contenido', 'llms-base.md')
     base = open(base_llms, encoding='utf-8').read().rstrip() if os.path.exists(base_llms) else '# ¡Miiish!'
-    lista = '\n'.join(f'- [{p["titulo"]}]({DOMINIO}/noticias/{p["slug"]}/) ({p["fecha"][:10]}, {p["categoria"]}): {p["bajada"]}' for p in posts[:40])
+    lista = '\n'.join(f'- [{p["titulo"]}]({DOMINIO}/noticias/{p["slug"]}/) ({p["fecha"][:10]}, {p["categoria"]}): {p["bajada"]}' for p in visibles[:40])
     try:
         sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
         import servicios
@@ -314,8 +372,9 @@ def main():
     except Exception as e:
         print('Aviso: no se agregaron los servicios a llms.txt:', e)
     open(os.path.join(RAIZ, 'llms.txt'), 'w', encoding='utf-8').write(base + '\n\n## Noticias recientes\n' + lista + '\n')
-    portada(posts)
-    print(f'OK: {len(posts)} noticias generadas')
+    portada(visibles)
+    ocultas = len(posts) - len(visibles)
+    print(f'OK: {len(posts)} noticias generadas' + (f' ({ocultas} con noindex)' if ocultas else ''))
 
 
 if __name__ == '__main__':

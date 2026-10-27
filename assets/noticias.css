@@ -82,3 +82,12 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var
 .n-foot a{color:#BDBDBD}
 
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+
+/* Guías, mirada del equipo y servicio relacionado (desde el 27-oct-2026) */
+.n-tipo{display:inline-block;align-self:flex-start;font-family:"DM Mono",monospace;font-size:12px;letter-spacing:.08em;text-transform:uppercase;background:var(--negro);color:var(--lima);padding:5px 10px;border-radius:999px;border:1px solid var(--negro)}
+.n-card .n-tipo{background:transparent;color:var(--lima);border-color:var(--lima)}
+.n-aporte{max-width:68ch;margin:8px 0 32px;padding:22px 24px;background:var(--blanco);border-left:6px solid var(--lima);border-radius:18px}
+.n-aporte h2{font-family:"Unbounded",sans-serif;font-weight:600;font-size:20px;margin:0 0 10px}
+.n-aporte p:last-child{margin-bottom:0}
+.n-servicio{max-width:68ch;margin:0 0 32px;font-weight:600}
+.n-servicio a{text-decoration-color:var(--fucsia);text-decoration-thickness:2px;text-underline-offset:3px}
