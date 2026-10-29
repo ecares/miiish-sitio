@@ -1,0 +1,67 @@
+{
+  "slug": "cuanto-cuesta-una-pagina-web-pyme-chile",
+  "tipo": "guia",
+  "titulo": "¿Cuánto cuesta una página web para una pyme en Chile? Lo que de verdad mueve el precio",
+  "bajada": "No hay un precio único: depende del dominio, la plataforma, el trabajo de diseño y la mantención. Te explicamos cada pieza para que compares cotizaciones.",
+  "categoria": "Desarrollo web",
+  "fecha": "2026-10-29",
+  "servicio": "paginas-web-y-tiendas-online",
+  "revisado_por": "eduardo",
+  "aporte_equipo": "",
+  "palabras_clave": [
+    "cuánto cuesta una página web en Chile",
+    "precio página web pyme",
+    "cuánto cuesta un dominio .cl",
+    "cuánto cuesta una tienda online en Chile",
+    "Shopify o Jumpseller costos Chile",
+    "cotizar página web empresa"
+  ],
+  "claves": [
+    "El precio de una web es la suma de piezas: dominio, hosting o plataforma, trabajo de diseño y desarrollo, y mantención.",
+    "El dominio .cl cuesta $9.990 al año en NIC Chile; pide que quede a tu nombre.",
+    "Shopify Payments no está disponible en Chile, así que en Shopify pagas la comisión de la plataforma y la de tu pasarela.",
+    "Para comparar cotizaciones, pide por escrito qué incluye, plazos, rondas de cambios, mantención e IVA."
+  ],
+  "cuerpo": "¿Cuánto cuesta una página web para una pyme en Chile? La respuesta corta: **no hay un precio único, porque una página web no es un producto, es un armado de piezas**. Algunas piezas cuestan poco y son fijas (el dominio .cl sale $9.990 al año en NIC Chile), otras se pagan todos los meses (el hosting o la plataforma) y la que más mueve la cuenta es el trabajo de diseño y desarrollo. Si entiendes qué hay detrás de cada pieza, vas a poder comparar cotizaciones sin sentir que te están hablando en otro idioma.\n\nVamos por partes, como quien desarma una lasaña para ver qué tiene adentro.\n\n## Primero, tres palabras que vas a escuchar harto\n\n- **Dominio:** es la dirección de tu sitio, por ejemplo tunegocio.cl. Se arrienda por año.\n- **Hosting:** es el computador (servidor) donde \"vive\" tu sitio para que cualquiera lo pueda abrir. Piensa en él como el local que arriendas para tu tienda.\n- **CMS o plataforma:** el programa con que se administra el sitio, para que tú mismo puedas cambiar un texto o subir un producto. Los más conocidos son WordPress, Shopify y Jumpseller.\n\n## Las piezas fijas: lo que pagas sí o sí\n\n**1. El dominio.** Los .cl los administra NIC Chile, de la Universidad de Chile. Desde el 1 de noviembre de 2023, inscribir o renovar un dominio .cl cuesta [$9.990 al año](https://nic.cl/anuncios/20231031-tarifas-eng.html), según el anuncio oficial de NIC. Es de las cosas más baratas del proyecto, pero ojo con esto: si se te olvida renovarlo, tu sitio y tus correos dejan de funcionar. Pídele a quien te haga la web que el dominio quede **a tu nombre**, no al de la agencia ni al del sobrino que te ayudó.\n\n**2. El hosting o la plataforma.** Acá hay dos caminos:\n\n- **WordPress instalado en un hosting:** WordPress es software libre con licencia GPL, que te permite [usarlo, revisarlo y modificarlo](https://make.wordpress.org/community/handbook/wordcamp-organizer/planning-details/gpl-primer/) sin pagar licencia. Lo que sí pagas es el hosting donde lo instalas, más plantillas o extensiones (*plugins*) premium si las necesitas. A cambio, alguien tiene que mantenerlo al día: un WordPress abandonado es una puerta abierta, como contamos en nuestra nota sobre [la falla PHP2Shell](/noticias/php2shell-falla-php-wordpress-actualiza-hosting/).\n- **Una plataforma \"todo incluido\"** como Shopify o Jumpseller: pagas una mensualidad y ellos se encargan del servidor, la seguridad y las actualizaciones. Es más cómodo, pero es un gasto que no se acaba nunca.\n\n**3. El certificado de seguridad (HTTPS).** Es el candadito en la barra del navegador. Hoy muchos hostings y plataformas lo incluyen sin costo extra, y no tenerlo te sale caro: Chrome ya avisa a los visitantes cuando un sitio no lo tiene, como explicamos en [esta nota](/noticias/chrome-advierte-sitios-http-revisa-https-tu-web/).\n\n## Qué tipo de sitio necesitas (y por qué cambia todo)\n\nAntes de pedir precio, define qué necesitas. No es lo mismo:\n\n- **Una landing page:** una sola página pensada para un objetivo, por ejemplo que te escriban para cotizar. Es lo más simple y rápido.\n- **Un sitio institucional:** varias páginas (quiénes somos, servicios, contacto). Es la \"tarjeta de presentación\" de la empresa.\n- **Una tienda online:** catálogo, carro de compras, medios de pago y despacho. Acá el trabajo crece harto, porque cada producto, cada regla de envío y cada integración suma horas.\n- **Un sistema a medida:** cuando necesitas algo que ninguna plataforma trae, como reservas con reglas propias o un portal para tus clientes. Es otra liga de precio, y lo vemos aparte en [sistemas a medida](/servicios/sistemas-a-medida/).\n\n## De qué depende el precio del trabajo\n\nEsta es la parte que hace que dos cotizaciones para \"una página web\" se vean tan distintas. Estas son las preguntas que mueven la cuenta:\n\n- **¿Diseño a medida o plantilla?** Una plantilla adaptada es más barata y rápida. Un diseño a medida parte desde tu marca y se nota, pero toma más horas.\n- **¿Cuántas páginas y cuántos productos?** Cada página se diseña, se escribe y se revisa. En una tienda, cargar 30 productos no es lo mismo que cargar 800.\n- **¿Quién pone los textos y las fotos?** Si los entregas tú, baja el costo. Si hay que escribirlos, sacar fotos o hacer renders, es trabajo extra (y suele ser lo que más se atrasa).\n- **¿Qué integraciones necesitas?** Conectar la pasarela de pago, el sistema de boletas electrónicas, el inventario o el courier suma tiempo y pruebas.\n- **¿Cuántos idiomas?** Cada idioma extra es casi un sitio más que revisar.\n- **¿Viene con lo básico de SEO, velocidad y accesibilidad?** El **SEO** es lo que ayuda a que Google entienda tu sitio y lo muestre cuando alguien busca lo que vendes. Un sitio rápido y fácil de usar para todos también vende más. Pregunta si está incluido o si se cobra aparte.\n- **¿Qué pasa después del lanzamiento?** Mantención, actualizaciones, respaldos y cambios menores. Algunos lo cobran mensual, otros por hora.\n\n## Lo que pocos te cuentan: comisiones y dólares\n\nLas plataformas de tienda online cobran en dólares, así que tu costo mensual en pesos sube y baja con el tipo de cambio. Considéralo en tu presupuesto, sobre todo si planeas cerrar el año con el Black Friday.\n\nY un dato que suele sorprender: **Shopify Payments, la pasarela propia de Shopify, no está disponible en Chile**. Su [lista oficial de países](https://help.shopify.com/en/manual/payments/shopify-payments/supported-countries) solo incluye a México en Latinoamérica. Según la [ayuda de Shopify](https://help.shopify.com/manual/intro-to-shopify/pricing-plans/pricing-overview), cuando usas una pasarela de un tercero, Shopify cobra su propia comisión por transacción, que varía según el plan, y además la pasarela te cobra la suya. O sea, en Chile pagas dos comisiones por venta.\n\nJumpseller, en cambio, muestra en su [página de planes](https://jumpseller.com/sign-up/) un 0% de comisión por transacción en todos sus planes y dominio gratis el primer año en los planes desde Plus pagados anualmente. Igual vas a pagar la comisión de tu pasarela (Webpay, Mercado Pago u otra). No es que una plataforma sea mejor que la otra para todos: es que **la mensualidad no es el único costo**, y conviene sacar la cuenta con tus ventas reales.\n\n## Cómo comparar cotizaciones sin perderte\n\nPide que cada cotización diga, por escrito:\n\n- Qué incluye y qué no (páginas, productos cargados, textos, fotos, integraciones).\n- A nombre de quién quedan el dominio, el hosting y las cuentas de la plataforma.\n- Cuántas rondas de cambios entran en el precio.\n- Plazo de entrega y qué necesitan de ti para cumplirlo.\n- Qué cuesta la mantención después del lanzamiento y quién responde si el sitio se cae.\n- Si el precio incluye o no el IVA.\n\nSi una cotización es mucho más barata que las otras, no la descartes de inmediato, pero revisa qué se quedó afuera. Casi siempre la diferencia está en la mantención, en los textos o en el diseño a medida.\n\n## Errores comunes\n\n- **Elegir solo por el precio inicial** y olvidar las mensualidades, comisiones y mantención de los próximos años.\n- **Dejar el dominio a nombre de otra persona.** Si la relación se corta, recuperarlo es un dolor de cabeza.\n- **Llegar sin contenido.** El sitio puede estar listo y quedar semanas esperando fotos y textos.\n- **Pedir \"algo simple\" y después sumar tienda, blog e idiomas.** Define el alcance antes, aunque sea en una lista corta.\n- **Pensar que lanzar es terminar.** Un sitio necesita actualizaciones y alguien que lo mire de vez en cuando.\n\n## En resumen: qué hacer\n\n1. Define qué tipo de sitio necesitas: landing, institucional, tienda o sistema.\n2. Suma los costos fijos: dominio .cl ($9.990 al año en NIC Chile) y hosting o plataforma mensual.\n3. Si vas a vender online, calcula las comisiones con tus ventas reales, no solo la mensualidad.\n4. Pide cotizaciones con el detalle de arriba y compáralas punto por punto.\n5. Asegúrate de que el dominio y las cuentas queden a tu nombre.\n\nSi quieres que te ayudemos a armar tu sitio o tu tienda con números claros desde el principio, [cuéntanos tu proyecto](/#contacto) y lo vemos en nuestra página de [páginas web y tiendas online](/servicios/paginas-web-y-tiendas-online/).",
+  "faq": [
+    {
+      "pregunta": "¿Cuánto cuesta un dominio .cl?",
+      "respuesta": "Según NIC Chile, desde el 1 de noviembre de 2023 inscribir o renovar un dominio .cl cuesta $9.990 por año."
+    },
+    {
+      "pregunta": "¿Es más barato hacer la página en WordPress?",
+      "respuesta": "WordPress no cobra licencia, pero sí pagas hosting, posibles plugins o plantillas y la mantención para tenerlo actualizado y seguro."
+    },
+    {
+      "pregunta": "¿Shopify cobra comisión por venta en Chile?",
+      "respuesta": "Shopify Payments no está disponible en Chile, y Shopify cobra una comisión por transacción cuando usas una pasarela de terceros. Además, la pasarela cobra la suya."
+    }
+  ],
+  "fuentes": [
+    {
+      "titulo": "New fees for .CL domain names",
+      "medio": "NIC Chile, 31 de octubre de 2023",
+      "url": "https://nic.cl/anuncios/20231031-tarifas-eng.html"
+    },
+    {
+      "titulo": "Supported countries for Shopify Payments",
+      "medio": "Shopify Help Center, consultado el 29 de octubre de 2026",
+      "url": "https://help.shopify.com/en/manual/payments/shopify-payments/supported-countries"
+    },
+    {
+      "titulo": "Pricing plans and billing overview",
+      "medio": "Shopify Help Center, consultado el 29 de octubre de 2026",
+      "url": "https://help.shopify.com/manual/intro-to-shopify/pricing-plans/pricing-overview"
+    },
+    {
+      "titulo": "Planes & Precios",
+      "medio": "Jumpseller, consultado el 29 de octubre de 2026",
+      "url": "https://jumpseller.com/sign-up/"
+    },
+    {
+      "titulo": "GPL Primer",
+      "medio": "WordPress.org (Make WordPress Community)",
+      "url": "https://make.wordpress.org/community/handbook/wordcamp-organizer/planning-details/gpl-primer/"
+    }
+  ]
+}
