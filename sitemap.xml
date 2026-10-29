@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://miiish.com/</loc><lastmod>2026-10-27</lastmod><priority>1.0</priority></url>
-  <url><loc>https://miiish.com/en/</loc><lastmod>2026-10-27</lastmod><priority>0.9</priority></url>
-  <url><loc>https://miiish.com/pt/</loc><lastmod>2026-10-27</lastmod><priority>0.9</priority></url>
-  <url><loc>https://miiish.com/noticias/</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority></url>
+  <url><loc>https://miiish.com/</loc><lastmod>2026-10-29</lastmod><priority>1.0</priority></url>
+  <url><loc>https://miiish.com/en/</loc><lastmod>2026-10-29</lastmod><priority>0.9</priority></url>
+  <url><loc>https://miiish.com/pt/</loc><lastmod>2026-10-29</lastmod><priority>0.9</priority></url>
+  <url><loc>https://miiish.com/noticias/</loc><lastmod>2026-10-29</lastmod><priority>0.8</priority></url>
+  <url><loc>https://miiish.com/noticias/cuanto-cuesta-una-pagina-web-pyme-chile/</loc><lastmod>2026-10-29</lastmod><priority>0.7</priority></url>
   <url><loc>https://miiish.com/noticias/canva-craft-generador-imagenes-propio-disenos-editables/</loc><lastmod>2026-10-27</lastmod><priority>0.7</priority></url>
   <url><loc>https://miiish.com/noticias/jpeg-xl-google-imagenes-no-lo-muestra-formato-fotos-web/</loc><lastmod>2026-10-27</lastmod><priority>0.7</priority></url>
   <url><loc>https://miiish.com/noticias/meta-ads-50-conversiones-semana-no-toques-campanas-black-friday/</loc><lastmod>2026-10-27</lastmod><priority>0.7</priority></url>
@@ -22,34 +23,34 @@
   <url><loc>https://miiish.com/noticias/adobe-max-2026-photoshop-premiere-mas-rapidos/</loc><lastmod>2026-10-23</lastmod><priority>0.7</priority></url>
   <url><loc>https://miiish.com/noticias/google-ai-mode-seo-pymes-chile/</loc><lastmod>2026-10-27</lastmod><priority>0.7</priority></url>
   <url><loc>https://miiish.com/noticias/meta-product-browsing-anuncios-28-octubre/</loc><lastmod>2026-10-23</lastmod><priority>0.7</priority></url>
-  <url><loc>https://miiish.com/servicios/</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority></url>
-  <url><loc>https://miiish.com/en/services/</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority></url>
-  <url><loc>https://miiish.com/pt/servicos/</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority></url>
-  <url><loc>https://miiish.com/servicios/branding/</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority></url>
-  <url><loc>https://miiish.com/en/services/branding/</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority></url>
-  <url><loc>https://miiish.com/pt/servicos/branding/</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority></url>
-  <url><loc>https://miiish.com/servicios/contenido-y-redes-sociales/</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority></url>
-  <url><loc>https://miiish.com/en/services/content-and-social-media/</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority></url>
-  <url><loc>https://miiish.com/pt/servicos/conteudo-e-redes-sociais/</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority></url>
-  <url><loc>https://miiish.com/servicios/paginas-web-y-tiendas-online/</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority></url>
-  <url><loc>https://miiish.com/en/services/websites-and-online-stores/</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority></url>
-  <url><loc>https://miiish.com/pt/servicos/sites-e-lojas-online/</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority></url>
-  <url><loc>https://miiish.com/servicios/publicidad-digital/</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority></url>
-  <url><loc>https://miiish.com/en/services/digital-advertising/</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority></url>
-  <url><loc>https://miiish.com/pt/servicos/publicidade-digital/</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority></url>
-  <url><loc>https://miiish.com/servicios/video/</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority></url>
-  <url><loc>https://miiish.com/en/services/video/</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority></url>
-  <url><loc>https://miiish.com/pt/servicos/video/</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority></url>
-  <url><loc>https://miiish.com/servicios/animacion-y-personajes/</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority></url>
-  <url><loc>https://miiish.com/en/services/animation-and-characters/</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority></url>
-  <url><loc>https://miiish.com/pt/servicos/animacao-e-personagens/</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority></url>
-  <url><loc>https://miiish.com/servicios/modelado-y-render-3d/</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority></url>
-  <url><loc>https://miiish.com/en/services/3d-modeling-and-rendering/</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority></url>
-  <url><loc>https://miiish.com/pt/servicos/modelagem-e-render-3d/</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority></url>
-  <url><loc>https://miiish.com/servicios/sistemas-a-medida/</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority></url>
-  <url><loc>https://miiish.com/en/services/custom-systems/</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority></url>
-  <url><loc>https://miiish.com/pt/servicos/sistemas-sob-medida/</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority></url>
-  <url><loc>https://miiish.com/servicios/merchandising-y-material-pop/</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority></url>
-  <url><loc>https://miiish.com/en/services/merchandise-and-pop-materials/</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority></url>
-  <url><loc>https://miiish.com/pt/servicos/merchandising-e-material-de-pdv/</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority></url>
+  <url><loc>https://miiish.com/servicios/</loc><lastmod>2026-10-29</lastmod><priority>0.8</priority></url>
+  <url><loc>https://miiish.com/en/services/</loc><lastmod>2026-10-29</lastmod><priority>0.8</priority></url>
+  <url><loc>https://miiish.com/pt/servicos/</loc><lastmod>2026-10-29</lastmod><priority>0.8</priority></url>
+  <url><loc>https://miiish.com/servicios/branding/</loc><lastmod>2026-10-29</lastmod><priority>0.8</priority></url>
+  <url><loc>https://miiish.com/en/services/branding/</loc><lastmod>2026-10-29</lastmod><priority>0.8</priority></url>
+  <url><loc>https://miiish.com/pt/servicos/branding/</loc><lastmod>2026-10-29</lastmod><priority>0.8</priority></url>
+  <url><loc>https://miiish.com/servicios/contenido-y-redes-sociales/</loc><lastmod>2026-10-29</lastmod><priority>0.8</priority></url>
+  <url><loc>https://miiish.com/en/services/content-and-social-media/</loc><lastmod>2026-10-29</lastmod><priority>0.8</priority></url>
+  <url><loc>https://miiish.com/pt/servicos/conteudo-e-redes-sociais/</loc><lastmod>2026-10-29</lastmod><priority>0.8</priority></url>
+  <url><loc>https://miiish.com/servicios/paginas-web-y-tiendas-online/</loc><lastmod>2026-10-29</lastmod><priority>0.8</priority></url>
+  <url><loc>https://miiish.com/en/services/websites-and-online-stores/</loc><lastmod>2026-10-29</lastmod><priority>0.8</priority></url>
+  <url><loc>https://miiish.com/pt/servicos/sites-e-lojas-online/</loc><lastmod>2026-10-29</lastmod><priority>0.8</priority></url>
+  <url><loc>https://miiish.com/servicios/publicidad-digital/</loc><lastmod>2026-10-29</lastmod><priority>0.8</priority></url>
+  <url><loc>https://miiish.com/en/services/digital-advertising/</loc><lastmod>2026-10-29</lastmod><priority>0.8</priority></url>
+  <url><loc>https://miiish.com/pt/servicos/publicidade-digital/</loc><lastmod>2026-10-29</lastmod><priority>0.8</priority></url>
+  <url><loc>https://miiish.com/servicios/video/</loc><lastmod>2026-10-29</lastmod><priority>0.8</priority></url>
+  <url><loc>https://miiish.com/en/services/video/</loc><lastmod>2026-10-29</lastmod><priority>0.8</priority></url>
+  <url><loc>https://miiish.com/pt/servicos/video/</loc><lastmod>2026-10-29</lastmod><priority>0.8</priority></url>
+  <url><loc>https://miiish.com/servicios/animacion-y-personajes/</loc><lastmod>2026-10-29</lastmod><priority>0.8</priority></url>
+  <url><loc>https://miiish.com/en/services/animation-and-characters/</loc><lastmod>2026-10-29</lastmod><priority>0.8</priority></url>
+  <url><loc>https://miiish.com/pt/servicos/animacao-e-personagens/</loc><lastmod>2026-10-29</lastmod><priority>0.8</priority></url>
+  <url><loc>https://miiish.com/servicios/modelado-y-render-3d/</loc><lastmod>2026-10-29</lastmod><priority>0.8</priority></url>
+  <url><loc>https://miiish.com/en/services/3d-modeling-and-rendering/</loc><lastmod>2026-10-29</lastmod><priority>0.8</priority></url>
+  <url><loc>https://miiish.com/pt/servicos/modelagem-e-render-3d/</loc><lastmod>2026-10-29</lastmod><priority>0.8</priority></url>
+  <url><loc>https://miiish.com/servicios/sistemas-a-medida/</loc><lastmod>2026-10-29</lastmod><priority>0.8</priority></url>
+  <url><loc>https://miiish.com/en/services/custom-systems/</loc><lastmod>2026-10-29</lastmod><priority>0.8</priority></url>
+  <url><loc>https://miiish.com/pt/servicos/sistemas-sob-medida/</loc><lastmod>2026-10-29</lastmod><priority>0.8</priority></url>
+  <url><loc>https://miiish.com/servicios/merchandising-y-material-pop/</loc><lastmod>2026-10-29</lastmod><priority>0.8</priority></url>
+  <url><loc>https://miiish.com/en/services/merchandise-and-pop-materials/</loc><lastmod>2026-10-29</lastmod><priority>0.8</priority></url>
+  <url><loc>https://miiish.com/pt/servicos/merchandising-e-material-de-pdv/</loc><lastmod>2026-10-29</lastmod><priority>0.8</priority></url>
 </urlset>
