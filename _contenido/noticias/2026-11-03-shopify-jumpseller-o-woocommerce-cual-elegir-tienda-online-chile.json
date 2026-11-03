@@ -1,0 +1,72 @@
+{
+  "slug": "shopify-jumpseller-o-woocommerce-cual-elegir-tienda-online-chile",
+  "tipo": "guia",
+  "titulo": "Shopify, Jumpseller o WooCommerce: cuál elegir para tu tienda online en Chile",
+  "bajada": "Comparamos las tres plataformas en lo que más importa en Chile: cómo cobras con Webpay, comisiones por venta, mensualidades y quién mantiene la tienda.",
+  "categoria": "E-commerce",
+  "fecha": "2026-11-03",
+  "servicio": "paginas-web-y-tiendas-online",
+  "revisado_por": "eduardo",
+  "aporte_equipo": "",
+  "palabras_clave": [
+    "mejor plataforma tienda online Chile",
+    "Shopify o Jumpseller",
+    "Jumpseller o WooCommerce",
+    "Shopify Payments Chile",
+    "comisión Shopify Webpay",
+    "crear tienda online Chile"
+  ],
+  "claves": [
+    "Shopify Payments no está disponible en Chile, así que Shopify suma una comisión de 2%, 1% o 0,6% por venta según el plan.",
+    "Jumpseller y WooCommerce no cobran comisión por venta; solo pagas la de tu pasarela, como Transbank.",
+    "WooCommerce es gratis, pero pagas hosting, extensiones y alguien que lo mantenga actualizado.",
+    "Compara el costo total con tus ventas esperadas, no solo la mensualidad."
+  ],
+  "cuerpo": "¿Shopify, Jumpseller o WooCommerce? La respuesta corta: **si vendes solo en Chile y quieres algo que funcione rápido sin depender de un programador, Jumpseller suele ser el camino más simple; si apuntas a crecer fuera de Chile o necesitas muchas apps, Shopify; y si ya tienes un sitio en WordPress o quieres control total, WooCommerce**. Pero el diablo está en los detalles, sobre todo en cómo cobras y cuánto se te va en comisiones. Vamos por partes.\n\nPrimero, una aclaración para el tío de la esquina: una **plataforma de e-commerce** es el programa con el que armas y administras tu tienda online (productos, carro de compras, pagos, despachos). Y la **pasarela de pago** es el servicio que procesa el pago con tarjeta, como Webpay de Transbank. Son dos cosas distintas y cada una cobra lo suyo.\n\n## Las tres en una frase\n\n- **Shopify:** plataforma canadiense \"todo incluido\". Pagas una mensualidad y ellos se encargan del servidor, la seguridad y las actualizaciones. Tiene una tienda de apps gigante.\n- **Jumpseller:** plataforma nacida en Chile, también \"todo incluido\", con los medios de pago y despachos locales más a mano.\n- **WooCommerce:** un *plugin* (una extensión) gratuito que convierte un sitio WordPress en tienda. Tú (o tu agencia) pones el hosting y te haces cargo de mantenerlo.\n\n## El punto que más pesa en Chile: cómo cobras\n\nAcá está la diferencia que harta gente descubre tarde.\n\n**Shopify tiene su propio sistema de pagos, Shopify Payments, pero no está disponible en Chile.** En su [lista oficial de países](https://help.shopify.com/en/manual/payments/shopify-payments/supported-countries) el único de Latinoamérica es México, y Shopify indica que si tu país no aparece debes usar un proveedor de pago externo. ¿Qué significa eso? Que además de lo que te cobra tu pasarela (Webpay, Mercado Pago u otra), Shopify suma una **comisión por transacción**: según su [página de precios](https://www.shopify.com/pricing), es de 2% en el plan Basic, 1% en Grow y 0,6% en Advanced. En una venta de $50.000, el 2% son $1.000 que se van solo por usar la plataforma. Multiplícalo por las ventas de un CyberDay y ojo con esto.\n\n**Jumpseller no cobra comisión por venta.** Su [página de planes](https://jumpseller.com/sign-up/) dice que no toma ningún porcentaje de tus ventas, aunque sí aplica lo que cobra la pasarela que elijas. Además, Jumpseller está autorizado por Transbank como proveedor tecnológico, así que las tiendas vienen [integradas con Webpay Plus](https://jumpseller.cl/support/webpay/): contratas Webpay en el sitio de Transbank eligiendo Jumpseller, recibes tu código de comercio y lo pegas en la configuración. Su guía también menciona cuotas sin interés opcionales y pagos con débito y tarjetas de prepago.\n\n**WooCommerce tampoco cobra por venta.** Su [página de precios](https://woocommerce.com/pricing/) dice que la plataforma base es gratis y sin suscripción mensual. Para Webpay, Transbank publica un [plugin oficial para WooCommerce](https://wordpress.org/plugins/transbank-webpay-plus-rest/) con Webpay Plus y Oneclick, de código abierto y con más de 10.000 instalaciones activas.\n\nOjo: en las tres, **Transbank (o la pasarela que uses) cobra su propia comisión por cada pago**. Según la guía de Jumpseller, esa tarifa de Transbank depende del rubro y del tipo de tarjeta, y conviene revisarla en el simulador oficial de Transbank. Eso no lo elimina ninguna plataforma.\n\n## Lo que pagas todos los meses\n\n- **Shopify:** su página de precios muestra los planes en dólares: Basic a US$39 al mes con pago mensual o US$29 con pago anual, Grow a US$105 o US$79 y Advanced a US$399 o US$299. Hoy ofrece tres días de prueba y luego US$1 al mes por los tres primeros meses en la mayoría de los planes.\n- **Jumpseller:** su página global de planes muestra cinco niveles, de Basic a Advanced, con productos ilimitados en todos y 10% de descuento si pagas anual. Los montos aparecen con signo $ sin indicar la moneda, así que revisa el precio que te muestra al registrarte. Ojo con un detalle: funciones como cupones de descuento, recuperación de carros abandonados y cuentas de clientes aparecen recién desde el plan Pro.\n- **WooCommerce:** el *plugin* es gratis, pero no la tienda. Según WooCommerce, el hosting de la mayoría de las tiendas va de US$25 a US$350 al mes y cada extensión pagada cuesta entre US$29 y US$299 al año. Súmale el dominio y, sobre todo, alguien que mantenga WordPress actualizado: un sitio abandonado es una puerta abierta, como contamos en [la nota sobre la falla PHP2Shell](/noticias/php2shell-falla-php-wordpress-actualiza-hosting/).\n\n## Cómo elegir: cinco preguntas\n\n**1. ¿Dónde están tus clientes?** Si vendes en Chile, Jumpseller te ahorra pasos con pagos y despachos locales. Si piensas vender a otros países pronto, Shopify y WooCommerce tienen más herramientas e integraciones internacionales.\n\n**2. ¿Cuánto vas a vender?** Con pocas ventas, la comisión de Shopify casi no se nota. Cuando las ventas crecen, ese 1% o 2% empieza a pesar harto, y ahí vale la pena sacar la cuenta: a veces un plan más caro con menor comisión sale más barato.\n\n**3. ¿Quién va a administrar la tienda?** Si eres tú, sin ayuda técnica, una plataforma \"todo incluido\" (Shopify o Jumpseller) te quita dolores de cabeza. WooCommerce es más flexible, pero necesita que alguien se haga cargo de actualizaciones, respaldos y seguridad.\n\n**4. ¿Necesitas algo fuera de lo común?** Productos con muchas variantes, precios mayoristas, suscripciones, integración con tu inventario o tu ERP (el sistema de gestión de la empresa). Shopify tiene la tienda de apps más grande y WooCommerce te deja programar casi cualquier cosa. Jumpseller deja algunas de estas funciones en los planes más altos, así que revisa qué plan necesitas antes de comparar precios.\n\n**5. ¿Ya tienes un sitio?** Si tu web está en WordPress y funciona bien, sumar WooCommerce puede ser más lógico que armar todo de nuevo en otra parte.\n\n## Errores comunes\n\n- **Comparar solo la mensualidad.** El costo real es mensualidad + comisión de la plataforma + comisión de la pasarela + apps o extensiones. Haz la cuenta con tus ventas esperadas.\n- **Llenar la tienda de apps sin revisarlas.** Cada app es un tercero con acceso a tu tienda. Mira lo que pasó con [las apps de checkout falso en Shopify](/noticias/shopify-apps-checkout-falso-revisa-tu-tienda/).\n- **Elegir WooCommerce \"porque es gratis\"** y después no tener quién lo mantenga.\n- **Dejar la decisión para noviembre.** Migrar de plataforma en plena temporada alta es mala idea. Si tienes el [Black Friday](/noticias/black-friday-2026-chile-fechas-que-preparar-pyme/) encima, mejor afina lo que tienes y planifica el cambio para después.\n- **No dejar a tu nombre las cuentas.** La tienda, el dominio y el contrato con Transbank deben estar a nombre de tu empresa, no de quien te ayudó a armarla.\n\n## En resumen: qué hacer\n\n1. Anota cuánto esperas vender al mes y el valor promedio de tus pedidos.\n2. Con eso, calcula para cada opción: mensualidad + comisión de la plataforma + comisión de tu pasarela.\n3. Revisa que tu pasarela y tu courier tengan integración con la plataforma que te gusta.\n4. Aprovecha las pruebas gratis: sube unos productos y haz una compra de prueba.\n5. Decide pensando en dónde quieres estar en dos años, no solo en el mes que viene.\n\nSi quieres una segunda opinión antes de decidir, en ¡Miiish! te ayudamos a comparar y a armar tu tienda: [cuéntanos tu proyecto](/#contacto) o mira nuestro servicio de [páginas web y tiendas online](/servicios/paginas-web-y-tiendas-online/).",
+  "faq": [
+    {
+      "pregunta": "¿Shopify Payments funciona en Chile?",
+      "respuesta": "No. Chile no está en la lista de países de Shopify Payments, así que debes usar una pasarela externa y Shopify cobra una comisión adicional por venta según tu plan."
+    },
+    {
+      "pregunta": "¿Jumpseller cobra comisión por venta?",
+      "respuesta": "No. Jumpseller dice que no cobra porcentaje por tus ventas; solo pagas la mensualidad y la comisión de la pasarela de pago que uses."
+    },
+    {
+      "pregunta": "¿WooCommerce es gratis?",
+      "respuesta": "El plugin es gratis, pero necesitas pagar hosting, dominio, extensiones pagadas si las usas y la mantención del sitio WordPress."
+    }
+  ],
+  "fuentes": [
+    {
+      "titulo": "Shopify Payments supported countries",
+      "medio": "Centro de ayuda de Shopify, consultado el 3-nov-2026",
+      "url": "https://help.shopify.com/en/manual/payments/shopify-payments/supported-countries"
+    },
+    {
+      "titulo": "Shopify Pricing",
+      "medio": "Shopify, consultado el 3-nov-2026",
+      "url": "https://www.shopify.com/pricing"
+    },
+    {
+      "titulo": "Planes & Precios",
+      "medio": "Jumpseller, consultado el 3-nov-2026",
+      "url": "https://jumpseller.com/sign-up/"
+    },
+    {
+      "titulo": "Guía completa de integración de Webpay Plus de Transbank",
+      "medio": "Soporte Jumpseller Chile, consultado el 3-nov-2026",
+      "url": "https://jumpseller.cl/support/webpay/"
+    },
+    {
+      "titulo": "WooCommerce Pricing",
+      "medio": "WooCommerce, consultado el 3-nov-2026",
+      "url": "https://woocommerce.com/pricing/"
+    },
+    {
+      "titulo": "Transbank Webpay (plugin para WooCommerce)",
+      "medio": "Transbank Developers en WordPress.org, consultado el 3-nov-2026",
+      "url": "https://wordpress.org/plugins/transbank-webpay-plus-rest/"
+    }
+  ]
+}

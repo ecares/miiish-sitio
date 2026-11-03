@@ -5,7 +5,7 @@ Lista de guías que responden búsquedas de posibles clientes en Chile. El agent
 Formato: `- [ ] Título de trabajo · Categoría · servicio · búsqueda principal`
 
 - [ ] Cuánto cuesta una página web para una pyme en Chile y de qué depende el precio · Desarrollo web · paginas-web-y-tiendas-online · cuánto cuesta una página web en Chile
-- [ ] Shopify, Jumpseller o WooCommerce: cuál elegir para tu tienda online en Chile · E-commerce · paginas-web-y-tiendas-online · mejor plataforma tienda online Chile
+- [x] (2026-11-03) Shopify, Jumpseller o WooCommerce: cuál elegir para tu tienda online en Chile · E-commerce · paginas-web-y-tiendas-online · mejor plataforma tienda online Chile
 - [ ] Qué incluye un servicio de branding y cómo saber si tu marca lo necesita · Branding · branding · qué es branding para una pyme
 - [ ] Cómo preparar tu tienda online para el CyberDay y el Black Friday en Chile · E-commerce · paginas-web-y-tiendas-online · preparar tienda para cyberday
 - [ ] Meta Ads para principiantes: cómo armar tu primera campaña sin quemar plata · Paid media · publicidad-digital · cómo hacer publicidad en Instagram
