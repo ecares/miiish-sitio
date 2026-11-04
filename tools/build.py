@@ -374,6 +374,12 @@ def main():
     open(os.path.join(RAIZ, 'llms.txt'), 'w', encoding='utf-8').write(base + '\n\n## Noticias recientes\n' + lista + '\n')
     portada(visibles)
     ocultas = len(posts) - len(visibles)
+    try:  # Google Tag Manager en todas las páginas, incluidas las noticias nuevas
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+        import medicion
+        medicion.main()
+    except Exception as e:
+        print('Aviso: no se instaló Tag Manager:', e)
     print(f'OK: {len(posts)} noticias generadas' + (f' ({ocultas} con noindex)' if ocultas else ''))
 
 

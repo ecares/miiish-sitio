@@ -81,8 +81,13 @@
         .then(function(r){return r.json().catch(function(){return{ok:false}})})
         .then(function(j){
           if(!j.ok)throw new Error(j.error||M.err);
-          window.dataLayer.push({event:'formulario_enviado'});if(window.fbq)fbq('track','Lead');
-          location.href=(L==='es'?'':'/'+L)+'/gracias/';
+          // Conversión: se espera a que Tag Manager envíe el evento antes de ir a la página de gracias
+          var destino=(L==='es'?'':'/'+L)+'/gracias/',listo=false;
+          function ir(){if(listo)return;listo=true;location.href=destino}
+          var marcados=[].slice.call(f.querySelectorAll('input[name="servicios[]"]:checked')).map(function(c){return c.value}).join(', ');
+          window.dataLayer.push({event:'formulario_enviado',idioma:L,servicios:marcados,eventCallback:ir,eventTimeout:1500});
+          if(window.fbq)fbq('track','Lead');
+          setTimeout(ir,1800);
         })
         .catch(function(er){fallo(er&&er.message&&er.message!=='Failed to fetch'?er.message:M.err);btn.disabled=false;btn.innerHTML=txt});
     });

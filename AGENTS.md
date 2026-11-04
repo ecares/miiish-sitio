@@ -108,3 +108,7 @@ Campos que agrega el equipo, no el agente: `aporte_equipo` (se muestra como "La 
 - Está en la portada (3 idiomas), antes de Plataformas, entre `<!--RUBROS:INICIO-->` y `<!--RUBROS:FIN-->`.
 - Contenido en `_contenido/rubros.json`; se regenera con `python3 tools/rubros.py`. Estilos en `assets/rubros.css` y comportamiento en `assets/rubros.js`.
 - Si una noticia es sobre un rubro (por ejemplo, inmobiliarias), puedes enlazar a la portada con `/#rubros`.
+
+## Medición: Google Tag Manager y Analytics (desde el 3-nov-2026)
+- Todas las páginas llevan Google Tag Manager `GTM-MVVN7W5X` entre `<!--GTM:INICIO-->` y `<!--GTM:FIN-->`. Lo agrega `tools/medicion.py`, que `tools/build.py` ya ejecuta al final: no lo borres ni lo pegues a mano.
+- Desde GTM se carga Google Analytics 4 (`G-Q4Z4E9244R`). El envío del formulario manda el evento `formulario_enviado`, que GTM envía a GA4 como `generate_lead` (conversión).
